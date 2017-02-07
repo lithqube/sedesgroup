@@ -1,0 +1,402 @@
+msgid ""
+msgstr "MIME-Version: 1.0\n"
+
+#. Name.
+msgid "NK Google Analytics"
+msgstr ""
+
+#. Short description.
+msgid "NK Google Analytics for Wordpress adds necessary javascript to enable Google Analytics tracking on your website."
+msgstr ""
+
+#. Screenshot description.
+msgid "Modified settings panel with NK Google Analytics."
+msgstr ""
+
+#. Screenshot description.
+msgid "NK Google Analytics basic settings page."
+msgstr ""
+
+#. Screenshot description.
+msgid "NK Google Analytics EU Cookie Law support page."
+msgstr ""
+
+#. Screenshot description.
+msgid "NK Google Analytics more settings page."
+msgstr ""
+
+#. Found in description paragraph.
+msgid "Need Google Analytics on your website? NK Google Analytics adds the required javascript to track your website, it supports Classic, Universal and Remarketing Google Analytics tracking code."
+msgstr ""
+
+#. Found in description paragraph.
+msgid ""
+"For more information about Google Analytics visit:\n"
+"<a href=\"http://www.google.com/analytics\">Google Analytics</a>"
+msgstr ""
+
+#. Found in description paragraph.
+msgid ""
+"For more information about Display Advertising\n"
+"<a href=\"https://support.google.com/analytics/answer/2444872?hl=en&amp;utm_id=ad\">Support Display Advertising</a>"
+msgstr ""
+
+#. Found in description paragraph.
+msgid "NK Google Analytics its simple, just add your Google Analytics ID and click \"Save changes\""
+msgstr ""
+
+#. Found in installation list item.
+msgid "Upload <code>nk-google-analytics</code> directory to the <code>/wp-content/plugins/</code> directory"
+msgstr ""
+
+#. Found in installation list item.
+msgid "Activate the plugin through the 'Plugins' menu in WordPress"
+msgstr ""
+
+#. Found in installation list item.
+msgid "Add the ID from Google Analytics (UA-0000000-0) to the settings (Admin &gt; Settings &gt; NK Google Analytics &gt; Google Analytics ID field) and press \"Save Changes\""
+msgstr ""
+
+#. Found in installation list item.
+msgid "Change other options like \"Enable Remarketing\" or \"Universal Analytics\" if you want"
+msgstr ""
+
+#. Found in installation paragraph.
+msgid "If you don't have an Google Analytics ID, you need to go to <a href=\"http://www.google.com/analytics\">Google Analytics</a>, create an account and get the code (Similar to UA-0000000-0)"
+msgstr ""
+
+#. Found in changelog list item.
+msgid "Google Tag Manager better support"
+msgstr ""
+
+#. Found in changelog list item.
+msgid "Minor code fixes"
+msgstr ""
+
+#. Found in changelog list item.
+msgid "Added missing file"
+msgstr ""
+
+#. Found in changelog list item.
+msgid "Added settings for other values, dimensions and metrics. Thank you to javitury (https://wordpress.org/support/profile/javitury)"
+msgstr ""
+
+#. Found in changelog list item.
+msgid "Added options per page/post"
+msgstr ""
+
+#. Found in changelog list item.
+msgid "Added EU cookie law support (https://wordpress.org/support/topic/patchadd-eu-cookie-law-support). Thank you to javitury (https://wordpress.org/support/profile/javitury)"
+msgstr ""
+
+#. Found in changelog list item.
+msgid "Fix CSS Conflict (https://wordpress.org/support/topic/admin-css-conflict?replies=1)"
+msgstr ""
+
+#. Found in changelog list item.
+msgid "Custom code bug fix"
+msgstr ""
+
+#. Found in changelog list item.
+msgid "Remove \"free tools\" links"
+msgstr ""
+
+#. Found in changelog list item.
+msgid "Minor fix, change in styles (https://wordpress.org/support/topic/avoid-css-collision-please)"
+msgstr ""
+
+#. Found in changelog list item.
+msgid "Some changes (https://wordpress.org/support/view/plugin-reviews/nk-google-analytics)"
+msgstr ""
+
+#. Found in changelog list item.
+msgid "Minor fix, removed some code (https://wordpress.org/support/topic/beware-12)"
+msgstr ""
+
+#. Found in changelog list item.
+msgid "Minor fix"
+msgstr ""
+
+#. Found in changelog list item.
+msgid "Improved interface"
+msgstr ""
+
+#. Found in changelog list item.
+msgid "Role level control for tracking code (https://wordpress.org/support/topic/dont-want-to-track-logged-in-admin-users, https://wordpress.org/support/topic/suggestion-non-include-code-as-administrator)"
+msgstr ""
+
+#. Found in changelog list item.
+msgid "Minor code fix (https://wordpress.org/support/topic/n-between-body-and-script-tag) "
+msgstr ""
+
+#. Found in changelog list item.
+msgid "Changes in menu"
+msgstr ""
+
+#. Found in changelog list item.
+msgid "Fixed HTTPS (https://wordpress.org/support/topic/ssl-option-load-scripts-from-secure-url)"
+msgstr ""
+
+#. Found in changelog list item.
+msgid "Added links for sumome"
+msgstr ""
+
+#. Found in changelog list item.
+msgid "Corrected a conflict with plugin \"wpMandrill\""
+msgstr ""
+
+#. Found in changelog list item.
+msgid "Corrected a conflict with plugin \"janrain social sharing\""
+msgstr ""
+
+#. Found in changelog list item.
+msgid "login and register page tracking fix"
+msgstr ""
+
+#. Found in changelog list item.
+msgid "Display Advertising \"failover\" fix (thanks to user j_shb)"
+msgstr ""
+
+#. Found in changelog list item.
+msgid "Changes to Enable demographics in Universal Analytics (thanks to user Levi_r)"
+msgstr ""
+
+#. Found in changelog list item.
+msgid "Added option to add tracking code to login and register page"
+msgstr ""
+
+#. Found in changelog list item.
+msgid "Fixes"
+msgstr ""
+
+#. Found in changelog list item.
+msgid "Added option to select tracking code location (head or end of page)"
+msgstr ""
+
+#. Found in changelog list item.
+msgid "Minor fixes"
+msgstr ""
+
+#. Found in changelog list item.
+msgid "Removed an error_log call, so the log file will not grow more"
+msgstr ""
+
+#. Found in changelog list item.
+msgid "Added an index.html file in plugin's directory to avoid to crawlers to index it"
+msgstr ""
+
+#. Found in changelog list item.
+msgid "Upgraded some validations and fixed some minor bugs"
+msgstr ""
+
+#. Found in changelog list item.
+msgid "Tracking issue fix with remarketing tracking code"
+msgstr ""
+
+#. Found in changelog list item.
+msgid "New on/off option."
+msgstr ""
+
+#. Found in changelog list item.
+msgid "Retyped and reordered some option for improve reading and comprehension of options."
+msgstr ""
+
+#. Found in changelog list item.
+msgid "Custom code fix."
+msgstr ""
+
+#. Found in changelog list item.
+msgid "Update documentation and FAQ."
+msgstr ""
+
+#. Found in changelog list item.
+msgid "Added Universal Analytics domain verification."
+msgstr ""
+
+#. Found in changelog list item.
+msgid "Fix some minor bugs."
+msgstr ""
+
+#. Found in changelog list item.
+msgid "Added support to custom Google Analytics tracking code."
+msgstr ""
+
+#. Found in changelog list item.
+msgid "Google Analytics ID setting verification."
+msgstr ""
+
+#. Found in changelog list item.
+msgid "Update documentation."
+msgstr ""
+
+#. Found in changelog list item.
+msgid "Fix some bugs."
+msgstr ""
+
+#. Found in changelog list item.
+msgid "First release."
+msgstr ""
+
+#. Found in faq header.
+msgid "Does NK Google Analytics supports classic Tracking code?"
+msgstr ""
+
+#. Found in faq header.
+msgid "Does NK Google Analytics supports Universal Tracking code?"
+msgstr ""
+
+#. Found in faq header.
+msgid "Does NK Google Analytics supports Display Advertising / Remarketing Tracking code?"
+msgstr ""
+
+#. Found in faq header.
+msgid "Does NK Google Analytics supports Custom Tracking code?"
+msgstr ""
+
+#. Found in faq header.
+msgid "The plugin should work as soon as the Google Analytics code is inserted?"
+msgstr ""
+
+#. Found in faq header.
+msgid "What kind of Google Analytics do I have?"
+msgstr ""
+
+#. Found in faq header.
+msgid "Is the plugin working?"
+msgstr ""
+
+#. Found in faq header.
+msgid "The plugin can enable Display Advertising for Classic and Universal Analytics?"
+msgstr ""
+
+#. Found in faq header.
+msgid "The plugin can track login and register page?"
+msgstr ""
+
+#. Found in faq header.
+msgid "There is an option to select where the tracking code will be inserted in head of footer?"
+msgstr ""
+
+#. Found in faq header.
+msgid "There is an option to ignore users by role?"
+msgstr ""
+
+#. Found in faq header.
+msgid "What does \"NK Google Analytics Status\" option do?"
+msgstr ""
+
+#. Found in faq header.
+msgid "How accurate is cookieless tracking using fingerprint.js?"
+msgstr ""
+
+#. Found in faq paragraph.
+msgid "Yes, it does."
+msgstr ""
+
+#. Found in faq paragraph.
+msgid "Yes."
+msgstr ""
+
+#. Found in faq paragraph.
+msgid "You should go to Google.com/Analytics and select your website profile. After select \"Admin &gt; Tracking Info\" ."
+msgstr ""
+
+#. Found in faq paragraph.
+msgid "For Universal Analytics you will see this label: \"Universal Analytics is enabled for this property.\", for Classic Analytics you doesn't"
+msgstr ""
+
+#. Found in faq paragraph.
+msgid "You can enter to real time panel into google/analytics and navigate into your website to test if the tracking code is working"
+msgstr ""
+
+#. Found in faq paragraph.
+msgid "If the option is set to \"Yes\", Yes, it does."
+msgstr ""
+
+#. Found in faq paragraph.
+msgid "This option can \"turn off\" the plugin, if is set to \"on\" the plugin will print tracking code in the web page, if not, the plugin will not insert the tracking code."
+msgstr ""
+
+#. Found in faq paragraph.
+msgid "It is ~90% accurate. The next version fingerprint2.js will be even better, but it is still in development at https://github.com/Valve/fingerprintjs2"
+msgstr ""
+
+#. Found in remaining content header.
+msgid "Features"
+msgstr ""
+
+#. Found in remaining content header.
+msgid "Feedback / Review"
+msgstr ""
+
+#. Found in remaining content list item.
+msgid "Supports standard Google Analytics tracking via the latest async tracking methods (faster and more reliable than the older ga.js tracking method)"
+msgstr ""
+
+#. Found in remaining content list item.
+msgid "Inserts your tracking code on all theme pages"
+msgstr ""
+
+#. Found in remaining content list item.
+msgid "Inserts your tracking code into Head or Footer area"
+msgstr ""
+
+#. Found in remaining content list item.
+msgid "Supports Classic Google Analytics tracking code"
+msgstr ""
+
+#. Found in remaining content list item.
+msgid "Supports Universal Google Analytics tracking code"
+msgstr ""
+
+#. Found in remaining content list item.
+msgid "Supports Display Advertising (Remarketing) tracking code"
+msgstr ""
+
+#. Found in remaining content list item.
+msgid "Supports Custom Google Analytics tracking code"
+msgstr ""
+
+#. Found in remaining content list item.
+msgid "No tracking for admin users logged-in"
+msgstr ""
+
+#. Found in remaining content list item.
+msgid "Track login and register page if you want to"
+msgstr ""
+
+#. Found in remaining content list item.
+msgid "Don't track logged users by role"
+msgstr ""
+
+#. Found in remaining content list item.
+msgid "Supports cookieless tracking using fingerprint.js"
+msgstr ""
+
+#. Found in remaining content list item.
+msgid "Can anonymize ip"
+msgstr ""
+
+#. Found in remaining content list item.
+msgid "Other values, dimensions and metrics"
+msgstr ""
+
+#. Found in remaining content list item.
+msgid "Options per page/post"
+msgstr ""
+
+#. Found in remaining content list item.
+msgid "Google Tag Manager support"
+msgstr ""
+
+#. Found in remaining content paragraph.
+msgid "NK Google Analytics enables Google Analytics on all pages."
+msgstr ""
+
+#. Found in remaining content paragraph.
+msgid "Please take the time to rate this plugin, let me and others to know about your experiences by leaving a review, with your help I can improve the plugin for you and other users."
+msgstr ""
+
+#. Found in remaining content paragraph.
+msgid "If you like the plugin please <a href=\"https://www.paypal.com/cgi-bin/webscr?cmd=_s-xclick&amp;hosted_button_id=CUC2VE9F3LADU\">Donate here</a>."
+msgstr ""

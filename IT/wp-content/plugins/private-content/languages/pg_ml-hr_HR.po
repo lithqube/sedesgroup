@@ -1,0 +1,444 @@
+msgid ""
+msgstr ""
+"Project-Id-Version: PrivateContent\n"
+"Report-Msgid-Bugs-To: \n"
+"POT-Creation-Date: 2014-11-08 12:08+0100\n"
+"PO-Revision-Date: 2014-11-08 12:31+0100\n"
+"Last-Translator: \n"
+"Language-Team: Hrvoje\n"
+"Language: hr_HR\n"
+"MIME-Version: 1.0\n"
+"Content-Type: text/plain; charset=UTF-8\n"
+"Content-Transfer-Encoding: 8bit\n"
+"X-Poedit-KeywordsList: _;__;__e\n"
+"X-Poedit-Basepath: ../../\n"
+"X-Poedit-SourceCharset: UTF-8\n"
+"X-Generator: Poedit 1.6.10\n"
+"X-Poedit-SearchPath-0: private-content\n"
+"X-Poedit-SearchPath-1: private-content-user-data\n"
+"X-Poedit-SearchPath-2: private-content-mail-actions\n"
+
+#: private-content-mail-actions/front_ajax.php:14
+#: private-content-mail-actions/front_ajax.php:24
+msgid "Username not found or disabled"
+msgstr "Korisničko ime nije pronađeno ili je deaktivirano"
+
+#: private-content-mail-actions/front_ajax.php:27
+msgid "Your account doesn't have an e-mail"
+msgstr "Vaš račun nema e-mail adresu"
+
+#: private-content-mail-actions/front_ajax.php:49
+msgid "Error sending the e-mail"
+msgstr "Pogreška kod slanja e-maila"
+
+#: private-content-mail-actions/front_ajax.php:61
+msgid "The password has been sent to your e-mail"
+msgstr "Lozinka je poslana na Vašu e-mail adresu"
+
+#: private-content-mail-actions/integrations.php:127
+#, fuzzy
+msgid "forgot password?"
+msgstr "Zaboravili ste lozinku?"
+
+#: private-content-mail-actions/integrations.php:141
+#: private-content/functions.php:430 private-content/public_api.php:149
+#: private-content/user_registration.php:61
+#: private-content/user_registration.php:69
+msgid "Username"
+msgstr "Korisničko ime"
+
+#: private-content-mail-actions/integrations.php:147
+msgid "Recover"
+msgstr "Oporavi"
+
+#: private-content-mail-actions/integrations.php:148
+msgid "Back to login form"
+msgstr "Povratak na obrazac prijave"
+
+#: private-content-mail-actions/integrations.php:183
+#, fuzzy
+msgid "E-mail Verification"
+msgstr "prekid potvrde"
+
+#: private-content-mail-actions/integrations.php:189
+#: private-content-mail-actions/integrations.php:231
+msgid "Account succesfully verified via e-mail"
+msgstr "Račun uspješno provjeren putem e-mail adrese"
+
+#: private-content-mail-actions/integrations.php:189
+#: private-content-mail-actions/integrations.php:231
+msgid "cancel verification"
+msgstr "prekid potvrde"
+
+#: private-content-mail-actions/integrations.php:200
+msgid "Verification Impossible - User has no e-mail"
+msgstr "Provjera nemoguća - Korisnik nema e-mail adresu"
+
+#: private-content-mail-actions/integrations.php:205
+#: private-content-mail-actions/integrations.php:252
+msgid "Account not verified yet"
+msgstr "Račun još nije potvrđen"
+
+#: private-content-mail-actions/integrations.php:274
+#: private-content-user-data/functions.php:28
+msgid "E-mail"
+msgstr "E-mail"
+
+#: private-content-mail-actions/integrations.php:274
+msgid "Another user has the same e-mail"
+msgstr "Drugi korisnik već koristi istu e-mail adresu"
+
+#: private-content-mail-actions/user_verification.php:54
+msgid "Sorry, your request is invalid or your account has been deleted"
+msgstr "Žao nam je, Vaš zahtjev je neispravan ili je račun izbrisan"
+
+#: private-content-mail-actions/user_verification.php:60
+msgid "Your account has been already activated!"
+msgstr "Vaš račun je već aktiviran!"
+
+#: private-content-mail-actions/user_verification.php:66
+msgid "Your account has been activated succesfully!"
+msgstr "Vaš račun je uspješno aktiviran!"
+
+#: private-content-user-data/cust_form_handle.php:128
+msgid "Data saved succesfully"
+msgstr "Podaci uspješno spremljeni"
+
+#: private-content-user-data/cust_form_handle.php:136
+msgid ""
+"Form submitted successfully. You are not logged as an user so nothing has "
+"been saved"
+msgstr ""
+"Obrazac uspješno podnesen. Niste prijavljeni kao korisnik  pa ništa nije "
+"spremljeno"
+
+#: private-content-user-data/shortcodes.php:42
+#: private-content/public_api.php:292
+msgid "Submit"
+msgstr "Pošalji"
+
+#: private-content/classes/simple_form_validator.php:327
+msgid "minimum value is"
+msgstr "minimalna vrijednost je"
+
+#: private-content/classes/simple_form_validator.php:340
+msgid "maximum value is"
+msgstr "maksimalna vrijednost je"
+
+#: private-content/classes/simple_form_validator.php:353
+msgid "must be at least of"
+msgstr ""
+
+#: private-content/classes/simple_form_validator.php:353
+#: private-content/classes/simple_form_validator.php:379
+msgid "characters"
+msgstr "znakovi"
+
+#: private-content/classes/simple_form_validator.php:366
+msgid "maximum"
+msgstr "maksimum"
+
+#: private-content/classes/simple_form_validator.php:366
+msgid "characters allowed"
+msgstr "dopušteni znakovi"
+
+#: private-content/classes/simple_form_validator.php:379
+#, fuzzy
+msgid "must be long"
+msgstr "mora biti dugačko"
+
+#: private-content/classes/simple_form_validator.php:423
+msgid "Select"
+msgstr "Odaberi"
+
+#: private-content/classes/simple_form_validator.php:423
+msgid "options"
+msgstr "Opcije"
+
+#: private-content/classes/simple_form_validator.php:435
+msgid "Maximum"
+msgstr "Maksimum"
+
+#: private-content/classes/simple_form_validator.php:435
+msgid "options allowed"
+msgstr "Dopuštene opcije"
+
+#: private-content/classes/simple_form_validator.php:511
+msgid "are required"
+msgstr "potrebni"
+
+#: private-content/classes/simple_form_validator.php:511
+msgid "is required"
+msgstr "potrebno"
+
+#: private-content/classes/simple_form_validator.php:515
+msgid "are not valid integers"
+msgstr "vrijednosti nisu točne"
+
+#: private-content/classes/simple_form_validator.php:515
+msgid "is not a valid integer"
+msgstr "vrijednost nije točna"
+
+#: private-content/classes/simple_form_validator.php:519
+msgid "are not valid floating numbers"
+msgstr "nisu valjane vrijednosti"
+
+#: private-content/classes/simple_form_validator.php:519
+msgid "is not a valid floating number"
+msgstr "nije valjana vrijednost"
+
+#: private-content/classes/simple_form_validator.php:523
+msgid "are not valid e-mail addresses"
+msgstr "E-mail adrese nisu točne"
+
+#: private-content/classes/simple_form_validator.php:523
+msgid "is not a valid e-mail address"
+msgstr "E-mail adresa nije točna"
+
+#: private-content/classes/simple_form_validator.php:527
+msgid "are not valid dates"
+msgstr "Datumi nisu točni"
+
+#: private-content/classes/simple_form_validator.php:527
+msgid "is not a valid date"
+msgstr "Datum nije točan"
+
+#: private-content/classes/simple_form_validator.php:531
+msgid "are not valid times"
+msgstr "Vremena nisu točna"
+
+#: private-content/classes/simple_form_validator.php:531
+msgid "is not a valid time"
+msgstr "Vrijeme nije točno"
+
+#: private-content/classes/simple_form_validator.php:535
+msgid "are not valid urls"
+msgstr "url-ovi nisu točni"
+
+#: private-content/classes/simple_form_validator.php:535
+msgid "is not a valid url"
+msgstr "url nije točan"
+
+#: private-content/classes/simple_form_validator.php:539
+msgid "are not valid hexadecimal colors"
+msgstr "nisu valjani hexdecimalni brojevi"
+
+#: private-content/classes/simple_form_validator.php:539
+msgid "is not a valid hexadecimal color"
+msgstr "nije valjan hexdecimalni broj"
+
+#: private-content/classes/simple_form_validator.php:543
+msgid "are not valid IP addresses"
+msgstr "IP adrese nisu točne"
+
+#: private-content/classes/simple_form_validator.php:543
+msgid "is not a valid IP address"
+msgstr "IP adresa nije točna"
+
+#: private-content/classes/simple_form_validator.php:547
+msgid "are not valid ZIP codes"
+msgstr "poštanski brojevi nisu točni"
+
+#: private-content/classes/simple_form_validator.php:547
+msgid "is not a valid ZIP code"
+msgstr "poštanski broj nije točan"
+
+#: private-content/classes/simple_form_validator.php:551
+msgid "are not valid telephone numbers"
+msgstr "telefnski brojevi nisu točni"
+
+#: private-content/classes/simple_form_validator.php:551
+msgid "is not a valid telephone number"
+msgstr "telefonski broj nije točan"
+
+#: private-content/classes/simple_form_validator.php:554
+msgid "invalid data inserted"
+msgstr "podaci nisu točni"
+
+#: private-content/classes/simple_form_validator.php:558
+msgid "values are not between the allowed"
+msgstr "vrijednosti nisu među dopuštenima"
+
+#: private-content/classes/simple_form_validator.php:558
+msgid "value is not between the allowed"
+msgstr "vrijednost nije među dopuštenima"
+
+#: private-content/classes/simple_form_validator.php:562
+msgid "values are between the forbidden"
+msgstr "vrijednosti su među zabranjenima"
+
+#: private-content/classes/simple_form_validator.php:562
+msgid "values is between the forbidden"
+msgstr "vrijednost je među zabranjenima"
+
+#: private-content/classes/simple_form_validator.php:565
+msgid "the value doesn't match"
+msgstr "Vrijednost se ne podudara"
+
+#: private-content/classes/simple_form_validator.php:568
+msgid "file size is wrong"
+msgstr "veličina datoteke je pogrešna"
+
+#: private-content/functions.php:414
+msgid "Name"
+msgstr "Ime"
+
+#: private-content/functions.php:422
+msgid "Surname"
+msgstr "Prezime"
+
+#: private-content/functions.php:439 private-content/functions.php:593
+#: private-content/public_api.php:154
+msgid "Password"
+msgstr "Zaporka"
+
+#: private-content/functions.php:449
+msgid "Category"
+msgstr "Kategorija"
+
+#: private-content/functions.php:454
+#, fuzzy
+msgid "Categories"
+msgstr "Kategorija"
+
+#: private-content/functions.php:457
+msgid "E-Mail"
+msgstr "E-mail"
+
+#: private-content/functions.php:467
+msgid "Telephone"
+msgstr "Telefon"
+
+#: private-content/functions.php:559 private-content/functions.php:647
+msgid "Repeat"
+msgstr "Ponovi"
+
+#: private-content/functions.php:589
+msgid "must contain at least "
+msgstr ""
+
+#: private-content/login_widget.php:50
+msgid "Welcome"
+msgstr "Dobrodošli"
+
+#: private-content/login_widget.php:53 private-content/public_api.php:202
+msgid "Logout"
+msgstr "Odjava"
+
+#: private-content/public_api.php:111 private-content/shortcodes.php:72
+msgid "You must be logged in to view this content"
+msgstr "Morate biti logirani da vidite ovaj sadržaj"
+
+#: private-content/public_api.php:127 private-content/shortcodes.php:79
+msgid "Sorry, you don't have the right permissions to view this content"
+msgstr "Žao nam je ali nemate dozvolu za pristup ovom sadržaju"
+
+#: private-content/public_api.php:167
+msgid "remember me"
+msgstr ""
+
+#: private-content/public_api.php:178
+msgid "Login"
+msgstr "Prijava"
+
+#: private-content/public_api.php:246
+#, fuzzy
+msgid "You have to set the default category for registered users"
+msgstr "Morate postaviti zadanu kategoriju za registrirane korisnike."
+
+#: private-content/pvt_content_manage.php:34
+msgid "You don't have a reserved area"
+msgstr "Nemate rezervirano područje"
+
+#: private-content/shortcodes.php:68
+msgid "login"
+msgstr "prijava"
+
+#: private-content/user_auth.php:39
+msgid "Username or password incorrect"
+msgstr "Korisničko ime ili lozinka nije točno"
+
+#: private-content/user_auth.php:58 private-content/wp_user_tricks.php:73
+msgid "Sorry, your account has not been activated yet"
+msgstr "Žao nam je, Vaš račun još nije aktiviran"
+
+#: private-content/user_auth.php:89
+msgid "Logged succesfully, welcome!"
+msgstr "Prijava uspješna, dobrodošli!"
+
+#: private-content/user_registration.php:48
+msgid "wasn't entered correctly"
+msgstr "Unos nije ispravan"
+
+#: private-content/user_registration.php:55
+msgid "Disclaimer"
+msgstr ""
+
+#: private-content/user_registration.php:55
+msgid "must be accepted to proceed with registration"
+msgstr ""
+
+#: private-content/user_registration.php:61
+msgid "Another user already has this username"
+msgstr "Korisničko ime je već u upotrebi"
+
+#: private-content/user_registration.php:69
+#, fuzzy
+msgid "Invalid Category"
+msgstr "Kategorija"
+
+#: private-content/user_registration.php:137
+msgid "Error during user registration, contact the website administrator"
+msgstr "Greška kod registracije, kontaktirajte administratora"
+
+#: private-content/user_registration.php:202
+msgid "Registration was succesful. Welcome!"
+msgstr "Registracija uspješna. Dobrodošli!"
+
+#: private-content/wp_user_tricks.php:78
+#, fuzzy
+msgid "Sorry, your account has been disabled"
+msgstr "Žao nam je, Vaš račun još nije aktiviran"
+
+#~ msgid "PrivateContent - Custom Fields Builder"
+#~ msgstr "PrivateContent - Custom Fields Builder"
+
+#~ msgid "PrivateContent - Custom Form Builder"
+#~ msgstr "PrivateContent - Custom Fields Builder"
+
+#~ msgid "minimum"
+#~ msgstr "minimum"
+
+#~ msgid "Fields saved"
+#~ msgstr "Polja spremljena"
+
+#~ msgid "Form submitted successfully. In this demo no data could be saved"
+#~ msgstr ""
+#~ "Obrazac uspješno podnesen. U demo verziji podaci se ne mogu spremati"
+
+#~ msgid "verify manually"
+#~ msgstr "provjeri ručno"
+
+#~ msgid "Error processing the action"
+#~ msgstr "Greška u izvođenju"
+
+#~ msgid "No categories found .. "
+#~ msgstr "Nema pronađenih kategorija"
+
+#~ msgid "All users"
+#~ msgstr "Svi korisnici"
+
+#~ msgid "Subscriber"
+#~ msgstr "Pretplatnik"
+
+#~ msgid "Contributor"
+#~ msgstr "Contributor"
+
+#~ msgid "Author"
+#~ msgstr "Autor"
+
+#~ msgid "Editor"
+#~ msgstr "Uređivač"
+
+#~ msgid "Administrator"
+#~ msgstr "Administrator"

@@ -1,0 +1,519 @@
+msgid ""
+msgstr ""
+"Project-Id-Version: PrivateContent 3.0\n"
+"Report-Msgid-Bugs-To: \n"
+"POT-Creation-Date: 2014-11-08 12:08+0100\n"
+"PO-Revision-Date: 2014-11-08 12:34+0100\n"
+"Last-Translator: \n"
+"Language-Team: \n"
+"Language: sv\n"
+"MIME-Version: 1.0\n"
+"Content-Type: text/plain; charset=UTF-8\n"
+"Content-Transfer-Encoding: 8bit\n"
+"X-Poedit-KeywordsList: _;__;__e\n"
+"X-Poedit-Basepath: ../../\n"
+"X-Poedit-SourceCharset: UTF-8\n"
+"X-Generator: Poedit 1.6.10\n"
+"X-Poedit-SearchPath-0: private-content\n"
+"X-Poedit-SearchPath-1: private-content-user-data\n"
+"X-Poedit-SearchPath-2: private-content-mail-actions\n"
+
+#: private-content-mail-actions/front_ajax.php:14
+#: private-content-mail-actions/front_ajax.php:24
+msgid "Username not found or disabled"
+msgstr "Användarnamnet ej funnet eller spärrat"
+
+#: private-content-mail-actions/front_ajax.php:27
+msgid "Your account doesn't have an e-mail"
+msgstr "Ditt konto har ingen epost"
+
+#: private-content-mail-actions/front_ajax.php:49
+msgid "Error sending the e-mail"
+msgstr "Fel vid sändning av epost"
+
+#: private-content-mail-actions/front_ajax.php:61
+msgid "The password has been sent to your e-mail"
+msgstr "Lösenordet har skickats till din epost"
+
+#: private-content-mail-actions/integrations.php:127
+#, fuzzy
+msgid "forgot password?"
+msgstr "Glömt lösenord?"
+
+#: private-content-mail-actions/integrations.php:141
+#: private-content/functions.php:430 private-content/public_api.php:149
+#: private-content/user_registration.php:61
+#: private-content/user_registration.php:69
+msgid "Username"
+msgstr "Användarnamn"
+
+#: private-content-mail-actions/integrations.php:147
+msgid "Recover"
+msgstr "Återställa"
+
+#: private-content-mail-actions/integrations.php:148
+msgid "Back to login form"
+msgstr "Tllbaka till inloggningsformuläret"
+
+#: private-content-mail-actions/integrations.php:183
+#, fuzzy
+msgid "E-mail Verification"
+msgstr "avbryt verifieringen"
+
+#: private-content-mail-actions/integrations.php:189
+#: private-content-mail-actions/integrations.php:231
+msgid "Account succesfully verified via e-mail"
+msgstr "Kontot har framgångsrikt verifierats via epost"
+
+#: private-content-mail-actions/integrations.php:189
+#: private-content-mail-actions/integrations.php:231
+msgid "cancel verification"
+msgstr "avbryt verifieringen"
+
+#: private-content-mail-actions/integrations.php:200
+msgid "Verification Impossible - User has no e-mail"
+msgstr "Verifiering omöjlig - Användaren har ingen epost"
+
+#: private-content-mail-actions/integrations.php:205
+#: private-content-mail-actions/integrations.php:252
+msgid "Account not verified yet"
+msgstr "Kontot ännu inte verifierat"
+
+#: private-content-mail-actions/integrations.php:274
+#: private-content-user-data/functions.php:28
+msgid "E-mail"
+msgstr "Epost"
+
+#: private-content-mail-actions/integrations.php:274
+msgid "Another user has the same e-mail"
+msgstr "En annan användare har samma epost"
+
+#: private-content-mail-actions/user_verification.php:54
+msgid "Sorry, your request is invalid or your account has been deleted"
+msgstr "Tyvärr, din begäran är ogiltig eller ditt konto har raderats"
+
+#: private-content-mail-actions/user_verification.php:60
+msgid "Your account has been already activated!"
+msgstr "Ditt konto har redan aktiverats!"
+
+#: private-content-mail-actions/user_verification.php:66
+msgid "Your account has been activated succesfully!"
+msgstr "Ditt konto har framgångsrikt aktiverats!"
+
+#: private-content-user-data/cust_form_handle.php:128
+msgid "Data saved succesfully"
+msgstr "Data har sparats"
+
+#: private-content-user-data/cust_form_handle.php:136
+msgid ""
+"Form submitted successfully. You are not logged as an user so nothing has "
+"been saved"
+msgstr ""
+"Formuläret har skickats. Du är inte inloggad som användare, så ingenting har "
+"sparats"
+
+#: private-content-user-data/shortcodes.php:42
+#: private-content/public_api.php:292
+msgid "Submit"
+msgstr "Skicka"
+
+#: private-content/classes/simple_form_validator.php:327
+msgid "minimum value is"
+msgstr "minimivärdet är"
+
+#: private-content/classes/simple_form_validator.php:340
+msgid "maximum value is"
+msgstr "maxvärdet är"
+
+#: private-content/classes/simple_form_validator.php:353
+msgid "must be at least of"
+msgstr ""
+
+#: private-content/classes/simple_form_validator.php:353
+#: private-content/classes/simple_form_validator.php:379
+msgid "characters"
+msgstr "tecken"
+
+#: private-content/classes/simple_form_validator.php:366
+msgid "maximum"
+msgstr "maximum"
+
+#: private-content/classes/simple_form_validator.php:366
+msgid "characters allowed"
+msgstr "tillåtna tecken"
+
+#: private-content/classes/simple_form_validator.php:379
+#, fuzzy
+msgid "must be long"
+msgstr "måste vara lång"
+
+#: private-content/classes/simple_form_validator.php:423
+msgid "Select"
+msgstr "Välj"
+
+#: private-content/classes/simple_form_validator.php:423
+msgid "options"
+msgstr "alternativ"
+
+#: private-content/classes/simple_form_validator.php:435
+msgid "Maximum"
+msgstr "Maximum"
+
+#: private-content/classes/simple_form_validator.php:435
+msgid "options allowed"
+msgstr "tillåtna val"
+
+#: private-content/classes/simple_form_validator.php:511
+msgid "are required"
+msgstr "krävs"
+
+#: private-content/classes/simple_form_validator.php:511
+msgid "is required"
+msgstr "krävs"
+
+#: private-content/classes/simple_form_validator.php:515
+msgid "are not valid integers"
+msgstr "är inte giltiga heltal"
+
+#: private-content/classes/simple_form_validator.php:515
+msgid "is not a valid integer"
+msgstr "är inte ett giltigt heltal"
+
+#: private-content/classes/simple_form_validator.php:519
+msgid "are not valid floating numbers"
+msgstr "är inte giltiga decimaltal"
+
+#: private-content/classes/simple_form_validator.php:519
+msgid "is not a valid floating number"
+msgstr "är inte ett giltigt decimaltal"
+
+#: private-content/classes/simple_form_validator.php:523
+msgid "are not valid e-mail addresses"
+msgstr "är inte giltiga epost-adresser"
+
+#: private-content/classes/simple_form_validator.php:523
+msgid "is not a valid e-mail address"
+msgstr "är inte en giltig epost-adress"
+
+#: private-content/classes/simple_form_validator.php:527
+msgid "are not valid dates"
+msgstr "är inte giltiga datum"
+
+#: private-content/classes/simple_form_validator.php:527
+msgid "is not a valid date"
+msgstr "är inte ett giltigt datum"
+
+#: private-content/classes/simple_form_validator.php:531
+msgid "are not valid times"
+msgstr "är inte giltiga tider"
+
+#: private-content/classes/simple_form_validator.php:531
+msgid "is not a valid time"
+msgstr "är inte en giltig tid"
+
+#: private-content/classes/simple_form_validator.php:535
+msgid "are not valid urls"
+msgstr "är inte giltiga url:er"
+
+#: private-content/classes/simple_form_validator.php:535
+msgid "is not a valid url"
+msgstr "är inte en giltig url"
+
+#: private-content/classes/simple_form_validator.php:539
+msgid "are not valid hexadecimal colors"
+msgstr "är inte giltiga hexadecimala färger"
+
+#: private-content/classes/simple_form_validator.php:539
+msgid "is not a valid hexadecimal color"
+msgstr "är inte en giltig hexadecimal färg"
+
+#: private-content/classes/simple_form_validator.php:543
+msgid "are not valid IP addresses"
+msgstr "är inte giltiga IP-adresser"
+
+#: private-content/classes/simple_form_validator.php:543
+msgid "is not a valid IP address"
+msgstr "är inte en giltig IP-adress"
+
+#: private-content/classes/simple_form_validator.php:547
+msgid "are not valid ZIP codes"
+msgstr "är inte giltiga ZIP-koder"
+
+#: private-content/classes/simple_form_validator.php:547
+msgid "is not a valid ZIP code"
+msgstr "är inte en giltig ZIP-kod"
+
+#: private-content/classes/simple_form_validator.php:551
+msgid "are not valid telephone numbers"
+msgstr "är inte giltiga telefonnummer"
+
+#: private-content/classes/simple_form_validator.php:551
+msgid "is not a valid telephone number"
+msgstr "är inte ett giltigt telefonnummer"
+
+#: private-content/classes/simple_form_validator.php:554
+msgid "invalid data inserted"
+msgstr "ogiltig data har infogats"
+
+#: private-content/classes/simple_form_validator.php:558
+msgid "values are not between the allowed"
+msgstr "värden är inte mellan de tillåtna"
+
+#: private-content/classes/simple_form_validator.php:558
+msgid "value is not between the allowed"
+msgstr "värde är inte mellan de tillåtna"
+
+#: private-content/classes/simple_form_validator.php:562
+msgid "values are between the forbidden"
+msgstr "värden är mellan de förbjudna"
+
+#: private-content/classes/simple_form_validator.php:562
+msgid "values is between the forbidden"
+msgstr "värde är mellan de förbjudna"
+
+#: private-content/classes/simple_form_validator.php:565
+msgid "the value doesn't match"
+msgstr "värdet matchar inte"
+
+#: private-content/classes/simple_form_validator.php:568
+msgid "file size is wrong"
+msgstr "filstorleken är felaktig"
+
+#: private-content/functions.php:414
+msgid "Name"
+msgstr "Namn"
+
+#: private-content/functions.php:422
+msgid "Surname"
+msgstr "Efternamn"
+
+#: private-content/functions.php:439 private-content/functions.php:593
+#: private-content/public_api.php:154
+msgid "Password"
+msgstr "Lösenord"
+
+#: private-content/functions.php:449
+msgid "Category"
+msgstr ""
+
+#: private-content/functions.php:454
+msgid "Categories"
+msgstr ""
+
+#: private-content/functions.php:457
+msgid "E-Mail"
+msgstr "Epost"
+
+#: private-content/functions.php:467
+msgid "Telephone"
+msgstr "Telefon"
+
+#: private-content/functions.php:559 private-content/functions.php:647
+msgid "Repeat"
+msgstr "Upprepa"
+
+#: private-content/functions.php:589
+msgid "must contain at least "
+msgstr ""
+
+#: private-content/login_widget.php:50
+msgid "Welcome"
+msgstr ""
+
+#: private-content/login_widget.php:53 private-content/public_api.php:202
+msgid "Logout"
+msgstr "Logga ut"
+
+#: private-content/public_api.php:111 private-content/shortcodes.php:72
+msgid "You must be logged in to view this content"
+msgstr "Du måste vara inloggad för att se detta innehåll"
+
+#: private-content/public_api.php:127 private-content/shortcodes.php:79
+msgid "Sorry, you don't have the right permissions to view this content"
+msgstr "Tyvärr, du har inte rätt behörighet för att se detta innehåll"
+
+#: private-content/public_api.php:167
+msgid "remember me"
+msgstr ""
+
+#: private-content/public_api.php:178
+msgid "Login"
+msgstr "Logga in"
+
+#: private-content/public_api.php:246
+#, fuzzy
+msgid "You have to set the default category for registered users"
+msgstr "Du måste ange standardkategori för registrerade användare."
+
+#: private-content/pvt_content_manage.php:34
+msgid "You don't have a reserved area"
+msgstr "Du har inte någon reserverad area"
+
+#: private-content/shortcodes.php:68
+msgid "login"
+msgstr "inloggning"
+
+#: private-content/user_auth.php:39
+msgid "Username or password incorrect"
+msgstr "Användarnamn eller lösenord felaktigt"
+
+#: private-content/user_auth.php:58 private-content/wp_user_tricks.php:73
+msgid "Sorry, your account has not been activated yet"
+msgstr "Tyvärr har ditt konto inte aktiverats ännu"
+
+#: private-content/user_auth.php:89
+msgid "Logged succesfully, welcome!"
+msgstr "Inloggningen lyckades, välkommen!"
+
+#: private-content/user_registration.php:48
+msgid "wasn't entered correctly"
+msgstr "matades inte in korrekt"
+
+#: private-content/user_registration.php:55
+msgid "Disclaimer"
+msgstr ""
+
+#: private-content/user_registration.php:55
+msgid "must be accepted to proceed with registration"
+msgstr ""
+
+#: private-content/user_registration.php:61
+msgid "Another user already has this username"
+msgstr "En annan användare har redan detta användarnamn"
+
+#: private-content/user_registration.php:69
+msgid "Invalid Category"
+msgstr ""
+
+#: private-content/user_registration.php:137
+msgid "Error during user registration, contact the website administrator"
+msgstr "Fel unnder användarregistreringen, kontakta hemsidans administratör"
+
+#: private-content/user_registration.php:202
+msgid "Registration was succesful. Welcome!"
+msgstr "Registreringen lyckades. Välkommen!"
+
+#: private-content/wp_user_tricks.php:78
+#, fuzzy
+msgid "Sorry, your account has been disabled"
+msgstr "Tyvärr har ditt konto inte aktiverats ännu"
+
+#~ msgid "Error processing the action"
+#~ msgstr "Fel vid bearbetning av åtgärden"
+
+#~ msgid "No categories found .. "
+#~ msgstr "Inga kategorier funna.."
+
+#~ msgid "All users"
+#~ msgstr "Alla användare"
+
+#~ msgid "Subscriber"
+#~ msgstr "Prenumerant"
+
+#~ msgid "Contributor"
+#~ msgstr "Medarbetare"
+
+#~ msgid "Author"
+#~ msgstr "Författare"
+
+#~ msgid "Editor"
+#~ msgstr "Redaktör"
+
+#~ msgid "Administrator"
+#~ msgstr "Administratör"
+
+#~ msgid "minimum"
+#~ msgstr "minimum"
+
+#~ msgid "PrivateContent - Custom Fields Builder"
+#~ msgstr "PrivateContent - Custom Fields Builder"
+
+#~ msgid "Fields saved"
+#~ msgstr "Filer sparade"
+
+#~ msgid "PrivateContent - Custom Form Builder"
+#~ msgstr "PrivateContent - Custom Form Builder"
+
+#~ msgid "Form submitted successfully. In this demo no data could be saved"
+#~ msgstr "Formuläret har skickats. I denna demo kunde inga data sparas"
+
+#~ msgid "verify manually"
+#~ msgstr "verifiera manuellt"
+
+#~ msgid "%SITE-TITLE% - Welcome!"
+#~ msgstr "%SITE-TITLE% - Välkommen!"
+
+#~ msgid ""
+#~ "Hello %USERNAME%,\n"
+#~ "thanks for registering on %SITE-TITLE%. \n"
+#~ "\n"
+#~ "To activate your account, click the following link:\n"
+#~ "%VER-URL%\n"
+#~ "\n"
+#~ "Best Regards,\n"
+#~ "%SITE-TITLE% Staff"
+#~ msgstr ""
+#~ "Hej %USERNAME%,\n"
+#~ "tack för att du registerat dig på %SITE-TITLE%. \n"
+#~ "\n"
+#~ "För att aktivera ditt konto, klicka på följande länk:\n"
+#~ "%VER-URL%\n"
+#~ "\n"
+#~ "Med vänlig hälsning,\n"
+#~ "%SITE-TITLE% Staff"
+
+#~ msgid "%SITE-TITLE% - New registered user"
+#~ msgstr "%SITE-TITLE% - Ny registrerad användare"
+
+#~ msgid ""
+#~ "Hello,\n"
+#~ "A new user has registered.\n"
+#~ "\n"
+#~ "Fullname: %NAME% %SURNAME%\n"
+#~ "Username: %USERNAME%\n"
+#~ "E-mail: %MAIL%\n"
+#~ "Telephone: %TEL%"
+#~ msgstr ""
+#~ "Hej,\n"
+#~ "En ny användare har registrerats.\n"
+#~ "\n"
+#~ "Hela namnet: %NAME% %SURNAME%\n"
+#~ "Användarnamn: %USERNAME%\n"
+#~ "Epost: %MAIL%\n"
+#~ "Telefon: %TEL%"
+
+#~ msgid "%SITE-TITLE% - Account activated!"
+#~ msgstr "%SITE-TITLE% - Kontot har aktiverats!"
+
+#~ msgid ""
+#~ "Hello %USERNAME%,\n"
+#~ "your account has been activated, now you can login into our website!\n"
+#~ "\n"
+#~ "Best Regards,\n"
+#~ "%SITE-TITLE% Staff"
+#~ msgstr ""
+#~ "Hej %USERNAME%,\n"
+#~ "ditt konto har aktiverats, nu kan du logga in på vår hemsida!\n"
+#~ "\n"
+#~ "Med vänlig hälsning,\n"
+#~ "%SITE-TITLE% Stab"
+
+#~ msgid "%SITE-TITLE% - Password recovery"
+#~ msgstr "%SITE-TITLE% - Återställning av lösenord"
+
+#~ msgid ""
+#~ "Hello %USERNAME%,\n"
+#~ "a password recovery has been requested for your account.\n"
+#~ "\n"
+#~ "This is your password: %PSW%\n"
+#~ "\n"
+#~ "Best Regards,\n"
+#~ "%SITE-TITLE% Staff"
+#~ msgstr ""
+#~ "Hej %USERNAME%,\n"
+#~ "en återställning av lösenord har begärts för ditt konto.\n"
+#~ "\n"
+#~ "Detta är ditt lösenord: %PSW%\n"
+#~ "\n"
+#~ "Med vänlig hälsning,\n"
+#~ "%SITE-TITLE% Stab"

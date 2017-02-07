@@ -1,0 +1,76 @@
+@charset "utf-8";
+/* CSS Document */
+
+div.compact-bar { border-bottom:1px solid #eee; }
+div.ajax-search-pane { border:1px solid #eee; }
+
+.sub-menu { border:1px solid #eee; }
+div.sub-menu .sub-menu { border:none; }
+
+.way-animated, .chain-animated > * { position: relative; filter: "progid:DXImageTransform.Microsoft.Alpha(Opacity=00)"; }
+ div.progress-bar div.filler {  filter: "progid:DXImageTransform.Microsoft.Alpha(Opacity=00)"; }
+
+ div.progress_bar-inner-wrap div.progress-bar div.filler span {  display: none; }
+span.hoverdir { background:#333!important; }
+
+div.post_list-wrapper  ul.posts li div.image a.imageholder { position: relative; zoom:1; width:50px; }
+ul.posts li div.image a.imageholder { position: relative; zoom:1; width:100%; }
+ul.top-area-social-list li a { width: 25px; }
+div.text-title-wrap div.icon { display: block;  zoom:1; position: relative;  }
+.icon-wrap , .icon { zoom:1;  display: block;  }
+.icon-wrap i { display: block; zoom:1; }
+div.text-title-wrap div.float-left.icon { float: none; margin:0 auto; }
+
+div.post_grid-inner-wrap ul.posts-grid  li div.image a.imageholder  {  width: 100%; display: block; }
+div.shortcode-scrollable div.slide  {  width: 100%; display: block; position: relative; }
+div.text-inner-wrap h2.text_title { margin-left: 0;; padding-left: 0; } 
+
+.seleneGallery ul.selene-thumbnails li span.gallery-loader  { filter: "progid:DXImageTransform.Microsoft.Alpha(Opacity=70)"; }
+.seleneGallery ul.selene-thumbnails li img { filter: "progid:DXImageTransform.Microsoft.Alpha(Opacity=50)"; }
+.seleneGallery ul.selene-thumbnails li.active img { filter: "progid:DXImageTransform.Microsoft.Alpha(Opacity=100)"; position: relative; }
+
+ul.portfolio-maerya-list li div.hover  { filter: "progid:DXImageTransform.Microsoft.Alpha(Opacity=90)"; position: relative; }
+
+.climafallback { width: 100%; display: block; position: relative; }
+.climafallback img { display: block; margin: 0 auto; }
+
+ul.top-area-social-list li a span.proxy-color , span.social-tip  { filter: "progid:DXImageTransform.Microsoft.Alpha(Opacity=00)"; }
+
+ul.rad-testimonials-list li div.image { width: 50px; height: 50px; }
+.bx-wrapper .bx-prev , .bx-wrapper .bx-next { background:#000; } 
+div.scrollable div.image { display: block; width: 100%; }
+
+ div.ioa-menu >span { padding: 10px 0px 9px 0!important; }
+ div.related_posts-title-area  div.ioa-menu >span { padding: 10px 0px 9px 0!important; }
+
+ .has-sidebar  div.blog-format3-posts ul li.format-gallery dl.gallery-item img { height:90px; }
+ div.text-title-wrap div.icon span.icon-wrap img { width:200px; display: block; } 
+/**
+ * Custom Classes for layered slider
+ */
+
+
+
+.top-area-wrapper  .menu>li>a span.menu-arrow { top: 5px!important; right:16px; font-size: 11px; position: absolute; }
+.top-area-wrapper  .menu-bar ul.sub-menu li a span.menu-arrow { top: 5px!important; right:11px; font-size: 11px; position: absolute;}
+
+div.bottom-area .menu>li>a span.menu-arrow { top: 5px!important; right:16px; font-size: 11px; position: absolute; }
+div.bottom-area .menu-bar ul.sub-menu li a span.menu-arrow { top: 5px!important; right:11px; font-size: 11px; position: absolute;}
+
+div.compact-bar .menu>li>a span.menu-arrow { top: 5px!important; right:16px; font-size: 11px; position: absolute; }
+div.compact-bar .menu-bar ul.sub-menu li a span.menu-arrow { top: 5px!important; right:11px; font-size: 11px; position: absolute;}
+
+.menu li { list-style:none!important; }
+
+div.ioa-menu a { padding:4px 11px!important; }
+a.back-to-top { text-decoration: none!important; }
+div.blog-format5-posts ul.blog_posts { } 
+div.blog-format5-posts ul.blog_posts > li.first  {   float: none; display: inline; }
+div.blog-format5-posts ul.blog_posts > li.last  {   float: none; display: inline; }
+
+.top-layered-slider h3.intro-heading { font-size:40px; font-weight:400; color:#fff; background:#3d4347; padding: 29px 12px; letter-spacing:-1px; display: block; }
+.top-layered-slider h4.sub-intro-heading { font-size:22px; font-weight:400; color:#fff; background:#3d4347; padding: 26px 12px; letter-spacing:0px; display: block; }
+.top-layered-slider h6.intro-feature-list { font-size:15px; font-weight:400; color:#333; background:#fff; padding: 22px 12px; letter-spacing:0px; display: block; }
+.top-layered-slider h6.intro-feature-list1 { font-size:15px; font-weight:400; color:#fff; background:#617570; padding: 22px 12px; letter-spacing:0px; display: block; }
+.top-layered-slider a.layered-buy-now { font-size:15px; width:130px; text-align: center; text-decoration: none; font-weight:400; color:#fff!important; background:#dc0606; padding: 30px 22px; letter-spacing:0px; display:block; }
+.top-layered-slider a.layered-learn-more { font-size:15px; width:130px; text-align: center; text-decoration: none; font-weight:400; color:#fff!important; background:#06bbdc; padding: 30px 22px; letter-spacing:0px; display: block; }

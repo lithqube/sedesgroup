@@ -1,0 +1,713 @@
+
+/**
+* Structure
+*/
+
+input.sticky-save.button-save::-moz-focus-inner { border: 0; padding: 0; margin: 0; }
+
+.ioa_wrap .hide { display: none; }
+
+.widget .ioa-query-box a.button-default { padding: 4px 12px; }
+
+.ioa-query-box input[type=text] { float: left; width: 120px; }
+
+.ioa-query-box a.button-default { float: left; margin: 1px 0px 0px 14px; font-size: 11px; padding: 11px; }
+
+a.button-default:focus { color: #fff; }
+
+div.skeleton { width: auto; margin: 0 auto; }
+
+#rad_backend_builder { display: none; margin-bottom: 20px; position: relative; }
+
+div.rad-loading-state { background: rgba(255, 255, 255, 0.7); position: absolute; top: 0; left: 0; right: 0; bottom: 0; z-index: 10; }
+
+div.rad-loading-state span { border-radius: 4px; background: url(i/loader.gif) center center no-repeat black; width: 40px; height: 40px; display: block; opacity: 0.9; position: absolute; top: 50%; left: 50%; margin: 0 0 0 -20px; }
+
+#rad_backend_builder h2.rad-title { margin: 0; padding: 8px 15px 7px 15px; clear: none; float: left; color: #fff; font-size: 15px; font-weight: 600; }
+
+div.rad-panel-toolbar { float: right; margin: 13px 15px 0 0px; }
+
+div.rad-panel-toolbar a { color: #fff; text-decoration: none; }
+
+#rad_sidebar { line-height: 1.4; position: relative; border-bottom: 1px solid #e5e5e5; z-index: 5; margin: 0; padding: 0; }
+
+#style_keys { display: none; }
+
+#wp-admin-bar-trigger-post-update { display: none; background: #54a3e8 !important; color: white !important; }
+
+.rad_toolbox_expanded #wp-admin-bar-trigger-post-update { display: block; }
+
+div.rad_toolbox.ui-widget-content { border: none; }
+
+
+/** Top bar Code */
+
+#top-rad-bar { position: relative; z-index: 5; background: #363a40; border-top-left-radius: 3px; border-top-right-radius: 3px; }
+
+#top-rad-bar div.ioa-admin-menu-wrap { float: right; margin: 13px 15px 0 0; }
+
+#top-rad-bar div.ioa-admin-menu-wrap > a { color: #fff; }
+
+div.save-template-lightbox { position: absolute; display: none; top: 35px; right: -1px; width: 300px; padding: 20px; background: #fff; box-shadow: 0px 0px 10px rgba(0, 0, 0, 0.1); }
+
+div.save-template-lightbox input[type=text] { padding: 8px; border-radius: 6px; border: 1px solid #eee; width: 155px; float: left; margin-right: 15px; }
+
+div.save-template-lightbox a.close-icon { text-decoration: none; font-size: 13px; position: absolute; top: 7px; right: 12px; color: #333; }
+
+div.save-template-lightbox h4 { margin-top: 0; }
+
+a.save-rad-template { margin: 1px 0px 20px 10px; }
+
+div.import-template-lightbox { position: absolute; display: none; top: 35px; right: -1px; width: 300px; padding: 15px; background: #fff; box-shadow: 0px 0px 10px rgba(0, 0, 0, 0.1); }
+
+div.import-template-lightbox input[type=text] { padding: 8px; border-radius: 0; border: 1px solid #eee; width: 148px; float: left; margin-right: 15px; }
+
+div.import-template-lightbox a.close-icon { text-decoration: none; font-size: 13px; position: absolute; top: 7px; right: 12px; color: #333; }
+
+div.import-template-lightbox h4 { margin: 0; }
+
+div.rad-content-area { position: relative; z-index: 4; }
+
+div.rad-builder-area { min-height: 150px; }
+
+#rad_builder_items a.trigger-post-update { float: none; display: block; margin: 0px; border-radius: 0; text-align: center; padding: 15px; text-decoration: none; }
+
+
+/** Widgets Search Bar */
+
+div.widgets-search-bar { background: #4a4e53; overflow: hidden; width: 40px; box-shadow: 0px 1px 2px rgba(0, 0, 0, 0.4) inset; padding: 0px 5px; border-radius: 30px; border: 1px solid #292b2e; float: right; }
+
+div.inner-widgets-search-bar { width: 230px; }
+
+div.widgets-search-bar input[type=text] { background: none; border: none; outline: none; color: #ddd; font-weight: 600; font-size: 11px; margin-top: 1px; padding: 3px 4px; width: 200px; float: left; }
+
+div.widgets-search-bar a { float: left; margin: 0px 4px 0 4px; }
+
+
+/** Page import area */
+
+div.page-import-area { display: none; }
+
+.page-import-area .ioa_input { float: left; }
+
+.page-import-area a.button-default { margin: 20px; float: left; }
+
+
+/** RAD Custom CSS */
+
+div.rad-custom-css { display: none; }
+
+.rad-custom-css .ioa_input { float: none; }
+
+.rad-custom-css a.button-default { margin: 20px; float: left; clear: both; }
+
+
+/** Main Builder Pane */
+
+div.rad-canvas { padding: 0; background: #fafafa; border: 1px solid #ddd; }
+
+div.builder-pane { background: #f6f6f6; }
+
+div.rad-w-tab-content { overflow: hidden !important; width: 100%; -webkit-box-sizing: border-box; 
+/* Safari/Chrome, other WebKit */
+ -moz-box-sizing: border-box; 
+/* Firefox, other Gecko */
+ box-sizing: border-box; 
+/* Opera/IE 8+ */
+ }
+
+div.ioa-admin-menu-wrap { margin-top: 10px; }
+
+div.rad-w-scroll-area { padding: 0px; }
+
+#rad_pages div.rad-widgets > ul { margin: 0; padding: 0; background: #32363b; border: none; }
+
+#rad_pages div.rad-widgets > ul li { float: left; margin: 0; padding: 0; width: 50%; text-align: center; background: none; border: none; }
+
+#rad_pages div.rad-widgets > ul li a { margin: 0; padding: 15px 0; color: #fff; text-shadow: none; display: block; text-decoration: none; float: none; }
+
+#rad_pages div.rad-widgets > ul li.ui-state-active a { background: #25282d; }
+
+#rad_pre_sections div.rad-widgets > ul { margin: 0; padding: 0; background: #32363b; }
+
+#rad_pre_sections div.rad-widgets > ul li { float: left; margin: 0; padding: 0; width: 50%; text-align: center; }
+
+#rad_pre_sections div.rad-widgets > ul li a { margin: 0; padding: 15px 0; color: #fff; text-shadow: none; display: block; text-decoration: none; }
+
+#rad_pre_sections div.rad-widgets > ul li.ui-state-active a { background: #25282d; }
+
+.v-f-d { display: none; }
+
+div.rad-thumb { cursor: move; height: 33.33%; float: left; width: 33.33%; text-align: center; border-bottom: 1px solid rgba(255, 255, 255, 0.1); border-right: 1px solid rgba(255, 255, 255, 0.1); box-sizing: border-box; -moz-box-sizing: border-box; -webkit-box-sizing: border-box; height: 97px; transition: background 0.2s ease-in-out; position: relative; }
+
+div.rad-thumb span.label { display: block; line-height: 1.1; font-size: 10px; padding: 0 10px 0px 10px; position: absolute; bottom: 10px; left: 0; right: 0; color: #fff; text-transform: uppercase; }
+
+div.rad-thumb span.rad-icon { position: absolute; color: #fff; top: 0; left: 0; right: 0; text-align: center; display: block; width: 100%; margin-top: 30px; }
+
+div.rad-thumb span.rad-icon.ioa-front-icon { font-size: 25px; }
+
+div.rad-thumb:hover { background: #1e2023; }
+
+div.rad-thumb.ui-draggable-dragging { position: fixed !important; z-index: 9991; width: 91px; background: rgba(0, 0, 0, 0.9); border: none; }
+
+div.cl-section.rad-thumb span.rad-icon { display: none; }
+
+div.cl-section.rad-thumb span.label { position: relative; line-height: 91px; }
+
+div.cl-structure.rad-thumb span.rad-icon { display: none; }
+
+div.cl-structure.rad-thumb span.label { position: relative; line-height: 91px; }
+
+div.builder-area { position: relative; z-index: 20; }
+
+div.rad-builder-area { padding: 25px; }
+
+div.clonable { display: none; }
+
+
+/** RAD Tabs */
+
+div.rad-widgets h3.ui-state-default { margin: 0; padding: 0; border: none; border-bottom: 1px solid #1d2024; background: #32363b; position: relative; border-radius: 0; }
+
+div.rad-widgets h3.ui-state-default i { position: absolute; text-shadow: none; top: 20px; right: 20px; color: #fff; font-size: 16px; }
+
+div.rad-widgets h3.ui-state-default a { color: #fff; display: block; text-decoration: none; text-shadow: none; font-size: 15px; padding: 17px; }
+
+div.rad-widgets div.ui-accordion-content-active { border: none !important; }
+
+
+/** Page Section Code */
+
+div.rad-footer-area { padding: 15px; border-top: 1px solid #eee; background: #fafafa; }
+
+#rad_backend_builder { background: #fff; border-bottom-left-radius: 6px; border-bottom-right-radius: 6px; }
+
+#rad_backend_builder div.rad_page_section { position: relative; border-top: none; line-height: 1.4; background: #fafafa; border: 1px dashed #D3D6DB; margin-bottom: 20px; border-radius: 3px; }
+
+#rad_backend_builder div.rad_page_section:hover { z-index: 20; }
+
+#rad_backend_builder div.rad_page_section div.section-toolbar { display: none; font-weight: 600; padding: 0; background: #33383e; z-index: 10; border-radius: 3px; text-transform: uppercase; color: #fff; text-align: center; position: absolute; right: -15px; top: 0; }
+
+#rad_backend_builder div.rad_page_section div.section-toolbar a { color: #fff; padding: 7px 8px; display: block; display: block; font-size: 12px; text-decoration: none; text-transform: none; border-bottom: 1px solid #444a50; position: relative; }
+
+#rad_backend_builder div.rad_page_section div.section-toolbar a:hover { color: #1a83d1; }
+
+#rad_backend_builder div.rad_page_section .save-data { display: none; }
+
+#rad_backend_builder div.rad_page_section div.section-toolbar .section-buttons a.section-delete { border-bottom: none; }
+
+#rad_backend_builder div.rad_page_section div.section-toolbar a:first-child { border-top-left-radius: 4px; border-top-right-radius: 4px; }
+
+#rad_backend_builder div.rad_page_section div.section-toolbar a:last-child { border-bottom-left-radius: 4px; border-bottom-right-radius: 4px; }
+
+#rad_backend_builder div.rad_page_section div.section-toolbar span.s-tip { display: none; position: absolute; padding: 5px; top: -5px; left: -115px; width: 100px; background: rgba(0, 0, 0, 0.8); color: #fff; font-size: 11px; border-radius: 4px; }
+
+#rad_backend_builder div.rad_page_section div.section-toolbar span.s-tip small { position: absolute; top: 50%; right: -10px; color: #000; opacity: 0.8; font-size: 16px; margin-top: -8px; }
+
+#rad_backend_builder div.rad_page_section div.section-toolbar a:hover span.s-tip { display: block; }
+
+div.section-c-helper { height: 20px; background: #888; width: 100%; }
+
+div.rad_section-notifier { border-bottom: 1px dashed #dfdfdf; padding: 6px; font-size: 11px; }
+
+#rad_backend_builder div.rad_page_section:hover div.section-toolbar { opacity: 1; }
+
+#rad_backend_builder div.rad_page_section:hover div.section-toolbar { display: block; }
+
+#rad_backend_builder div.rad_page_section:hover div.section-options-follower { display: block; }
+
+div.section-options-follower { position: absolute; display: none; bottom: -10px; left: 0; height: 10px; width: 100%; z-index: 3; }
+
+div.section-options-follower span { background: #33383e; height: 3px; position: absolute; top: 84%; left: 0; right: 0; }
+
+div.section-options-follower a { position: absolute; bottom: -14px; left: -25px; border-radius: 3px; padding: 5px 10px; color: #fff; text-decoration: none; background: #33383e; }
+
+div.section-content { padding: 0; position: relative; min-height: 150px; }
+
+div.rad_page_container { margin: 1.5% 1.5% 1% 1.5%; float: left; width: 97%; position: relative; }
+
+div.rad_page_container.first { clear: left; }
+
+div.rad_page_container.last { clear: right; }
+
+div.container-content { border: 1px dashed #D3D6DB; background: #fff; padding: 15px 0; min-height: 90px; border-radius: 3px; }
+
+div.rad_page_container span.c-tip { display: none; position: absolute; padding: 5px; top: 35px; right: -45px; width: 110px; background: rgba(0, 0, 0, 0.8); color: #fff; font-size: 11px; border-radius: 4px; text-align: center; }
+
+div.rad_page_container span.c-tip small { position: absolute; left: 50%; top: -10px; color: #000; opacity: 0.8; font-size: 16px; margin-left: -8px; }
+
+div.rad_page_container a:hover span.c-tip, div.container-layout:hover span.c-tip { display: block; }
+
+div.rad_page_container.three_fourth { width: 72%; }
+
+div.rad_page_container.four_fifth { width: 77%; }
+
+div.rad_page_container.two_third { width: 63.7%; }
+
+div.rad_page_container.one_half { width: 47%; }
+
+div.rad_page_container.one_third { width: 30.3%; }
+
+div.rad_page_container.one_fourth { width: 22%; }
+
+div.rad_page_container.one_fifth { width: 17%; }
+
+a.button-default.ioa-editor-trigger { margin-left: 0px; margin-top: 15px; }
+
+a.add-rad-icon.button-default { padding: 7px 16px; margin: 3px 0 0 10px; display: inline-block; }
+
+a.ioa-save-wp-editor { margin-left: 20px; }
+
+div.rad_page_container div.container-toolbar { display: block; cursor: move; font-weight: 600; padding: 0px; background: #33383e; color: #fff; font-size: 12px; position: absolute; border-radius: 3px; top: -24px; left: 0; z-index: 50; }
+
+div.rad_page_container div.container-toolbar a { font-size: 11px; text-shadow: none; text-decoration: none; text-transform: none; color: #fff; padding: 8px 12px; border-right: 1px solid #444a50; float: left; position: relative; }
+
+div.rad_page_container div.container-toolbar a:first-child { border-top-left-radius: 3px; border-bottom-left-radius: 3px; }
+
+div.rad_page_container div.container-toolbar a:last-child { border-top-right-radius: 3px; border-bottom-right-radius: 3px; }
+
+div.rad_page_container div.container-toolbar a:hover { background: #1a83d1; color: #fff; }
+
+div.rad_page_container div.container-toolbar a.container-edit { border: none; }
+
+div.rad_page_container div.container-toolbar a.container-move { cursor: move; }
+
+div.rad_page_container div.container-toolbar div.ioa_input, div.rad_page_container div.container-toolbar div.ioa_input div.ioa_input_holder { width: 60px; }
+
+div.container-toolbar div.container-layout { float: left; position: relative; }
+
+a.container-delete { width: 14px; height: 16px; }
+
+div.right-buttons { position: absolute; right: 0; top: 0; z-index: 100; }
+
+div.right-buttons a { float: left; }
+
+div.container-layout { float: left; }
+
+div.container-layout div.ioa_input { padding: 0; }
+
+div.container-layout div.ioa_input label { display: none; }
+
+div.container-layout div.ioa_input_holder div.ioa_select_wrap { overflow: hidden; height: 31px; width: 42px; background: url(i/rad_sprites/container-layout-arrow.png) 91% 12px no-repeat; padding: 0px 17px 0px 0; outline: none; font-size: 12px; border: none; }
+
+div.container-layout div.ioa_input_holder div.ioa_select_wrap select { -webkit-appearance: none; background: transparent !important; border: none; cursor: pointer; display: block; vertical-align: center; padding: 6px 0px 7px 4px; height: 31px; color: #fff; width: 90px; font-weight: 600; font-size: 11px; line-height: 1; }
+
+div.container-layout div.ioa_select_wrap select option { color: #8e8e8e; }
+
+div.tooltip { background: #49535f; width: 159px; }
+
+div.tooltip-wrap { position: absolute; top: -34px; right: 0; width: 159px; height: 40px; }
+
+
+/** Widget styling */
+
+div.rad_page_widget { margin: 1.5% 1.5% 1% 1.5%; float: left; width: 97%; position: relative; }
+
+div.rad_widget_helper { width: 100px !important; height: 100px !important; border-radius: 6px; background: rgba(0, 0, 0, 0.8); display: block; }
+
+div.rad_page_widget.first { clear: left; }
+
+div.rad_page_widget.last { clear: right; }
+
+div.rad-identifier { position: absolute; background: #eee; color: #333; top: 0px; right: 0px; padding: 5px; border-radius: 3px; font-size: 10px; }
+
+div.rad_page_widget div.widget-content { border: 1px dashed transparent; background: #fafafa; padding: 0px; border-radius: 3px; }
+
+div.rad_page_widget div.widget-toolbar { cursor: move; font-weight: 600; padding: 0px; border-radius: 4px; background: #1a83d1; color: #fff; font-size: 12px; position: absolute; top: 0; left: 50%; margin: 0px 0 0  -30px; z-index: 12; display: none; }
+
+div.rad_page_widget div.widget-toolbar a { font-size: 11px; text-decoration: none; text-transform: none; color: #fff; padding: 8px 12px; border-left: 1px solid #1467a4; float: left; position: relative; }
+
+div.rad_page_widget div.widget-toolbar a:first-child { border-top-left-radius: 3px; border-bottom-left-radius: 3px; }
+
+div.rad_page_widget div.widget-toolbar a:last-child { border-top-right-radius: 3px; border-bottom-right-radius: 3px; }
+
+div.rad_page_widget div.widget-toolbar a:hover { background: #222; }
+
+div.rad_page_widget div.widget-toolbar a.widget-move { border: none; }
+
+div.rad_page_widget:hover a.widget-edit, div.rad_page_widget:hover div.widget-toolbar { display: block; }
+
+
+/** IOA WP Editor */
+
+.ioa-wp-editor { display: none; position: fixed; top: 50px; left: 50px; bottom: 50px; right: 50px; background: #fff; z-index: 99994; }
+
+.ioa-wp-editor-footer { padding: 15px 0; background: #fafafa; border-top: 1px solid #ddd; position: absolute; bottom: 0; left: 0; width: 100%; }
+
+.ioa-wp-editor-area { position: absolute; top: 20px; left: 20px; bottom: 66px; right: 20px; overflow: auto; }
+
+.ioa-wp-editor-area a.input-val-delete { display: none; }
+
+
+/** RAD Lightbox */
+
+.custom-id { font-size: 10px; background: #eee; color: #333; font-weight: 700; float: right; margin-left: 5px; border-radius: 4px; padding: 2px 8px; }
+
+div.settings-overlay { display: none; position: fixed; top: 0; left: 0; width: 100%; height: 100%; z-index: 99991; opacity: 0.7; background: #000000; }
+
+div.settings-body { position: absolute; top: 0; left: 0; width: 100%; overflow: auto; bottom: 86px; }
+
+div.rad-widget-settings { min-width: 750px; margin: 0px; }
+
+div.settings-lightbox, div.text-settings-lightbox { display: none; position: fixed; top: 50px; left: 50px; bottom: 50px; right: 50px; background: #fff; border-radius: 6px; z-index: 99992; }
+
+div.inner-settings-body h4 { margin: 0; padding: 15px; font-size: 15px; color: #3b3e42; }
+
+div.input-section-tabs h3 { text-shadow: none; margin: 14px 0 !important; background: #fafafa; border-radius: 3px; cursor: pointer; padding: 14px; position: relative; color: #3b3e42; font-size: 14px; }
+
+div.input-section-tabs h3 a { font-size: 11px; text-decoration: none; float: right; }
+
+div.input-section-tabs a.save-ioa-module { display: none; }
+
+div.input-section-tabs > div { padding: 15px; }
+
+div.input-section-tabs div.groud-check-wrap { width: 250px; }
+
+div.input-section-tabs .ui-tabs-panel { position: relative; }
+
+.input-section-tabs { margin-top: 0px; }
+
+.input-section-tabs > ul { margin: 0; padding: 0 5px; border-top: 1px solid #dfdfdf; border-bottom: 1px solid #dfdfdf; display: block; }
+
+.input-section-tabs > ul li { float: left; margin: 0; padding: 0; }
+
+.input-section-tabs > ul li a { margin: 8px 5px; border-radius: 3px; padding: 5px 20px; display: block; color: #33383e; text-decoration: none; font-size: 12px; font-weight: 600; border: 1px solid transparent; }
+
+.input-section-tabs > ul li.ui-state-active a, .input-section-tabs > ul li:hover a { margin: 8px 5px !important; border-radius: 3px; padding: 5px 20px !important; background: white; background: -moz-linear-gradient(top, white 0%, #f7f9fa 100%); background: -webkit-gradient(left top, left bottom, color-stop(0%, white), color-stop(100%, #f7f9fa)); background: -webkit-linear-gradient(top, white 0%, #f7f9fa 100%); background: -o-linear-gradient(top, white 0%, #f7f9fa 100%); background: -ms-linear-gradient(top, white 0%, #f7f9fa 100%); background: linear-gradient(to bottom, #ffffff 0%, #f7f9fa 100%); filter: progid:DXImageTransform.Microsoft.gradient(startColorstr='#ffffff', endColorstr='#f7f9fa', GradientType=0 ); border: 1px solid #CDCED0; border-radius: 3px; color: #33383e; text-decoration: none; outline: none; text-shadow: none; font-weight: 600; -webkit-border-radius: 3px; -webkit-font-smoothing: antialiased; padding: 7px 16px; margin: 0px 0 0 10px; }
+
+div.input-section-tabs a.section-reset { position: absolute; top: -45px; right: 0px; font-size: 13px; color: #ffffff; background: #d10f21; text-shadow: none; text-decoration: none; padding: 14px 20px; font-weight: 600; line-height: 1.35; }
+
+div.bottom-bar { position: absolute; bottom: 0; left: 0; width: 100%; padding: 24px 0; border-top: 1px solid #ddd; background: #ffffff; }
+
+div.bottom-bar a { margin: 0px 0px 0px 20px; }
+
+div.bottom-bar a.cancel-settings { float: left; padding: 10px 20px; }
+
+div.bottom-bar a.save-settings { float: left; padding: 10px 20px; }
+
+div.ioa_input_holder.medium.editor { width: 80%; }
+
+#ioa-intro-trigger, .live-rad-edit-button, #ioa-custom-templates-toggle { display: none !important; }
+
+#rad_data { display: none; }
+
+#wp-text_data-editor-container { clear: both; }
+
+div.ioa_input_holder.medium textarea.wp-editor-area { border: none; width: 100%; }
+
+div.ioa_input .wp-media-buttons .insert-media { margin-left: 10px; }
+
+a.rad_gallery_upload.button-default { margin: 0; }
+
+div.text-settings-lightbox div.settings-pane { display: block; }
+
+
+/** Import Template Stylings */
+
+div.import-templates-wrap { position: relative; }
+
+div.import-template-lightbox div.ioa_input { float: left; padding: 0; width: 178px; }
+
+a.import-rad-template { margin-top: 16px; font-size: 11px; color: #ffffff; background: #555; text-decoration: none; float: left; padding: 8px 12px; font-weight: 600; letter-spacing: -0.5px; margin-right: 8px; }
+
+a.delete-rad-template { margin-top: 16px; font-size: 11px; color: #ffffff; background: #d10f21; text-decoration: none; float: left; padding: 8px 12px; font-weight: 600; letter-spacing: -0.5px; }
+
+a.import-rad-template:focus, a.delete-rad-template:focus, a.import-rad-template:hover, a.delete-rad-template:hover { color: white; }
+
+a.import-rad-template:hover { background: #1a83d1; }
+
+
+/** Gallery Input Styligs */
+
+a.width-correction { font-size: 11px; color: #ffffff; background: url(i/rad_sprites/save-button-bg.png) repeat-x #1782c0; text-decoration: none; position: absolute; top: 0; right: -150px; padding: 8px 18px; font-weight: 600; letter-spacing: -0.5px; margin-right: 8px; }
+
+ul.rad_gallery_thumbs { margin: 0; padding: 20px 0px; clear: both; }
+
+ul.rad_gallery_thumbs li { float: left; position: relative; margin: 0px; width: 75px; height: 75px; list-style: none; overflow: hidden; }
+
+ul.rad_gallery_thumbs li img { max-width: 100%; display: block; box-shadow: 0px 0px 4px #111; }
+
+ul.rad_gallery_thumbs li a.close { background: url(i/rad_sprites/cross.png); width: 16px; height: 16px; position: absolute; top: 1px; right: 1px; z-index: 3; }
+
+ul.rad_gallery_thumbs li.ui-sortable-placeholder { float: left; position: relative; margin: 0px; width: 73px; height: 73px; visibility: visible !important; background: #fafafa; border: 1px dashed #ddd; }
+
+
+/** RAD Maximize Code */
+
+.rad-maximize #rad_backend_builder { overflow: auto; height: 100%; position: fixed; top: 32px; left: 160px; right: 70px; z-index: 1000; transition: all 0.2s ease-in-out; }
+
+.rad-maximize.rad_toolbox_expanded #rad_backend_builder { right: 370px; }
+
+.rad-maximize #top-rad-bar { border-radius: 0px; }
+
+.rad-maximize a.rad-publish-button { display: block; }
+
+body.rad-maximize { overflow: hidden; }
+
+a.rad-publish-button { background: #9dba50; padding: 13px 20px; color: #fff; text-decoration: none; float: left; font-weight: 700; display: none; }
+
+
+/** Feedback Module */
+
+.v-feedback { padding: 20px; }
+
+#poststuff .rad_page_widget.rad_intro_widget h2 { margin: 0 0 10px 0; padding: 0; font-weight: 700; color: #444; line-height: 1; font-size: 24px; text-transform: uppercase; }
+
+#poststuff .rad_page_widget h2 { margin: 0 0 10px 0; padding: 0; font-weight: 700; color: #444; line-height: 1; font-size: 16px; text-transform: uppercase; }
+
+#poststuff .rad_page_widget h4 { margin: -5px 0 10px 0; padding: 0; font-weight: 400; color: #444; font-size: 11px; line-height: 1; font-style: italic; }
+
+.rad_page_widget div.ioa-text { margin-top: 0px; clear: both; }
+
+.rad_page_widget p { margin: 25px 0; }
+
+.rad_page_widget p:first-child { margin-top: 0; padding-top: 0; }
+
+.rad_page_widget p:last-child { margin-bottom: 0; padding-bottom: 0; }
+
+.rad_page_widget div.ioa-text p { color: inherit; }
+
+.vf-icon, .vf-t_icon { margin-bottom: 15px; }
+
+.vf-icon img { max-width: 100%; }
+
+.rad_banner_widget .v-feedback { text-align: center; }
+
+#poststuff .cioa-message h2.message-title { padding: 15px; color: #444; margin-bottom: 0; line-height: 1; text-align: center; font-size: 16px; font-weight: 500; border-top-left-radius: 3px; border-top-right-radius: 3px; border-bottom: 1px solid rgba(0, 0, 0, 0.2); position: relative; }
+
+.cioa-message { border: 1px solid rgba(0, 0, 0, 0.2); }
+
+.cioa-message div.message-content { padding: 35px 60px; text-align: center; position: relative; border-top: none; border-bottom-left-radius: 3px; border-bottom-right-radius: 3px; color: #444; }
+
+.cioa-message .vf-t_icon { position: absolute; top: 50%; left: 30px; font-size: 24px; margin-top: -14px; color: #444; margin-bottom: 0; }
+
+.rad_notification_widget .v-feedback { padding: 0; }
+
+div.rad_page_widget.rad_sidebar_widget div.widget-content { background: url(i/linen.png); }
+
+div.empty-widget, div.min-rad-highlight { background: url(i/linen.png); padding: 15px; text-align: center; }
+
+div.rad-post-list-info { background: url(i/linen.png); padding: 25px; text-align: center; }
+
+div.rad-post-list-info i { font-size: 36px; margin-bottom: 15px; color: #ddd; }
+
+a.vf-cta_button, a.rad-feedback-button { text-decoration: none; display: inline-block; padding: 6px 17px; border-radius: 4px; background: #eee; color: #444; }
+
+div.rad-divider { height: 5px; background: #eee; width: 100%; }
+
+div.rad_page_widget.rad_divider_widget div.widget-content .v-feedback { padding: 20px 0 20px 0; }
+
+div.rad-person-info img { max-height: 350px; max-width: 100%; display: block; margin: 15px auto; }
+
+div.rad-image-info img { max-width: 100%; display: block; margin: 15px auto; }
+
+.rad_gallery_widget div.widget-content { min-height: 50px; }
+
+div.rad-gallery-info img { width: 75px; height: 75px; display: block; float: left; }
+
+
+/** Helpers */
+
+.helper-icon { background: url(i/rad_sprites/contained.png) center left; width: 32px; height: 32px; float: left; margin: -9px 10px 0 -4px; }
+
+.helper-icon.full_width { background: url(i/rad_sprites/full_width.png); }
+
+.helper-icon.blocked_layout { background: url(i/rad_sprites/grid-default.png); }
+
+#rad_backend_builder .rad_page_container.ui-sortable-placeholder { height: 280px; background: #e7e7e7; width: 10px; visibility: visible !important; }
+
+#rad_backend_builder div.rad_page_section.rad-container-dropping { background: #ddd; }
+
+#rad_backend_builder div.rad_page_section.rad-container-dropping div.container-content { background: #fff; }
+
+div.rad-container-dropping div.container-content { background: #ddd; }
+
+div.rad-builder-area.rad-frame-dropping { background: #ddd; }
+
+.rev-thumb { padding: 10px 20px; background: #22c89f; color: #fff; margin: 10px; float: left; cursor: pointer; transition: all 500ms ease-in-out; }
+
+.rev-thumb h4 { margin: 0; padding: 0; }
+
+.rev-current-thumb { padding: 10px 20px; background: #1a83d1; color: #fff; margin: 10px; float: left; cursor: pointer; transition: all 500ms ease-in-out; display: none; }
+
+.rev-current-thumb h4 { margin: 0; padding: 0; }
+
+
+/** Help Template */
+
+.rad-help div.help-drop-area { max-width: 200px; padding: 15px; text-align: center; border-radius: 6px; margin: 20px auto; border: 1px dashed #dfdfdf; }
+
+.rad-help div.help-drop-area i { font-size: 20px; color: #ddd; }
+
+.rad-help div.help-drop-area h3 { padding: 0; margin: 15px 0 0 0; font-size: 15px !important; color: #222; font-weight: 300; }
+
+
+/**  Firefox Corrections */
+
+@-moz-document url-prefix() { div.input-section-tabs a.section-reset { line-height: 1.4; top: -46px; } }
+
+.initializer-msg { padding: 15px; background: white; opacity: 0.75; color: #fff; border-radius: 4px; position: fixed; top: -250px; left: 50%; width: 110px; text-align: center; z-index: 99999; }
+
+
+/** RAD Menu adding */
+
+.rad_menu_area { padding: 10px; margin: 0; background: #eee; border: 1px solid #ddd; clear: both; margin-top: 60px; }
+
+.rad_menu_area li { padding: 15px 25px; background: #fafafa; border: 1px solid #ddd; margin-right: 15px; color: #fff; position: relative; margin-bottom: 1px; float: left; }
+
+.rad_menu_area li h6 { color: #333; margin: 0; padding: 0; }
+
+.rad_menu_area li i.delete { position: absolute; top: 5px; right: 5px; font-size: 13px; color: #444; cursor: pointer; }
+
+
+/** RAD Library */
+
+a.button-default.rad-insta-page, a.button-default.rad-insta-section { float: left; margin: 0; padding: 10px 15px; }
+
+.rad-file-wrap { padding: 10px; }
+
+.rad-file-wrap h4 { padding-bottom: 15px; }
+
+.insta-template.first { clear: left; }
+
+#rad_pages h4 { padding: 15px; color: #fff; margin: 0; background: #1e2023; }
+
+.rad-template-icon { float: left; cursor: pointer; text-align: center; margin: 0px; position: relative; width: 33.33%; -webkit-box-sizing: border-box; 
+/* Safari/Chrome, other WebKit */
+ -moz-box-sizing: border-box; 
+/* Firefox, other Gecko */
+ box-sizing: border-box; 
+/* Opera/IE 8+ */
+ border: 1px solid rgba(255, 255, 255, 0.1); border-left: none; border-top: none; transition: all 0.2s ease-in-out; -webkit-transition: all 0.2s ease-in-out; }
+
+.rad-template-icon.level-1 { border-top: 1px solid rgba(255, 255, 255, 0.1); }
+
+.rad-template-icon:hover { background: #1e2023; }
+
+.rad-template-icon i.file-icon { font-size: 24px; margin-top: 10px; padding: 18px 18px 43px 18px; color: #fff; }
+
+.rad-template-icon i.delete-icon { position: absolute; top: 0; left: 0px; font-size: 11px; background: #fff; color: #333; padding: 4px; z-index: 2; }
+
+.rad-template-icon span { display: block; line-height: 1.1; font-size: 10px; padding: 0 10px 0px 10px; position: absolute; bottom: 5px; left: 0; right: 0; color: #fff; text-transform: uppercase; }
+
+.rad-widget-area .ioa-information-p { margin: 0; padding: 12px; font-size: 11px; color: rgba(255, 255, 255, 0.7); background: #25282d; }
+
+
+/** Custom Links API */
+
+div.ioa-link-filter { display: none; }
+
+div.export-section-panel { background: #fff; padding: 10px; position: absolute; top: 0px; right: 0; border-radius: 4px; box-shadow: 0px 0px 10px rgba(0, 0, 0, 0.1); display: none; z-index: 20; }
+
+div.export-section-panel a.button-default { margin-top: 2px; float: left; }
+
+.export-section-panel input[type=text] { padding: 8px; float: left; }
+
+.ioa-canvas { position: relative; z-index: 6; }
+
+.close-ex-panel { position: absolute; top: 2px; right: 2px; font-size: 10px; cursor: pointer; }
+
+
+/** RAD Toolbox */
+
+div.rad_toolbox { padding: 0; }
+
+div.rad_toolbox div.ui-widget-content { background: none; border: none; border-radius: 0; }
+
+div.rad_toolbox { background: #1e2023; position: fixed; width: 370px; z-index: 9989; top: 32px; bottom: 0; right: -370px; height: 100%; transition: all 0.2s ease-in-out; -webkit-transition: all 0.2s ease-in-out; border-radius: 0; }
+
+div.rad_toolbox ul.rad-swift-menu { margin: 0; padding: 70px 0 0 0; width: 70px; float: left; border: none !important; border-right: 1px solid #25282d !important; height: 100%; position: relative; z-index: 2; box-shadow: 0px 4px 20px rgba(0, 0, 0, 0.3) inset; background: none; border-radius: 0; }
+
+div.rad_toolbox ul.rad-swift-menu li { display: block; padding: 0; margin: 0; background: none; border: none; border-bottom: 1px solid #25282d; position: relative; text-shadow: none; }
+
+div.rad_toolbox ul.rad-swift-menu li i { color: #25282d; font-size: 38px; position: absolute; top: 50%; right: -13px; display: none; margin-top: -24px; box-shadow: none; text-shadow: none; }
+
+div.rad_toolbox a.toggle-rad_toolbox { border-bottom: 1px solid #25282d; color: #fff; font-size: 18px; padding: 25px 25px; display: block; position: absolute; top: 0; left: 0; z-index: 20; }
+
+div.rad_toolbox ul.rad-swift-menu li.ui-state-active i { display: block; }
+
+div.rad_toolbox ul.rad-swift-menu a { color: #fff; font-size: 18px; padding: 25px 25px; display: block; text-decoration: none; }
+
+div.rad_toolbox ul.rad-swift-menu li span { display: block; color: #fff; font-size: 10px; text-align: center; margin-bottom: 15px; }
+
+div.rad_toolbox .rad-swift-menu li.rad_image_prop a { padding: 20px 0px 0px 0px; width: 70px; }
+
+div.rad_toolbox .rad-swift-menu li.rad_image_prop a img { display: block; margin: 0 auto; }
+
+div.rad_toolbox div.rad-widget-area { float: left; width: 299px !important; background: #25282d; height: 100%; position: relative; z-index: 4; padding: 0 !important; margin: 0 !important; }
+
+#wpcontent, #wpfooter { transition: all 0.2s ease-in-out; }
+
+.show-rad-panel #wpcontent, .show-rad-panel #wpfooter { margin-right: 70px; }
+
+.show-rad-panel div.rad_toolbox { right: -300px; }
+
+.show-rad-panel div.rad_toolbox.toolbox-full { right: 0; }
+
+.rad-search-file { padding: 0px; background: rgba(0, 0, 0, 0.3); position: relative; }
+
+.rad-search-file input { border: none; box-shadow: none; padding: 12px 15px; width: 100%; color: #fff; background: none; font-size: 12px; }
+
+.rad-search-file i { position: absolute; top: 15px; right: 15px; z-index: 2; font-size: 13px; color: #777; }
+
+.rad-search-file input:focus { box-shadow: none; }
+
+.rad-section-search-file { padding: 0px; background: rgba(0, 0, 0, 0.3); position: relative; }
+
+.rad-section-search-file input { border: none; box-shadow: none; padding: 12px 15px; width: 98%; color: #fff; background: none; font-size: 12px; }
+
+.rad-section-search-file i { position: absolute; top: 15px; right: 15px; z-index: 2; font-size: 13px; color: #777; }
+
+.rad-section-search-file input:focus { box-shadow: none; }
+
+.parent_tip:hover .rad_tooltip { display: block; }
+
+.parent_tip { position: relative; }
+
+.rad_tooltip { padding: 5px 8px; background: rgba(0, 0, 0, 0.8); color: #fff; font-size: 11px; border-radius: 3px; position: absolute; text-align: center; width: 140px; position: absolute; margin: 0; font-family: "Open Sans"; display: none; }
+
+.rad_tooltip.rtop { top: -30px; left: -70px; }
+
+.rad_tooltip.rleft { top: 0px; left: -120px; }
+
+
+/** Custom Scroll Bar stylings */
+
+.jspContainer { overflow: hidden; position: relative; }
+
+.jspPane { position: absolute; }
+
+.jspVerticalBar { position: absolute; top: 0px; right: 0; width: 8px; height: 100%; background: #1e2023; }
+
+.jspHorizontalBar { position: absolute; bottom: 0; left: 0; width: 100%; height: 16px; background: red; }
+
+.jspVerticalBar *, .jspHorizontalBar * { margin: 0; padding: 0; }
+
+.jspCap { display: none; }
+
+.jspHorizontalBar .jspCap { float: left; }
+
+.jspTrack { background: #1e2023; position: relative; padding: 1px; }
+
+.jspDrag { background: #585e66; position: relative; top: 0px; bottom: 3px; left: 0px; margin: 1px !important; cursor: pointer; }
+
+.jspHorizontalBar .jspTrack, .jspHorizontalBar .jspDrag { float: left; height: 100%; }
+
+.jspArrow { background: #50506d; text-indent: -20000px; display: block; cursor: pointer; }
+
+.jspArrow.jspDisabled { cursor: default; background: #80808d; }
+
+.jspVerticalBar .jspArrow { height: 16px; }
+
+.jspHorizontalBar .jspArrow { width: 16px; float: left; height: 100%; }
+
+.jspVerticalBar .jspArrow:focus { outline: none; }
+
+.jspCorner { background: #eeeef4; float: left; height: 100%; }
+
+
+/* Yuk! CSS Hack for IE6 3 pixel bug :( */
+
+* html .jspCorner { margin: 0 -3px 0 0; }
+
+span.icon-wrap { display: inline-block; }

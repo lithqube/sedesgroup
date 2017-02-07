@@ -1,0 +1,521 @@
+msgid ""
+msgstr ""
+"Project-Id-Version: PrivateContent 3.0\n"
+"Report-Msgid-Bugs-To: \n"
+"POT-Creation-Date: 2014-11-08 12:08+0100\n"
+"PO-Revision-Date: 2014-11-08 12:28+0100\n"
+"Last-Translator: \n"
+"Language-Team: Wrenchmedia <mandip@mandipluitel.com>\n"
+"Language: da\n"
+"MIME-Version: 1.0\n"
+"Content-Type: text/plain; charset=UTF-8\n"
+"Content-Transfer-Encoding: 8bit\n"
+"X-Poedit-KeywordsList: _;__;__e\n"
+"X-Poedit-Basepath: ../../\n"
+"X-Poedit-SourceCharset: UTF-8\n"
+"X-Generator: Poedit 1.6.10\n"
+"X-Poedit-SearchPath-0: private-content\n"
+"X-Poedit-SearchPath-1: private-content-user-data\n"
+"X-Poedit-SearchPath-2: private-content-mail-actions\n"
+
+#: private-content-mail-actions/front_ajax.php:14
+#: private-content-mail-actions/front_ajax.php:24
+msgid "Username not found or disabled"
+msgstr "Brugernavn ikke fundet eller deaktiveret"
+
+#: private-content-mail-actions/front_ajax.php:27
+msgid "Your account doesn't have an e-mail"
+msgstr "Din konto har ikke en e-mail"
+
+#: private-content-mail-actions/front_ajax.php:49
+msgid "Error sending the e-mail"
+msgstr "Fejl ved afsendelse af e-mail"
+
+#: private-content-mail-actions/front_ajax.php:61
+msgid "The password has been sent to your e-mail"
+msgstr "Adgangskoden er blevet sendt til din e-mail"
+
+#: private-content-mail-actions/integrations.php:127
+#, fuzzy
+msgid "forgot password?"
+msgstr "Glemt adgangskode?"
+
+#: private-content-mail-actions/integrations.php:141
+#: private-content/functions.php:430 private-content/public_api.php:149
+#: private-content/user_registration.php:61
+#: private-content/user_registration.php:69
+msgid "Username"
+msgstr "Brugernavn"
+
+#: private-content-mail-actions/integrations.php:147
+msgid "Recover"
+msgstr "Genskab"
+
+#: private-content-mail-actions/integrations.php:148
+msgid "Back to login form"
+msgstr "Tilbage til login form"
+
+#: private-content-mail-actions/integrations.php:183
+#, fuzzy
+msgid "E-mail Verification"
+msgstr "annuller verifikation"
+
+#: private-content-mail-actions/integrations.php:189
+#: private-content-mail-actions/integrations.php:231
+msgid "Account succesfully verified via e-mail"
+msgstr "Kontoen blev kontrolleret via e-mail"
+
+#: private-content-mail-actions/integrations.php:189
+#: private-content-mail-actions/integrations.php:231
+msgid "cancel verification"
+msgstr "annuller verifikation"
+
+#: private-content-mail-actions/integrations.php:200
+msgid "Verification Impossible - User has no e-mail"
+msgstr "Verifikation ikke mulig - brugeren har ingen e-mail"
+
+#: private-content-mail-actions/integrations.php:205
+#: private-content-mail-actions/integrations.php:252
+msgid "Account not verified yet"
+msgstr "Konto ikke bekræftet endnu"
+
+#: private-content-mail-actions/integrations.php:274
+#: private-content-user-data/functions.php:28
+msgid "E-mail"
+msgstr "E-mail"
+
+#: private-content-mail-actions/integrations.php:274
+msgid "Another user has the same e-mail"
+msgstr "En anden bruger har den samme e-mail"
+
+#: private-content-mail-actions/user_verification.php:54
+msgid "Sorry, your request is invalid or your account has been deleted"
+msgstr "Beklager, din anmodning er ugyldig eller din konto er blevet slettet"
+
+#: private-content-mail-actions/user_verification.php:60
+msgid "Your account has been already activated!"
+msgstr "Din konto er allerede aktiveret!"
+
+#: private-content-mail-actions/user_verification.php:66
+msgid "Your account has been activated succesfully!"
+msgstr "Din konto er blevet aktiveret!"
+
+#: private-content-user-data/cust_form_handle.php:128
+msgid "Data saved succesfully"
+msgstr "Data gemt blev"
+
+#: private-content-user-data/cust_form_handle.php:136
+msgid ""
+"Form submitted successfully. You are not logged as an user so nothing has "
+"been saved"
+msgstr ""
+"Formularen forelægges korrekt. Du er ikke logget som en bruger, så intet er "
+"blevet gemt"
+
+#: private-content-user-data/shortcodes.php:42
+#: private-content/public_api.php:292
+msgid "Submit"
+msgstr "Indsend"
+
+#: private-content/classes/simple_form_validator.php:327
+msgid "minimum value is"
+msgstr "minimumværdi er"
+
+#: private-content/classes/simple_form_validator.php:340
+msgid "maximum value is"
+msgstr "maksimalværdi er"
+
+#: private-content/classes/simple_form_validator.php:353
+msgid "must be at least of"
+msgstr ""
+
+#: private-content/classes/simple_form_validator.php:353
+#: private-content/classes/simple_form_validator.php:379
+msgid "characters"
+msgstr "tegn"
+
+#: private-content/classes/simple_form_validator.php:366
+msgid "maximum"
+msgstr "maksimal"
+
+#: private-content/classes/simple_form_validator.php:366
+msgid "characters allowed"
+msgstr "tegn tilladt"
+
+#: private-content/classes/simple_form_validator.php:379
+#, fuzzy
+msgid "must be long"
+msgstr "skal være lang"
+
+#: private-content/classes/simple_form_validator.php:423
+msgid "Select"
+msgstr "Vælg"
+
+#: private-content/classes/simple_form_validator.php:423
+msgid "options"
+msgstr "indstillinger"
+
+#: private-content/classes/simple_form_validator.php:435
+msgid "Maximum"
+msgstr "Maksimal"
+
+#: private-content/classes/simple_form_validator.php:435
+msgid "options allowed"
+msgstr "indstillinger tilladt"
+
+#: private-content/classes/simple_form_validator.php:511
+msgid "are required"
+msgstr "er tilladt"
+
+#: private-content/classes/simple_form_validator.php:511
+msgid "is required"
+msgstr "er tilladt"
+
+#: private-content/classes/simple_form_validator.php:515
+msgid "are not valid integers"
+msgstr "er ikke gyldige heltal"
+
+#: private-content/classes/simple_form_validator.php:515
+msgid "is not a valid integer"
+msgstr "er ikke et gyldigt heltal"
+
+#: private-content/classes/simple_form_validator.php:519
+msgid "are not valid floating numbers"
+msgstr "er ikke gyldig flydende tal"
+
+#: private-content/classes/simple_form_validator.php:519
+msgid "is not a valid floating number"
+msgstr "er ikke en gyldig flydende tal"
+
+#: private-content/classes/simple_form_validator.php:523
+msgid "are not valid e-mail addresses"
+msgstr "er ikke gyldig e-mail adresser"
+
+#: private-content/classes/simple_form_validator.php:523
+msgid "is not a valid e-mail address"
+msgstr "er ikke en gyldig e-mail adresse"
+
+#: private-content/classes/simple_form_validator.php:527
+msgid "are not valid dates"
+msgstr "er ikke gyldige datoer"
+
+#: private-content/classes/simple_form_validator.php:527
+msgid "is not a valid date"
+msgstr "er ikke en gyldig dato"
+
+#: private-content/classes/simple_form_validator.php:531
+msgid "are not valid times"
+msgstr "er ikke gyldig gange"
+
+#: private-content/classes/simple_form_validator.php:531
+msgid "is not a valid time"
+msgstr "er ikke en gyldig tid"
+
+#: private-content/classes/simple_form_validator.php:535
+msgid "are not valid urls"
+msgstr "er ikke gyldigt URL-adresser"
+
+#: private-content/classes/simple_form_validator.php:535
+msgid "is not a valid url"
+msgstr "er ikke en gyldig URL-adresse"
+
+#: private-content/classes/simple_form_validator.php:539
+msgid "are not valid hexadecimal colors"
+msgstr "er ikke gyldig hexadecimal farver"
+
+#: private-content/classes/simple_form_validator.php:539
+msgid "is not a valid hexadecimal color"
+msgstr "er ikke en gyldig hexadecimal farve"
+
+#: private-content/classes/simple_form_validator.php:543
+msgid "are not valid IP addresses"
+msgstr "er ikke gyldige IP-adresser"
+
+#: private-content/classes/simple_form_validator.php:543
+msgid "is not a valid IP address"
+msgstr "er ikke en gyldig IP-adresse"
+
+#: private-content/classes/simple_form_validator.php:547
+msgid "are not valid ZIP codes"
+msgstr "er ikke gyldig postnumre"
+
+#: private-content/classes/simple_form_validator.php:547
+msgid "is not a valid ZIP code"
+msgstr "er ikke et gyldigt postnummer"
+
+#: private-content/classes/simple_form_validator.php:551
+msgid "are not valid telephone numbers"
+msgstr "er ikke gyldig telefonnumre"
+
+#: private-content/classes/simple_form_validator.php:551
+msgid "is not a valid telephone number"
+msgstr "er ikke et gyldigt telefonnummer"
+
+#: private-content/classes/simple_form_validator.php:554
+msgid "invalid data inserted"
+msgstr "ugyldige data indsættes"
+
+#: private-content/classes/simple_form_validator.php:558
+msgid "values are not between the allowed"
+msgstr "værdier er ikke mellem de tilladte"
+
+#: private-content/classes/simple_form_validator.php:558
+msgid "value is not between the allowed"
+msgstr "værdien er ikke mellem de tilladte"
+
+#: private-content/classes/simple_form_validator.php:562
+msgid "values are between the forbidden"
+msgstr "værdier er mellem det forbudte"
+
+#: private-content/classes/simple_form_validator.php:562
+msgid "values is between the forbidden"
+msgstr "værdier er mellem det forbudte"
+
+#: private-content/classes/simple_form_validator.php:565
+msgid "the value doesn't match"
+msgstr "værdien svarer ikke til"
+
+#: private-content/classes/simple_form_validator.php:568
+msgid "file size is wrong"
+msgstr "filstørrelsen er forkert"
+
+#: private-content/functions.php:414
+msgid "Name"
+msgstr "Navn"
+
+#: private-content/functions.php:422
+msgid "Surname"
+msgstr "Efternavn"
+
+#: private-content/functions.php:439 private-content/functions.php:593
+#: private-content/public_api.php:154
+msgid "Password"
+msgstr "Adgangskode"
+
+#: private-content/functions.php:449
+msgid "Category"
+msgstr ""
+
+#: private-content/functions.php:454
+msgid "Categories"
+msgstr ""
+
+#: private-content/functions.php:457
+msgid "E-Mail"
+msgstr "E-mail"
+
+#: private-content/functions.php:467
+msgid "Telephone"
+msgstr "Telefon"
+
+#: private-content/functions.php:559 private-content/functions.php:647
+msgid "Repeat"
+msgstr "Gentag"
+
+#: private-content/functions.php:589
+msgid "must contain at least "
+msgstr ""
+
+#: private-content/login_widget.php:50
+msgid "Welcome"
+msgstr ""
+
+#: private-content/login_widget.php:53 private-content/public_api.php:202
+msgid "Logout"
+msgstr "Log ud"
+
+#: private-content/public_api.php:111 private-content/shortcodes.php:72
+msgid "You must be logged in to view this content"
+msgstr "Du skal være logget ind for at få vist dette indhold"
+
+#: private-content/public_api.php:127 private-content/shortcodes.php:79
+msgid "Sorry, you don't have the right permissions to view this content"
+msgstr ""
+"Beklager, har du ikke de rette tilladelser til at få vist dette indhold"
+
+#: private-content/public_api.php:167
+msgid "remember me"
+msgstr ""
+
+#: private-content/public_api.php:178
+msgid "Login"
+msgstr "Log ind"
+
+#: private-content/public_api.php:246
+#, fuzzy
+msgid "You have to set the default category for registered users"
+msgstr "Du skal angive standard kategori for registrerede brugere."
+
+#: private-content/pvt_content_manage.php:34
+msgid "You don't have a reserved area"
+msgstr "Du har ikke et reserveret område"
+
+#: private-content/shortcodes.php:68
+msgid "login"
+msgstr "log ind"
+
+#: private-content/user_auth.php:39
+msgid "Username or password incorrect"
+msgstr "Brugernavn eller adgangskode forkert"
+
+#: private-content/user_auth.php:58 private-content/wp_user_tricks.php:73
+msgid "Sorry, your account has not been activated yet"
+msgstr "Desværre, din konto ikke er blevet aktiveret endnu"
+
+#: private-content/user_auth.php:89
+msgid "Logged succesfully, welcome!"
+msgstr "Indloggning succesfuld, velkommen!"
+
+#: private-content/user_registration.php:48
+msgid "wasn't entered correctly"
+msgstr "blev ikke angivet korrekt"
+
+#: private-content/user_registration.php:55
+msgid "Disclaimer"
+msgstr ""
+
+#: private-content/user_registration.php:55
+msgid "must be accepted to proceed with registration"
+msgstr ""
+
+#: private-content/user_registration.php:61
+msgid "Another user already has this username"
+msgstr "En anden bruger har allerede dette brugernavn"
+
+#: private-content/user_registration.php:69
+msgid "Invalid Category"
+msgstr ""
+
+#: private-content/user_registration.php:137
+msgid "Error during user registration, contact the website administrator"
+msgstr "Fejl under brugerregistrering, kontakt webstedets administrator"
+
+#: private-content/user_registration.php:202
+msgid "Registration was succesful. Welcome!"
+msgstr "Registrering var succesfuld. Velkommen!"
+
+#: private-content/wp_user_tricks.php:78
+#, fuzzy
+msgid "Sorry, your account has been disabled"
+msgstr "Desværre, din konto ikke er blevet aktiveret endnu"
+
+#~ msgid "Error processing the action"
+#~ msgstr "Fejl under behandlingen af handlingen"
+
+#~ msgid "No categories found .. "
+#~ msgstr "Ingen kategorier fundet .."
+
+#~ msgid "All users"
+#~ msgstr "Alle brugere"
+
+#~ msgid "Subscriber"
+#~ msgstr "Abonnent"
+
+#~ msgid "Contributor"
+#~ msgstr "Bidragyder"
+
+#~ msgid "Author"
+#~ msgstr "Forfatter"
+
+#~ msgid "Editor"
+#~ msgstr "Redaktør"
+
+#~ msgid "Administrator"
+#~ msgstr "Administrator"
+
+#~ msgid "minimum"
+#~ msgstr "minimum"
+
+#~ msgid "PrivateContent - Custom Fields Builder"
+#~ msgstr "PrivateContent - brugerdefinerede felter Builder"
+
+#~ msgid "Fields saved"
+#~ msgstr "Felter gemt"
+
+#~ msgid "PrivateContent - Custom Form Builder"
+#~ msgstr "PrivateContent - brugerdefineret formular Builder"
+
+#~ msgid "Form submitted successfully. In this demo no data could be saved"
+#~ msgstr ""
+#~ "Formularen forelægges korrekt. I denne demo der kunne gemmes ingen data"
+
+#~ msgid "verify manually"
+#~ msgstr "kontroller manuelt"
+
+#~ msgid "%SITE-TITLE% - Welcome!"
+#~ msgstr "%SITE-TITLE% - Velkommen!"
+
+#~ msgid ""
+#~ "Hello %USERNAME%,\n"
+#~ "thanks for registering on %SITE-TITLE%. \n"
+#~ "\n"
+#~ "To activate your account, click the following link:\n"
+#~ "%VER-URL%\n"
+#~ "\n"
+#~ "Best Regards,\n"
+#~ "%SITE-TITLE% Staff"
+#~ msgstr ""
+#~ "Hej %USERNAME%,\n"
+#~ "Tak for at registrer dig på %SITE-TITLE%. \n"
+#~ "\n"
+#~ "Klik på følgende link for at bekræfte din konto,:\n"
+#~ "%VER-URL%\n"
+#~ "\n"
+#~ "Med venlig hilsen,\n"
+#~ "%SITE-TITLE% adminstration"
+
+#~ msgid "%SITE-TITLE% - New registered user"
+#~ msgstr "%SITE-TITLE% - Nye bruger"
+
+#~ msgid ""
+#~ "Hello,\n"
+#~ "A new user has registered.\n"
+#~ "\n"
+#~ "Fullname: %NAME% %SURNAME%\n"
+#~ "Username: %USERNAME%\n"
+#~ "E-mail: %MAIL%\n"
+#~ "Telephone: %TEL%"
+#~ msgstr ""
+#~ "Hej,\n"
+#~ "En ny bruger har registreret.\n"
+#~ "\n"
+#~ "Fuldt navn: %NAME% %SURNAME%\n"
+#~ "Brugernavn: %USERNAME%\n"
+#~ "E-mail: %MAIL%\n"
+#~ "Telefon: %TEL%"
+
+#~ msgid "%SITE-TITLE% - Account activated!"
+#~ msgstr "%SITE-TITLE% - Konto aktiveret!"
+
+#~ msgid ""
+#~ "Hello %USERNAME%,\n"
+#~ "your account has been activated, now you can login into our website!\n"
+#~ "\n"
+#~ "Best Regards,\n"
+#~ "%SITE-TITLE% Staff"
+#~ msgstr ""
+#~ "Hej %USERNAME%,\n"
+#~ "din konto er blevet aktiveret, du kan logge på vores webside nu!\n"
+#~ "\n"
+#~ "Med venlig hilsen,\n"
+#~ "%SITE-TITLE% adminstration"
+
+#~ msgid "%SITE-TITLE% - Password recovery"
+#~ msgstr "%SITE-TITLE% - Kodeord påmindelse"
+
+#~ msgid ""
+#~ "Hello %USERNAME%,\n"
+#~ "a password recovery has been requested for your account.\n"
+#~ "\n"
+#~ "This is your password: %PSW%\n"
+#~ "\n"
+#~ "Best Regards,\n"
+#~ "%SITE-TITLE% Staff"
+#~ msgstr ""
+#~ "Hej %USERNAME%,\n"
+#~ "der er blevet anmodet om påmindelse adgangskoden til din konto.\n"
+#~ "\n"
+#~ "Dette er dit kodeord: %PSW%\n"
+#~ "\n"
+#~ "Med venlig hilsen,\n"
+#~ "%SITE-TITLE% adminstration"

@@ -1,0 +1,122 @@
+/** Contains layout related settings for framework 1.0 */
+.left { float: left; }
+
+.right { float: right; }
+
+.auto_align { margin: 0 auto; }
+
+.last { padding-right: 0 !important; clear: right; margin-right: 0 !important; }
+
+.first { padding-left: 0 !important; clear: left; margin-left: 0 !important; }
+
+.super_wrapper { position: relative; }
+
+.faux_skeleton { width: 1140px; }
+
+.skeleton { width: 1060px; position: relative; z-index: 1; }
+
+.ioa-boxed-layout { width: 1140px; margin: 0 auto; position: relative; box-shadow: 0px 0px 25px rgba(0, 0, 0, 0.1); }
+
+.layout_element, .col { float: left; min-height: 1px; margin: 0 50px 50px 0; }
+
+.skeleton .skeleton { width: 100%; }
+
+.has-sidebar .skeleton { width: auto; }
+
+/** Regular Layout */
+.full { clear: both; width: 100%; }
+
+.one_half { width: 505px; }
+
+.one_third { width: 320px; }
+
+.one_fourth { width: 227px; }
+
+.one_fifth { width: 172px; }
+
+.two_third { width: 690px; }
+
+.three_fourth { width: 783px; }
+
+.four_fifth { width: 838px; }
+
+/** Sidebar layout */
+.has-sidebar .layout_element, .has-sidebar .col { float: left; min-height: 1px; margin: 0 20px 20px 0; }
+
+.has-sidebar .one_half { width: 350px; }
+
+.has-sidebar .one_third { width: 220px; }
+
+.has-sidebar .one_fourth { width: 155px; }
+
+.has-sidebar .two_third { width: 480px; }
+
+.has-sidebar .three_fourth { width: 545px; }
+
+.has-sidebar .one_fifth { width: 116px; }
+
+.has-sidebar .four_fifth { width: 584px; }
+
+/** Nested Layout */
+.nested p:last-child { margin-bottom: 0; }
+
+.nested .layout_element, .nested .col, .nested .layout_element { float: left; min-height: 1px; margin: 0 3% 20px 0; }
+
+.nested .full { width: 100%; margin-right: 0; }
+
+.nested .one_half { width: 47%; }
+
+.nested .one_third { width: 31.3%; }
+
+.nested .one_fourth { width: 22.75%; }
+
+.nested .two_third { width: 65.6%; }
+
+.nested .three_fourth { width: 74.2%; }
+
+.nested .one_fifth { width: 18%; }
+
+.nested .four_fifth { width: 78%; }
+
+.nested .col.full, .nested .layout_element.full { margin-right: 0; }
+
+.skeleton .skeleton .layout_element, .skeleton .skeleton .col, .skeleton .skeleton .layout_element { float: left; min-height: 1px; margin: 0 3% 20px 0; }
+
+.skeleton .skeleton .full { width: 100%; margin-right: 0; }
+
+.skeleton .skeleton .one_half { width: 47%; }
+
+.skeleton .skeleton .one_third { width: 31.3%; }
+
+.skeleton .skeleton .one_fourth { width: 22.75%; }
+
+.skeleton .skeleton .two_third { width: 65.6%; }
+
+.skeleton .skeleton .three_fourth { width: 74.2%; }
+
+.skeleton .skeleton .one_fifth { width: 18%; }
+
+.skeleton .skeleton .four_fifth { width: 78%; }
+
+.skeleton .skeleton .col.full, .skeleton .skeleton .layout_element.full { margin-right: 0; }
+
+div.rad-inner-container { margin-right: 0; }
+
+/** Sidebars */
+.mutual-content-wrap { position: relative; z-index: 1; }
+
+#sidebar { padding-bottom: 40px; position: relative; z-index: 2; padding-top: 10px; }
+
+/* == Right Sidebar ========================== */
+.has-left-sidebar, .has-sticky-left-sidebar { float: right; width: 740px; padding-left: 30px; }
+
+.left-sidebar.sidebar { float: left; width: 270px; min-height: 500px; padding: 0px 20px 0 0px; padding-bottom: 0px; margin-bottom: 0; }
+
+/* == Left Sidebar ========================== */
+.has-right-sidebar, .has-sticky-right-sidebar { float: left; width: 740px; padding-right: 30px; }
+
+.right-sidebar.sidebar { float: right; width: 270px; min-height: 500px; padding: 0px 0 0 20px; padding-bottom: 0px; margin-bottom: 0; }
+
+.left-sidebar.sidebar, .right-sidebar.sidebar { min-height: 0; }
+
+.sticky-wrapper { width: 270px; }

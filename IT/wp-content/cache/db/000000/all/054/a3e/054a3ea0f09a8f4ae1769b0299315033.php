@@ -1,0 +1,5 @@
+áùMV<?php exit; ?>a:6:{s:10:"last_error";s:0:"";s:10:"last_query";s:493:"SELECT   sd_posts.ID FROM sd_posts  INNER JOIN sd_term_relationships ON (sd_posts.ID = sd_term_relationships.object_id) INNER JOIN sd_postmeta ON ( sd_posts.ID = sd_postmeta.post_id ) WHERE 1=1  AND ( 
+  sd_term_relationships.term_taxonomy_id IN (63)
+) AND ( 
+  ( sd_postmeta.meta_key = '_aioseop_sitemap_exclude' AND CAST(sd_postmeta.meta_value AS CHAR) = 'on' )
+) AND sd_posts.post_type = 'post' AND ((sd_posts.post_status = 'publish')) GROUP BY sd_posts.ID ORDER BY sd_posts.post_date DESC ";s:11:"last_result";a:0:{}s:8:"col_info";a:1:{i:0;O:8:"stdClass":13:{s:4:"name";s:2:"ID";s:7:"orgname";s:2:"ID";s:5:"table";s:8:"sd_posts";s:8:"orgtable";s:8:"sd_posts";s:3:"def";s:0:"";s:2:"db";s:11:"sedesgro_wp";s:7:"catalog";s:3:"def";s:10:"max_length";i:0;s:6:"length";i:20;s:9:"charsetnr";i:63;s:5:"flags";i:32801;s:4:"type";i:8;s:8:"decimals";i:0;}}s:8:"num_rows";i:0;s:10:"return_val";i:0;}

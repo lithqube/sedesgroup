@@ -1,0 +1,38 @@
+/* CSS Document */
+
+body { background:#fafafa; font-family: "Open Sans","Helvetica Neue",Helvetica; }
+.col { margin-right:1.2%; margin-bottom:1.2%; float: left; min-height:70px; border:1px dotted #ddd; padding:1%; background:#ffffff }
+a { color:#545866; }
+.full { width: 97%; min-height: 1px; border:1px dotted #ddd; padding:1%; background:#ffffff }
+.one_half { width: 47.3%;   }
+.one_third  { width: 30.40%;   }
+.one_fourth  { width: 21.95%;  }
+.two_third  { width: 64%;  }
+.three_fourth  { width: 72.55%;  }
+.one_fifth { width:16.9%;  }
+.four_fifth  { width:77.6%;  }
+.one_sixth  { width: 13.55%;  }
+.five_sixth { width: 80.9%;  }
+
+
+.last  { padding-right:0; clear:right; margin-right:0;}
+
+.clearfix {  }
+.clearfix:after , .full-width:after {
+content:".";
+display:block;
+height:0;
+clear:both;
+visibility:hidden;
+}
+
+.clearfix , .full-width{ display:inline-block; zoom:1; }
+* html .clearfix , { height:1%; }
+.clearfix , .full-width{ display:block; }
+.layout_element  img { /* Makes sure your images stay within their columns */
+   max-width: 100%;
+   width: auto;
+   height: auto;
+}
+
+h1,h2,h3,h4,h5,h6 { margin-top: 0; }

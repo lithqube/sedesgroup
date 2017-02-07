@@ -1,0 +1,965 @@
+/**
+* Mixins for enigma
+*/
+* html .clearfix { height: 1%; }
+
+/* Hides from IE-mac \*/
+.clearfix:after { content: "."; display: block; height: 0; clear: both; visibility: hidden; }
+
+.clearfix { display: inline-block; *zoom: 1; }
+
+.clearfix { display: block; }
+
+input.sticky-save.button-save::-moz-focus-inner { border: 0; padding: 0; margin: 0; }
+
+.ioa_wrap .hide { display: none; }
+
+.ioa-query-box input { float: left; width: 120px; }
+
+.ioa-query-box a.button-default { float: left; margin: 0px 0px 0px 14px; font-size: 11px; }
+
+a.button-default:focus { color: #fff; }
+
+.introjs-overlay { position: absolute; z-index: 999999; background-color: #000; opacity: 0; background: -moz-radial-gradient(center, ellipse cover, rgba(0, 0, 0, 0.4) 0, rgba(0, 0, 0, 0.9) 100%); background: -webkit-gradient(radial, center center, 0px, center center, 100%, color-stop(0%, rgba(0, 0, 0, 0.4)), color-stop(100%, rgba(0, 0, 0, 0.9))); background: -webkit-radial-gradient(center, ellipse cover, rgba(0, 0, 0, 0.4) 0, rgba(0, 0, 0, 0.9) 100%); background: -o-radial-gradient(center, ellipse cover, rgba(0, 0, 0, 0.4) 0, rgba(0, 0, 0, 0.9) 100%); background: -ms-radial-gradient(center, ellipse cover, rgba(0, 0, 0, 0.4) 0, rgba(0, 0, 0, 0.9) 100%); background: radial-gradient(center, ellipse cover, rgba(0, 0, 0, 0.4) 0, rgba(0, 0, 0, 0.9) 100%); filter: progid:DXImageTransform.Microsoft.gradient(startColorstr='#66000000',endColorstr='#e6000000',GradientType=1); -ms-filter: "progid:DXImageTransform.Microsoft.Alpha(Opacity=50)"; filter: alpha(opacity=50); -webkit-transition: all 0.3s ease-out; -moz-transition: all 0.3s ease-out; -ms-transition: all 0.3s ease-out; -o-transition: all 0.3s ease-out; transition: all 0.3s ease-out; font-family: "Open Sans","Helvetica Neue",Helvetica; }
+
+.introjs-fixParent { z-index: auto !important; }
+
+.introjs-showElement { z-index: 9999999 !important; }
+
+.introjs-relativePosition { position: relative; }
+
+.introjs-helperLayer { position: absolute; z-index: 9999998; background-color: #FFF; background-color: rgba(255, 255, 255, 0.9); border: 1px solid #777; border: 1px solid rgba(0, 0, 0, 0.5); border-radius: 4px; box-shadow: 0 2px 15px rgba(0, 0, 0, 0.4); -webkit-transition: all 0.3s ease-out; -moz-transition: all 0.3s ease-out; -ms-transition: all 0.3s ease-out; -o-transition: all 0.3s ease-out; transition: all 0.3s ease-out; }
+
+.introjs-helperNumberLayer { position: absolute; top: -16px; left: -16px; z-index: 9999999999 !important; padding: 2px; font-family: Arial, verdana, tahoma; font-size: 13px; font-weight: bold; color: white; text-align: center; text-shadow: 1px 1px 1px rgba(0, 0, 0, 0.3); background: #ff3019; /* Old browsers */ background: -webkit-linear-gradient(top, #ff3019 0%, #cf0404 100%); /* Chrome10+,Safari5.1+ */ background: -webkit-gradient(linear, left top, left bottom, color-stop(0%, #ff3019), color-stop(100%, #cf0404)); /* Chrome,Safari4+ */ background: -moz-linear-gradient(top, #ff3019 0%, #cf0404 100%); /* FF3.6+ */ background: -ms-linear-gradient(top, #ff3019 0%, #cf0404 100%); /* IE10+ */ background: -o-linear-gradient(top, #ff3019 0%, #cf0404 100%); /* Opera 11.10+ */ background: linear-gradient(to bottom, #ff3019 0%, #cf0404 100%); /* W3C */ width: 20px; height: 20px; line-height: 20px; border: 3px solid white; border-radius: 50%; filter: progid:DXImageTransform.Microsoft.gradient(startColorstr='#ff3019', endColorstr='#cf0404', GradientType=0); /* IE6-9 */ filter: progid:DXImageTransform.Microsoft.Shadow(direction=135, strength=2, color=ff0000); /* IE10 text shadows */ box-shadow: 0 2px 5px rgba(0, 0, 0, 0.4); }
+
+.introjs-arrow { border: 5px solid white; content: ''; position: absolute; }
+
+.introjs-arrow.top { top: -10px; border-top-color: transparent; border-right-color: transparent; border-bottom-color: white; border-left-color: transparent; }
+
+.introjs-arrow.right { right: -10px; top: 10px; border-top-color: transparent; border-right-color: transparent; border-bottom-color: transparent; border-left-color: white; }
+
+.introjs-arrow.bottom { bottom: -10px; border-top-color: white; border-right-color: transparent; border-bottom-color: transparent; border-left-color: transparent; }
+
+.introjs-arrow.left { left: -10px; top: 10px; border-top-color: transparent; border-right-color: white; border-bottom-color: transparent; border-left-color: transparent; }
+
+.introjs-tooltip { font-family: "Open Sans","Helvetica Neue",Helvetica; position: absolute; padding: 10px; background-color: white; min-width: 200px; max-width: 300px; border-radius: 3px; box-shadow: 0 1px 10px rgba(0, 0, 0, 0.4); -webkit-transition: opacity 0.1s ease-out; -moz-transition: opacity 0.1s ease-out; -ms-transition: opacity 0.1s ease-out; -o-transition: opacity 0.1s ease-out; transition: opacity 0.1s ease-out; }
+
+.introjs-tooltipbuttons { text-align: right; }
+
+/*  Buttons style by http://nicolasgallagher.com/lab/css3-github-buttons/  Changed by Afshin Mehrabani
+*/
+.introjs-button { font-family: "Open Sans","Helvetica Neue",Helvetica; position: relative; overflow: visible; display: inline-block; padding: 0.3em 0.8em; border: 1px solid #d4d4d4; margin: 0; text-decoration: none; text-shadow: 1px 1px 0 #fff; font: 11px/normal sans-serif; color: #333; white-space: nowrap; cursor: pointer; outline: none; background-color: #ececec; background-image: -webkit-gradient(linear, 0 0, 0 100%, from(#f4f4f4), to(#ececec)); background-image: -moz-linear-gradient(#f4f4f4, #ececec); background-image: -o-linear-gradient(#f4f4f4, #ececec); background-image: linear-gradient(#f4f4f4, #ececec); -webkit-background-clip: padding; -moz-background-clip: padding; -o-background-clip: padding-box; /*background-clip: padding-box;*/ /* commented out due to Opera 11.10 bug */ -webkit-border-radius: 0.2em; -moz-border-radius: 0.2em; border-radius: 0.2em; /* IE hacks */ zoom: 1; *display: inline; margin-top: 10px; }
+
+.introjs-button:hover { border-color: #bcbcbc; text-decoration: none; box-shadow: 0px 1px 1px #e3e3e3; }
+
+.introjs-button:focus, .introjs-button:active { background-image: -webkit-gradient(linear, 0 0, 0 100%, from(#ececec), to(#f4f4f4)); background-image: -moz-linear-gradient(#ececec, #f4f4f4); background-image: -o-linear-gradient(#ececec, #f4f4f4); background-image: linear-gradient(#ececec, #f4f4f4); }
+
+/* overrides extra padding on button elements in Firefox */
+.introjs-button::-moz-focus-inner { padding: 0; border: 0; }
+
+.introjs-skipbutton { margin-right: 5px; color: #7a7a7a; }
+
+.introjs-prevbutton { -webkit-border-radius: 0.2em 0 0 0.2em; -moz-border-radius: 0.2em 0 0 0.2em; border-radius: 0.2em 0 0 0.2em; border-right: none; }
+
+.introjs-nextbutton { -webkit-border-radius: 0 0.2em 0.2em 0; -moz-border-radius: 0 0.2em 0.2em 0; border-radius: 0 0.2em 0.2em 0; }
+
+.introjs-disabled, .introjs-disabled:hover, .introjs-disabled:focus { color: #9a9a9a; border-color: #d4d4d4; box-shadow: none; cursor: default; background-color: #f4f4f4; background-image: none; text-decoration: none; }
+
+.pad-20 { padding: 20px; }
+
+/** Tooltip */
+.ioa-tooltip { position: absolute; display: none; font-weight: 700; padding: 4px; background: #000; background: rgba(0, 0, 0, 0.8); color: #fff; text-align: center; width: 150px; font-size: 11px; left: -50px; top: -28px; border-radius: 3px; }
+
+.ioa-tooltip i { color: #000; position: absolute; left: 40%; bottom: -10px; font-size: 14px; opacity: 0.8; }
+
+/** Input Wrapper with LABEL -> INPUT -> TOOLTIP , format */
+div.ioa_input { padding: 20px 20px; position: relative; }
+
+div.ioa_input.hidden-field { padding: 0 !important; }
+
+div.ioa_input_holder { margin: 0; position: relative; float: left; }
+
+div.ioa_input_description { position: absolute; right: 10px; top: 30px; width: 250px; font-size: 11px; color: #787878; }
+
+div.ioa_input_description > div { padding: 0px 15px; }
+
+div.ioa_input label { width: 180px; float: left; color: #333; font-size: 11px; padding: 2px 40px 10px 0px; font-weight: 600; }
+
+div.ioa_input_holder input, div.ioa_input_holder a { float: left; }
+
+.clear-switch { font-size: 11px; color: #d10f21; position: absolute; top: 2px; left: 2px; cursor: pointer; }
+
+/** TEXT input styling with 3 widths , small , medium and long. */
+a.add-rad-icon { font-size: 10px; color: #444; }
+
+div.ioa_input_holder input[type=text] { border: 1px solid #c8d4d9; padding: 10px 13px; outline: none; color: #6b6b6b; font-size: 13px; border-radius: 0; }
+
+div.ioa_input_holder.small { width: 184px; }
+
+div.ioa_input_holder.small input[type=text] { width: 130px; }
+
+div.ioa_input_holder.medium { width: 384px; }
+
+div.ioa_input_holder.medium input[type=text] { width: 350px; }
+
+div.ioa_input_holder.long { width: 484px; }
+
+div.ioa_input_holder.long input[type=text] { width: 450px; }
+
+/** TEXTAREA input styling with 3 widths , small , medium and long. */
+div.ioa_input_holder textarea { border: 1px solid #c8d4d9; padding: 13px; outline: none; color: #6b6b6b; font-size: 13px; height: 200px; overflow: auto; border-radius: 0; }
+
+div.ioa_input_holder.small { width: 184px; }
+
+div.ioa_input_holder.small textarea { width: 150px; }
+
+div.ioa_input_holder.medium { width: 350px; }
+
+div.ioa_input_holder.medium textarea { width: 320px; }
+
+div.ioa_input_holder.long { width: 484px; }
+
+div.ioa_input_holder.long textarea { width: 450px; }
+
+/** SELECT input styling with 3 widths , small , medium and long. */
+div.ioa_input_holder div.ioa_select_wrap { overflow: hidden; background: url(i/dropdown.png) 100% 0px no-repeat white; border: 1px solid #c8d4d9; padding: 0px 17px 0px 0; outline: none; color: #354146; font-size: 13px; }
+
+div.ioa_input_holder div.ioa_select_wrap select { -webkit-appearance: none; background: transparent !important; border: none; cursor: pointer; display: block; vertical-align: center; padding: 3px 0px 7px 5px; height: 36px; }
+
+@-moz-document url-prefix() { div.ioa_input_holder div.ioa_select_wrap select { padding: 7px 0px 7px 5px; } }
+div.ioa_input_holder.small { width: 184px; }
+
+div.ioa_input_holder.small div.ioa_select_wrap { width: 150px; }
+
+div.ioa_input_holder.small div.ioa_select_wrap select { width: 185px; }
+
+div.ioa_input_holder.medium { width: auto; }
+
+div.ioa_input_holder.medium div.ioa_select_wrap { width: 350px; }
+
+div.ioa_input_holder.medium div.ioa_select_wrap select { width: 385px; }
+
+div.ioa_input_holder.long { width: 484px; }
+
+div.ioa_input_holder.long div.ioa_select_wrap { width: 450px; }
+
+div.ioa_input_holder.long div.ioa_select_wrap select { width: 485px; }
+
+/** Checkbox styling */
+div.ioa_input_holder div.ioa_checkbox_wrap input[type=checkbox] { float: left; margin: 5px 10px 0 5px; }
+
+div.ioa_input_holder div.ioa_checkbox_wrap label { padding-left: 0; font-weight: 200; width: 100px; }
+
+/** Radio styling */
+div.ioa_input_holder div.ioa_radio_wrap input[type=radio] { float: left; margin: 3px 10px 0 5px; }
+
+div.ioa_input_holder div.ioa_radio_wrap label { padding-left: 0; font-weight: 200; width: 100px; }
+
+div.groud-check-wrap { width: 200px; float: left; }
+
+/** Toggle styling */
+div.ioa_input_holder div.ioatoggle_wrap input[type=radio] { float: left; margin: 4px 10px 0 5px; }
+
+div.ioa_input_holder div.ioatoggle_wrap label { width: auto; padding-left: 0; font-weight: 200; margin-right: 15px; }
+
+/** Slider Input Stylings */
+/* == Slider behaviour ======================================== */
+.slider-suffix { float: left; width: 10px; font-size: 11px; margin: 9px 0px 0px 10px; padding-top: 0; color: #999; }
+
+.ioa_input .ui-slider { float: left; }
+
+.ioa_input .ui-slider { position: relative; top: 10px; text-align: left; box-shadow: 0px 1px 2px rgba(0, 0, 0, 0.2) inset; border-radius: 5px; background: #fafafa; margin-top: 9px; width: 227px; margin-left: 5px; margin-right: 20px; }
+
+#side-sortables .ioa_input .ui-slider { width: 150px; margin-right: 24px; }
+
+.ioa_input .ui-slider .ui-slider-handle { position: absolute; z-index: 2; width: 20px; height: 20px; cursor: pointer; background: url(i/button-gloss.png) #bbbbbb; border-radius: 100%; -webkit-transition: all 1s ease-in-out; transition: all 1s ease-in-out; transition-property: background-color; transition-duration: 200ms, 200ms; transition-delay: 0s; margin-top: 0px; }
+
+.ioa_input .ui-slider:hover .ui-slider-handle { background-color: #4bbce8; }
+
+.ioa_input .ui-slider .ui-slider-range { background: #bbb; position: absolute; z-index: 1; font-size: .7em; display: block; border: 0; background-position: 0 0; }
+
+.ioa_input .ui-slider-horizontal { height: 6px; }
+
+.ioa_input .ui-slider-horizontal .ui-slider-handle { top: -7px; margin-left: -8px; }
+
+.ioa_input .ui-slider-horizontal .ui-slider-range { top: 2px; bottom: 1px; height: 2px; border-radius: 5px; }
+
+.ioa_input .ui-slider-horizontal .ui-slider-range-min { left: 0; }
+
+.ioa_input .ui-slider-horizontal .ui-slider-range-max { right: 0; }
+
+div.ioa_input_holder.medium input[type=text].slider-input { width: 70px; }
+
+/** Upload Input stylings */
+.image_upload_wrap { clear: left; }
+
+div.image_upload_wrap a.button-default { float: left; margin: 2px 10px 0 0; padding: 10px 16px; }
+
+div.ioa_input_holder.medium div.image_upload_wrap input[type=text] { width: 235px; clear: right; }
+
+input.sticky-save.button-save { position: absolute; top: 51px; right: -5px; padding: 11px 15px; margin: 0; }
+
+div.input-image-preview { clear: left; width: 327px; position: relative; margin-top: 20px; }
+
+div.input-image-preview img { max-width: 100%; display: block; margin: 0px auto 0 auto; }
+
+div.input-image-preview span.himage-remove { cursor: pointer; width: 16px; height: 16px; background: url(i/cross.png); display: block; position: absolute; top: 0; right: 0; z-index: 10; }
+
+/** Module Stylings */
+div.ioa_module_container { margin-right: 0px; }
+
+div.ioa_module_container_head { padding: 10px; background: #fafafa; }
+
+div.ioa_module_container_head > a.button-default, div.ioa_module_container_head > a.button-save { margin: 3px 0 0 6px; float: right; }
+
+div.ioa_module_container_head span { color: #555; font-size: 13px; float: left; margin: 12px 0 0 10px; }
+
+div.module_head { color: #fff; font-size: 11px; font-weight: 600; padding: 20px 10px 20px 131px; background: #555; position: relative; }
+
+div.module_head a.delete-mod { width: 16px; height: 16px; background: url(i/cross.png); display: block; position: absolute; top: 0; right: 0; z-index: 10; }
+
+div.module_head a.edit-mod { color: #fff; display: block; position: absolute; padding: 24px 24px 23px 24px; background: #888888; top: 0px; left: 0px; z-index: 10; }
+
+div.module_head a.clone-mod { color: #fff; display: block; position: absolute; padding: 24px 24px 23px 24px; background: #888888; top: 0px; left: 60px; z-index: 10; }
+
+div.module_head > a { -webkit-transition: all 1s ease-in-out; transition: all 1s ease-in-out; transition-property: background-color; transition-duration: 200ms, 200ms; transition-delay: 0s; }
+
+div.module_head > a:hover { background: #4bbce8; }
+
+@-moz-document url-prefix() { div.module_head a.edit-mod, div.module_head a.clone-mod { padding: 24px; } }
+div.module_head > a.delete-mod { background: url(i/cross.png); }
+
+div.module_body { padding: 10px 0; display: none; }
+
+div.module_body div.ioa_input { border: none; padding: 5px 15px; margin: 0; }
+
+div.ioa_module.hide { display: none; }
+
+a.save-ioa-module { float: right; }
+
+/** Colorpicker Stylings */
+div.colorpicker-wrap { float: left; width: 400px; position: relative; }
+
+span.minicolors { float: left; }
+
+div.ioa_input_holder.medium div.colorpicker-wrap input[type=text] { width: 250px; float: left; color: #6b6b6b; border-right: none; }
+
+div.ioa_input_holder.medium div.colorpicker-wrap input[type=text].opacity { width: 80px; color: #6b6b6b; }
+
+a.picker-delete { position: absolute; top: 2px; left: 2px; z-index: 10; display: block; width: 16px; height: 16px; background: url(i/cross.png); }
+
+.minicolors { position: relative; display: inline-block; z-index: 1; }
+
+.minicolors-focus { z-index: 12; }
+
+.minicolors-focus a.picker-delete { z-index: 34; }
+
+.minicolors-theme-default.minicolors .minicolors-input { vertical-align: middle; outline: none; }
+
+.minicolors-theme-default.minicolors-swatch-left .minicolors-input { margin-right: auto; }
+
+.minicolors-hidden { position: absolute; left: -9999em; }
+
+.minicolors-swatch { position: relative; width: 36px; height: 38px; text-align: left; float: right; background: url(i/color-picker-bg.png); margin: 1px 0px 0 0; vertical-align: middle; display: inline-block; border: 1px solid #C8D4D9; border-left: none; border-top-right-radius: 2px; border-bottom-right-radius: 2px; }
+
+.minicolors-swatch SPAN { position: absolute; width: 100%; height: 100%; background: none; display: inline-block; }
+
+/* Panel */
+.minicolors-panel { position: absolute; top: 55px; left: 56px; width: 173px; height: 152px; background: white; border: solid 1px #CCC; box-shadow: 0 0 20px rgba(0, 0, 0, 0.2); display: none; }
+
+.minicolors-position-top .minicolors-panel { top: -156px; }
+
+.minicolors-position-left .minicolors-panel { left: -83px; }
+
+.minicolors-position-left.minicolors-with-opacity .minicolors-panel { left: -104px; }
+
+.minicolors-with-opacity .minicolors-panel { width: 194px; }
+
+.minicolors .minicolors-grid { position: absolute; top: 1px; left: 1px; width: 150px; height: 150px; background: url(i/jquery.minicolors.png) -120px 0; cursor: crosshair; }
+
+.minicolors .minicolors-grid-inner { position: absolute; top: 0; left: 0; width: 150px; height: 150px; background: none; }
+
+.minicolors-slider-saturation .minicolors-grid { background-position: -420px 0; }
+
+.minicolors-slider-saturation .minicolors-grid-inner { background: url(i/jquery.minicolors.png) -270px 0; }
+
+.minicolors-slider-brightness .minicolors-grid { background-position: -570px 0; }
+
+.minicolors-slider-brightness .minicolors-grid-inner { background: black; }
+
+.minicolors-slider-wheel .minicolors-grid { background-position: -720px 0; }
+
+.minicolors-slider, .minicolors-opacity-slider { position: absolute; top: 1px; left: 152px; width: 20px; height: 150px; background: white url(i/jquery.minicolors.png) 0 0; cursor: crosshair; }
+
+.minicolors-slider-saturation .minicolors-slider { background-position: -60px 0; }
+
+.minicolors-slider-brightness .minicolors-slider { background-position: -20px 0; }
+
+.minicolors-slider-wheel .minicolors-slider { background-position: -20px 0; }
+
+.minicolors-opacity-slider { left: 173px; background-position: -40px 0; display: none; }
+
+.minicolors-with-opacity .minicolors-opacity-slider { display: block; }
+
+/* Pickers */
+.minicolors-grid .minicolors-picker { position: absolute; top: 70px; left: 70px; width: 10px; height: 10px; border: solid 1px black; border-radius: 10px; margin-top: -6px; margin-left: -6px; background: none; }
+
+.minicolors-grid .minicolors-picker SPAN { position: absolute; top: 0; left: 0; width: 6px; height: 6px; border-radius: 6px; border: solid 2px white; }
+
+.minicolors-picker { position: absolute; top: 0; left: 0; width: 18px; height: 2px; background: white; border: solid 1px black; margin-top: -2px; }
+
+/* Inline controls */
+.minicolors-inline .minicolors-input, .minicolors-inline .minicolors-swatch { display: none; }
+
+.minicolors-inline .minicolors-panel { position: relative; top: auto; left: auto; display: inline-block; }
+
+body { overflow: hidden; background: #282828; font-family: "Open Sans"; }
+
+body * { -webkit-font-smoothing: antialiased !important; text-rendering: optimizelegibility; }
+
+/** General */
+.button-save, .button-hprimary { cursor: pointer; text-decoration: none; display: inline-block; background: #b1cb1f; padding: 8px 12px; outline: none; border: none; text-shadow: none; color: #fff; font-weight: 600; margin: 0px 20px 20px 10px; font-size: 12px; }
+
+.button-close { cursor: pointer; text-decoration: none; display: inline-block; background: #6b6e74; padding: 8px 12px; outline: none; border: none; text-shadow: none; color: #fff; font-weight: 600; margin: 0px 20px 20px 10px; font-size: 12px; }
+
+div.info { background: #7ecae0; padding: 15px; color: #fff; text-align: center; margin: 10px 10px 0 10px; font-size: 11px; position: relative; }
+
+div.info a.close-info { position: absolute; top: 0px; right: 4px; color: #fff; text-decoration: none; font-weight: 700; font-size: 12px; }
+
+div.info a { color: #fff; }
+
+/** Help Menu */
+.help-menu { position: absolute; top: 3px; right: -45px; z-index: 20; }
+
+.help-menu > a { background: #000; color: #fff; font-weight: 700; font-size: 21px; text-decoration: none; padding: 4px 16px; display: block; border-radius: 2px; opacity: 0.7; }
+
+.help-menu span.tip { background: url(../i/enigma_sprites/tip.png) center center no-repeat; width: 10px; height: 4px; display: block; position: absolute; top: -4px; left: 53px; }
+
+.help-menu ul.menu { display: none; width: 100px; margin: 0; background: #000; opacity: 0.75; color: #fff; font-size: 9px; padding: 5px; border-radius: 2px; position: absolute; top: 42px; left: -38px; }
+
+.help-menu ul.menu li { list-style: none; padding: 0; margin: 0; border-bottom: 1px solid #111; }
+
+.help-menu ul.menu li a { padding: 3px 7px; font-size: 11px; color: #fff; display: block; text-decoration: none; }
+
+/**
+* Frame
+*/
+#enigma_edit_frame { position: absolute; top: 0; left: 0; z-index: 2; background: url(../i/enigma_sprites/frame.gif) center center no-repeat; }
+
+/**
+* enigma Sidebar
+*/
+#enigma_sidebar { background: #ffffff; box-shadow: 1px 0px 4px rgba(0, 0, 0, 0.1); height: 100%; width: 300px; position: absolute; top: 0; left: 0; z-index: 10; }
+
+#enigma_visual_mode { height: 100%; }
+
+.en_gloss { background: url(../i/enigma_sprites/gloss.png); width: 100%; z-index: 90; top: 0; left: 0; position: absolute; width: 100%; height: 100%; }
+
+a.toggle-sidebar { background: url(../i/enigma_sprites/open-sidebar.png) center center no-repeat white; width: 50px; height: 50px; position: absolute; right: -50px; z-index: 10; top: 240px; border: 1px solid #d2dbdb; border-left: none; box-shadow: 3px 0px 4px rgba(0, 0, 0, 0.1); }
+
+a.toggle-sidebar.closed { background: url(../i/enigma_sprites/close-sidebar.png) center center no-repeat white; }
+
+/**
+* enigma Container Select Area & Delete Button 
+*/
+div.add-new-template { padding: 10px 10px 10px 10px; border-bottom: 1px solid #f7f7f7; }
+
+div.add-new-template > input, div.add-new-template a { float: left; }
+
+div.add-new-template { color: #444; font-size: 11px; }
+
+div.add-new-template label { font-weight: 600; }
+
+div.add-new-template > input { outline: line; border: 1px solid #eee; padding: 9px; width: 191px; color: #777; font-size: 12px; margin-top: 5px; }
+
+a.new-enigma-container { float: left; position: relative; display: block; color: #fff; margin: 0 20px; font-size: 12px; text-decoration: none; text-align: center; padding: 10px 14px 9px 14px; background: url(../i/enigma_sprites/button-overlay.png) repeat-x #b1cb1f; margin: 5px 0 0 4px; font-size: 11px; font-weight: 600; }
+
+a.load-enigma-container { float: left; position: relative; display: block; color: #fff; margin: 0 20px; font-size: 12px; text-decoration: none; text-align: center; padding: 10px 18px; background: url(../i/enigma_sprites/button-overlay.png) repeat-x #e06e50; margin: 20px 0 0 4px; font-size: 12px; font-weight: 600; }
+
+a.delete-enigma-container { float: left; position: relative; display: block; color: #fff; margin: 0 20px; font-size: 12px; text-decoration: none; text-align: center; padding: 10px 18px; background: url(../i/enigma_sprites/button-overlay.png) repeat-x #e05050; margin: 20px 0 0 4px; font-size: 12px; font-weight: 600; }
+
+a.manage-enigma { float: left; position: relative; display: block; color: #fff; margin: 0 20px; font-size: 12px; text-decoration: none; text-align: center; padding: 14px 30px; background: url(../i/enigma_sprites/button-overlay.png) repeat-x #94a9b1; margin: 0 10px 10px 10px; font-size: 12px; float: none; font-weight: 600; }
+
+#enigma_sidebar div.container_layout_selector div.ioa_input { padding: 0px; float: left; }
+
+div.container_layout_selector div.ioa_input_holder.small div.ioa_select_wrap { width: 110px; clear: both; }
+
+div.container_layout_selector a { float: left; }
+
+div.container_layout_selector div.ioa_input_holder.small { float: left; width: 130px; }
+
+div.container_layout_selector div.ioa_input_holder.small select { width: 146px !important; }
+
+div.container_layout_selector { margin: 0px; padding: 10px; }
+
+div.container_layout_selector label { clear: both; padding: 2px 4px; width: auto; font-size: 11px; }
+
+div.container_layout_selector div.ioa_input_holder.small, div.container_layout_selector div.ioa_input_holder.medium { clear: both; }
+
+/** Save Panel Area */
+div.edit-page-panel { margin: 0px; background: #42464e; padding: 8px; border-right: 1px solid #18191b; border-bottom: 3px solid #18191b; position: relative; z-index: 10; }
+
+#logo, div.edit-page-button-wrap { float: left; }
+
+div.edit-page-button-wrap { margin: 9px 0 0 10px; }
+
+div.edit-page-button-wrap.edit-last-menu { margin-top: 4px; }
+
+div.edit-page-button-wrap a { float: left; position: relative; color: #fff; line-height: 1; border-left: 1px solid #fff; font-size: 10px; text-decoration: none; font-weight: 700; padding: 0px 11px 0px 11px; }
+
+div.edit-page-button-wrap a:first-child { border-left: none; }
+
+div.edit-page-button-wrap a:last-child { padding-right: 0; }
+
+div.edit-page-button-wrap a:hover, div.edit-page-button-wrap a.active { text-decoration: underline; }
+
+div.safe-font-opts { display: none; }
+
+p.tipper { padding: 0; margin: 0; position: absolute; bottom: -20px; left: -20px; width: 120px; display: none; }
+
+p.tipper span.tip { background: url(../i/enigma_sprites/tip.png) center center no-repeat; width: 10px; height: 4px; display: block; position: absolute; top: -10px; left: 42px; }
+
+p.tipper span.inf { background: #000; opacity: 0.75; color: #fff; font-size: 9px; padding: 5px; border-radius: 2px; }
+
+.doc-icon-cl p.tipper span.tip { left: 39px; }
+
+.refresh-icon-cl p.tipper { left: -27px; }
+
+div.edit-page-button-wrap a.refresh-icon-cl { margin-left: 0; padding-left: 0; }
+
+span.save-loader { opacity: 0; background: url(../i/enloader.gif) center center no-repeat black; border-radius: 3px; width: 40px; height: 40px; position: absolute; top: 21px; right: 21px; z-index: 10; }
+
+div.sub-panel { background: #e7e7e7; border-bottom: 1px solid #d5d5d5; padding: 4px; }
+
+div.sub-panel a { float: left; }
+
+div.sub-panel a:hover { opacity: 0.8; }
+
+.concave-editor-init { float: left; position: relative; display: block; color: #fff; margin: 0 20px; font-size: 12px; text-decoration: none; text-align: center; padding: 15px 29px 14px 29px; background: url(../i/enigma_sprites/button-overlay.png) repeat-x #e06e50; margin: 0 0 0 4px; font-weight: 700; }
+
+.concave-editor-init img { display: inline-block; margin-right: 9px; vertical-align: middle; }
+
+#enigma_sidebar a.style-save-button { float: left; position: relative; display: block; color: #fff; margin: 0 20px; font-size: 12px; text-decoration: none; text-align: center; padding: 16px 38px 16px 39px; background: url(../i/enigma_sprites/button-overlay.png) repeat-x #b1cb1f; margin: 0px; font-weight: 700; }
+
+.font-save-button { float: left; position: relative; display: block; color: #fff; margin: 0 20px; font-size: 12px; text-decoration: none; text-align: center; padding: 16px 38px 16px 39px; background: url(../i/enigma_sprites/button-overlay.png) repeat-x #b1cb1f; margin: 0px 10px 0px 10px; font-weight: 700; float: none; }
+
+/**
+* Input Stylings override 
+* Inheriting from Global.css
+*/
+#enigma_sidebar div.ioa_input { padding: 10px 5px; }
+
+#enigma_sidebar div.ioa_input label { color: #5a6262; font-weight: 600; display: block; }
+
+#enigma_sidebar div.enigma-component div.ioa_input label { text-align: left; float: none; }
+
+#enigma_sidebar div.enigma-component div.ioa_input label a.inp_button { color: #ddd; display: inline-block; font-size: 23px; line-height: 1; padding: 4px 10px; }
+
+#enigma_sidebar div.enigma-component div.ioa_input label a.inp_button.active { color: #555; }
+
+/**
+*  enigma Overriding color scheme for default inputs
+*/
+a.button-default, input.button-hdefault { cursor: pointer; display: inline-block; background: #333; padding: 8px 15px; color: #fff; font-weight: 600; margin: 3px 20px 0px 0px; font-size: 11px; text-decoration: none; }
+
+div.ioa_input_holder div.ioa_select_wrap { overflow: hidden; height: 34px; box-shadow: 0px 0px 2px 2px #eee; background: url(../i/enigma_sprites/rad_dropdown.png) 98% 5px no-repeat white; border: 1px solid #c5ccdd; padding: 0px 17px 0px 0; outline: none; font-size: 12px; }
+
+div.ioa_input_holder div.ioa_select_wrap select { -webkit-appearance: none; background: transparent !important; border: none; cursor: pointer; display: block; vertical-align: center; padding: 7px 0px 7px 5px; height: 36px; color: #8e8e8e; font-style: italic; }
+
+div.ioa_input_holder div.ioa_select_wrap select option { color: #8e8e8e; }
+
+div.ioa_input_holder.medium div.ioa_select_wrap { width: 222px; box-shadow: none; }
+
+div.ioa_input_holder.medium div.ioa_select_wrap select { width: 260px; }
+
+/** Head Styling */
+div.top-toolbox { background: url(../i/enigma_sprites/head-ico.png) 20px 15px no-repeat #f7f7f7; padding-left: 30px; cursor: move; position: relative; }
+
+div.top-toolbox div.ioa_input { float: right; margin: 0 40px 0 0; }
+
+div.top-toolbox span.allowable_width { position: absolute; top: 1px; right: 121px; }
+
+div.top-toolbox span.allowable_width, div.top-toolbox span.allowable_width small { font-size: 11px; color: #999; }
+
+div.top-toolbox span.allowable_width small { color: #444; font-weight: 700; }
+
+div.top-toolbox span { float: left; padding-left: 24px; font-size: 14px; margin-top: 17px; }
+
+div.top-toolbox > a.close { color: #555; font-size: 28px; position: absolute; top: 5px; right: 5px; }
+
+#enigma_sidebar div.top-toolbox div.ioa_input label { display: none; }
+
+.enigma-component-tab a.enigma-item-delete { margin-right: 12px; line-height: 1.6; font-size: 11px; padding: 6px 11px; background: #ea2808; float: left; color: #fff; text-decoration: none; }
+
+.enigma-component-tab a.enigma-item-clone { margin-right: 12px; line-height: 1.6; font-size: 11px; padding: 6px 11px; background: #109fda; float: left; color: #fff; text-decoration: none; }
+
+.enigma-component-tab a.enigma-item-preview { line-height: 1.6; font-size: 11px; padding: 6px 11px; background: #87b30f; float: left; color: #fff; text-decoration: none; }
+
+div.enigma-com-button-wrap { position: absolute; top: 12px; right: 12px; }
+
+div.enigma-component { display: none; position: fixed; top: 100px; left: 275px; z-index: 9999; background: #fff; box-shadow: 0px 0px 20px rgba(0, 0, 0, 0.1); width: 650px; height: 600px; border: 1px solid #eee; }
+
+.style-select-area, .font-select-area { border-bottom: 3px solid #18191b; background: #fff; display: none; padding-top: 10px; }
+
+.font-select-area h5 { font-size: 14px; font-weight: 400; margin: 5px; padding-bottom: 5px; color: #888; border-bottom: 1px solid #eee; }
+
+.font-select-area { max-height: 450px; overflow: auto; }
+
+.font-adder { float: left; position: relative; display: block; color: #fff; margin: 0 20px; font-size: 12px; text-decoration: none; text-align: center; padding: 11px 15px 11px 15px; background: url(../i/enigma_sprites/button-overlay.png) repeat-x #b1cb1f; margin: 0px 0 0 4px; font-size: 10px; font-weight: 600; float: left; z-index: 10; }
+
+.font-select-area div.ioa_input label { padding-bottom: 4px; }
+
+.font-select-area .hide { display: none; }
+
+.preview-font iframe { outline: none; border: 1px solid #eee; margin: 5px; width: 95.5%; }
+
+.font-select-area .font-usage-type { margin: 0px 5px; }
+
+.font-select-area .font-usage-type div.ioa_input_holder.small { width: 268px; }
+
+.font-select-area .font-usage-type div.ioa_input_holder.small div.ioa_select_wrap { width: 243px; }
+
+.font-select-area .font-usage-type div.ioa_input_holder.small div.ioa_select_wrap select { width: 279px; }
+
+.font-select-area .fontface div.ioa_input_holder.small { width: 268px; }
+
+.font-select-area .fontface div.ioa_input_holder.small div.ioa_select_wrap { width: 243px; }
+
+.font-select-area .fontface div.ioa_input_holder.small div.ioa_select_wrap select { width: 279px; }
+
+.font-select-area div.ioa_input_holder.small { width: 150px; }
+
+.font-select-area div.ioa_input_holder.small div.ioa_select_wrap { width: 131px; }
+
+.font-select-area div.ioa_input_holder.small div.ioa_select_wrap select { width: 166px; }
+
+.font-weight-wrap div.ioa_input_holder.small, .font-subset-wrap div.ioa_input_holder.small { width: 100%; }
+
+#enigma_sidebar .font-weight-wrap div.ioa_input div.ioa_input_holder div.ioa_checkbox_wrap label { width: 49px; font-size: 11px; color: #888; }
+
+.font-weight-wrap div.groud-check-wrap { width: 89px; }
+
+.font-weight-wrap { border-bottom: 1px solid #f4f4f4; padding-bottom: 10px; margin-bottom: 10px; }
+
+#enigma_sidebar .font-subset-wrap div.ioa_input_holder div.ioa_checkbox_wrap label { width: 96px; font-size: 11px; color: #888; }
+
+.font-subset-wrap div.groud-check-wrap { width: 134px; }
+
+div.font-s-block { margin: 4px; border: 1px solid #eee; }
+
+div.font-s-head { font-size: 12px; cursor: pointer; padding: 11px; color: #777777; position: relative; }
+
+div.font-s-head a.edit-s-font { float: left; position: relative; display: block; color: #fff; margin: 0 20px; font-size: 12px; text-decoration: none; text-align: center; padding: 7px 10px; background: url(../i/enigma_sprites/button-overlay.png) repeat-x #b1cb1f; margin: 0; font-weight: 700; text-transform: uppercase; font-size: 10px; position: absolute; top: 6px; right: 65px; }
+
+div.font-s-head a.delete-s-font { float: left; position: relative; display: block; color: #fff; margin: 0 20px; font-size: 12px; text-decoration: none; text-align: center; padding: 7px 10px; background: url(../i/enigma_sprites/button-overlay.png) repeat-x #e05050; margin: 0; font-weight: 700; text-transform: uppercase; font-size: 10px; position: absolute; top: 6px; right: 5px; }
+
+div.font-s-body { border-top: 1px solid #eee; display: none; }
+
+.clonable { display: none; }
+
+/** Component Lightbox Tab */
+.enigma-component-tab { position: relative; }
+
+.enigma-component-tab > ul { margin: 0px; padding: 0 15px 0px 15px; background: #fff; box-shadow: 0px -2px 3px #eee inset; }
+
+.enigma-component-tab > ul li { float: left; text-align: center; color: #7d7d7d; padding: 0px; margin: 14px 0px 0 0px; position: relative; list-style: none; }
+
+.enigma-component-tab > ul li a { border-top: 1px solid transparent; padding: 13px 25px; margin: 0; display: block; color: #a7a7a7; text-decoration: none; font-size: 11px; border-top: 1px solid transparent; }
+
+.enigma-component-tab > ul li a:hover, .enigma-component-tab > ul li.ui-state-active a { border-top: 1px solid #18c0e4; border-top-left-enigmaius: 2px; border-top-right-enigmaius: 2px; box-shadow: 0px -4px 5px #eee; background: #fff; color: #444444; }
+
+.enigma-component-tab div.ui-tabs-panel { padding: 0px 15px 0px 15px; }
+
+.enigma-component-tab .input-image-preview { display: none; }
+
+div.component-body { background: #fff; }
+
+div.component-body > div { height: 470px; overflow: auto; width: 635px; }
+
+div._component_layout_holder { margin-top: 5px; margin-right: 20px; float: right; }
+
+div._component_layout_holder div.ioa_input_holder.medium div.ioa_select_wrap { width: 45px; height: 27px; }
+
+div._component_layout_holder div.ioa_input_holder.medium div.ioa_select_wrap select { width: 80px; height: 31px; }
+
+#enigma_sidebar div._component_layout_holder.ioa_input label { width: auto; clear: none; padding-top: 7px; }
+
+#enigma_sidebar .panels .minicolors-swatch { margin-top: 0; }
+
+/** Lightbox Styling */
+a#save-l-data, a#close-l { margin-top: 20px; }
+
+a.button-default:hover, a.button-hprimary:hover, .button-hprimary:hover { text-decoration: none; color: #fff; opacity: 0.8; }
+
+div.sticky-save-message { display: none; position: fixed; top: 40%; left: 40%; background: rgba(0, 0, 0, 0.8); padding: 20px 60px; font-weight: 700; border-enigmaius: 3px; z-index: 9999; color: #fff; font-size: 12px; }
+
+/** Color Picker */
+a.picker-delete { background: url(../../backend/css/i/cross.png); }
+
+.minicolors-swatch { background: url(../../backend/css/i/color-picker-bg.png); }
+
+.minicolors-swatch { background: url(../../backend/css/i/color-picker-bg.png); }
+
+.minicolors .minicolors-grid, .minicolors-slider-saturation .minicolors-grid-inner, .minicolors-slider, .minicolors-opacity-slider { background-image: url(../../backend/css/i/jquery.minicolors.png); }
+
+/** enigma Styler */
+a.delete-style { position: absolute; top: 10px; text-decoration: none; font-style: normal; right: 49px; background: rgba(0, 0, 0, 0.7); padding: 5px; color: #fff; font-size: 10px; }
+
+h4.engima-styler-title { margin: 0; position: relative; cursor: pointer; padding: 13px 13px 13px 30px; position: relative; font-size: 12px; color: #5a6262; background: #fff; border-bottom: 1px solid #e9f6f6; font-weight: 400; }
+
+h4.engima-styler-title i.icon, h4.engima-styler-title i.icon { position: absolute; top: 17px; left: 10px; padding: 0px; display: block; width: 10px; height: 10px; }
+
+h4.engima-styler-title span, h4.engima-styler-title span { float: left; padding: 13px 0 0 15px; }
+
+h4.engima-styler-title i.icon-caret-down { background: url(../i/enigma_sprites/toggle-plus.png) top left no-repeat; }
+
+h4.engima-styler-title i.icon-caret-up { background: url(../i/enigma_sprites/toggle-minus.png) top left no-repeat; }
+
+.en-section-reset { float: left; position: relative; display: block; color: #fff; margin: 0 20px; font-size: 12px; text-decoration: none; text-align: center; padding: 7px 10px; background: url(../i/enigma_sprites/button-overlay.png) repeat-x #e05050; margin: 0; display: none; font-weight: 700; text-transform: uppercase; font-size: 10px; position: absolute; top: 7px; right: 7px; }
+
+div.enigma-styler-section { display: none; padding: 8px; }
+
+div.enigma-styler-section div.image_upload_wrap img { display: none; }
+
+div.enigma-styler-section div.image_upload_wrap a.button-default { margin-left: 0; }
+
+div.enigma-styler-section div.image_upload_wrap input[type=text] { clear: none; width: 111px; }
+
+div.enigma-styler-section div.ioa_input_holder { width: 230px; }
+
+div.enigma_styler_unit { display: none; }
+
+div.enigma_styler_unit.styler-unit-Container { display: block; }
+
+h5.sub-styler-title { position: relative; cursor: pointer; padding: 12px 12px 12px 28px; font-size: 11px; font-weight: 400; color: #5a6262; background: #ffffff; border: 1px solid #e6eced; margin: 2px 0; }
+
+div.sub-styler-section { padding: 15px; display: none; }
+
+h5.sub-styler-title i.icon { position: absolute; top: 14px; left: 10px; padding: 0px; display: block; width: 10px; height: 10px; }
+
+h5.sub-styler-title i.icon-caret-down { background: url(../i/enigma_sprites/toggle-plus.png) top left no-repeat; }
+
+h5.sub-styler-title i.icon-caret-up { background: url(../i/enigma_sprites/toggle-minus.png) top left no-repeat; }
+
+.cloneable-enigma-components { display: none; }
+
+div.colorpicker-wrap { width: 216px; }
+
+.sub-styler-section div.ioa_input_holder.small div.ioa_select_wrap, .sub-styler-section div.ioa_input_holder.medium div.ioa_select_wrap { width: 202px; }
+
+.sub-styler-section .sub-styler-section div.ioa_input_holder.small div.ioa_select_wrap select, .sub-styler-section div.ioa_input_holder.medium div.ioa_select_wrap select { width: 243px; }
+
+.en-comp-reset { float: left; position: relative; display: block; color: #fff; margin: 0 20px; font-size: 12px; text-decoration: none; text-align: center; padding: 7px 10px; background: url(../i/enigma_sprites/button-overlay.png) repeat-x #e95c5c; margin: 0; display: none; font-weight: 700; text-transform: uppercase; font-size: 10px; position: absolute; top: 7px; right: 7px; }
+
+h4.engima-styler-title.opened-title .en-section-reset { display: block; }
+
+h5.sub-styler-title.sub-opened-title .en-comp-reset { display: block; }
+
+h5.sub-styler-title.sub-opened-title { margin-bottom: 0; }
+
+div.sub-opened { background: #fff; border: 1px solid #e6eced; border-top: none; }
+
+div.enigma-comps-wrap { border-right: 1px solid #d2dbdb; }
+
+div.panels { overflow: auto; height: 500px; }
+
+div.sub-styler-section div.ioa_input_holder { width: 222px; }
+
+div.sub-styler-section div.ioa_input_holder.small input[type=text] { width: 192px; }
+
+div.sub-styler-section div.ioa_input_holder.small .image_upload_wrap input[type=text] { width: 112px; }
+
+div.sub-styler-section div.colorpicker-wrap { width: 221px; }
+
+div.sub-styler-section div.ioa_input_holder.small div.ioa_select_wrap select { width: 238px; }
+
+div.sub-styler-section div.ioa_input_holder.small div.colorpicker-wrap input[type=text] { width: 142px; }
+
+div.input-image-preview { display: none !important; }
+
+h4.engima-styler-title.opened-title { background: #f4f4f4; border-top: 1px solid #dadada; }
+
+div.opened { background: #fbfbfb; border-bottom: 1px solid #dadada; }
+
+/* Lightbox Styling */
+div.ioa_input_holder.small textarea { width: 210px; }
+
+div.component-opts h4 { font-size: 13px; border-bottom: 1px solid #f4f4f4; margin-bottom: 20px; padding-bottom: 10px; font-weight: 600; color: #444; }
+
+div.component-opts { padding: 20px; }
+
+div.component-opts div.ioa_input_holder { width: 257px; }
+
+div.enigma-lightbox { width: 700px; height: 650px; position: fixed; display: none; top: 100px; left: 100px; z-index: 8999; background: #fff; box-shadow: 0px 0px 20px rgba(0, 0, 0, 0.1); }
+
+div.enigma-l-head { padding: 15px; background: #78a1a0; }
+
+div.enigma-l-head h4 { margin: 0; padding: 0 0 0px 0; font-size: 13px; color: #fff; }
+
+div.enigma-l-body { height: 540px; background: #fff; overflow: auto; }
+
+div.enigma-l-footer a { float: right; }
+
+a#save-l-data, a#close-l { margin-top: 15px; }
+
+.dominant-color { padding: 10px; }
+
+div.dominant-color label { float: left; width: 76px; margin-top: 7px; }
+
+div.dominant-color .minicolors-swatch { margin: 0; height: 41px; width: 41px; }
+
+div.dominant-color div.ioa_input_holder.small input[type=text] { width: 112px; margin: 0; }
+
+div.dominant-color div.colorpicker-wrap, div.dominant-color div.ioa_input_holder.small { width: 182px; float: left; position: relative; }
+
+div.dominant-color a.gcolor { float: left; position: relative; display: block; color: #fff; margin: 0 20px; font-size: 12px; text-decoration: none; text-align: center; padding: 5px 11px 5px 11px; background: url(../i/enigma_sprites/button-overlay.png) repeat-x #b1cb1f; margin: 0px 0 0 4px; font-size: 10px; font-weight: 600; position: absolute; right: 16px; top: 19px; z-index: 10; }
+
+div.dominant-color div.ioa_input_holder input[type=text] { padding: 12px 13px; border: 2px solid #f7f7f7; border-left: none; font-size: 11px; color: dimgrey; }
+
+div.dominant-color a.picker-delete { left: 42px; }
+
+div.dominant-color .minicolors-panel { left: -1px; top: 41px; }
+
+div.res-panel a.res-preview { float: left; position: relative; display: block; color: #fff; margin: 0 20px; font-size: 12px; text-decoration: none; text-align: center; padding: 11px 11px 11px 11px; background: url(../i/enigma_sprites/button-overlay.png) repeat-x #78a1a0; margin: 0px 0 0 4px; font-size: 10px; font-weight: 600; z-index: 10; }
+
+div.res-panel { border-top: 1px solid #d2dbdb; border-bottom: 1px solid #d2dbdb; padding: 4px 10px; margin-bottom: 30px; }
+
+div.res-panel label { float: left; width: 53px; margin-top: 7px; }
+
+div.res-panel div.ioa_input_holder.small { width: 137px; }
+
+div.res-panel div.ioa_input_holder.small div.ioa_select_wrap { width: 115px; }
+
+div.res-panel div.ioa_input_holder.small div.ioa_select_wrap select { width: 149px; }
+
+div.res-panel div.ioa_input_holder.small { float: left; }
+
+/** Concave Editor */
+div.concave-lightbox { width: 700px; height: 650px; position: fixed; visibility: hidden; top: 100px; left: 100px; z-index: 8999; background: #fff; box-shadow: 0px 0px 20px rgba(0, 0, 0, 0.1); }
+
+div.concave-l-head { padding: 15px; background: #78a1a0; }
+
+div.concave-l-head h4 { margin: 0; padding: 0 0 0px 0; font-size: 13px; color: #fff; }
+
+div.concave-l-body { height: 540px; background: #fff; overflow: auto; }
+
+div.concave-l-footer a { float: right; }
+
+div.concave-lightbox div.component-opts div.ioa_input_holder { width: 100%; }
+
+div.concave-lightbox div.component-opts div.ioa_input_holder.small textarea { width: 96%; height: 420px; }
+
+div.concave-lightbox div.component-opts { padding-top: 0; }
+
+a.preview-concave { float: left; position: relative; display: block; color: #fff; margin: 0 20px; font-size: 12px; text-decoration: none; text-align: center; padding: 10px 12px 9px 12px; background: url(../i/enigma_sprites/button-overlay.png) repeat-x #b1cb1f; margin: 5px 5px 0 4px; font-size: 12px; font-weight: 600; }
+
+a.erase-concave { float: left; position: relative; display: block; color: #fff; margin: 0 20px; font-size: 12px; text-decoration: none; text-align: center; padding: 10px 12px 9px 12px; background: url(../i/enigma_sprites/button-overlay.png) repeat-x #e06e50; margin: 5px 0px 0 4px; font-size: 12px; font-weight: 600; float: right; }
+
+a.insert-concave-element { float: left; position: relative; display: block; color: #fff; margin: 0 20px; font-size: 12px; text-decoration: none; text-align: center; padding: 10px 12px 9px 12px; background: url(../i/enigma_sprites/button-overlay.png) repeat-x #78a1a0; margin: 5px 5px 0 4px; font-size: 12px; font-weight: 600; }
+
+div.concave-toolbox { padding: 20px 30px 0px 40px; }
+
+div.concave-toolbox > a { margin-bottom: 0; }
+
+div.concave-toolbox div.ioa_input { padding: 4px; float: left; }
+
+div.concave-toolbox div.ioa_input div.ioa_select_wrap { box-shadow: none; }
+
+/** Code Mirror */
+/* BASICS */
+.CodeMirror { /* Set height, width, borders, and global font properties here */ font-family: monospace; height: 300px; }
+
+.CodeMirror-scroll { /* Set scrolling behaviour here */ overflow: auto; }
+
+/* PADDING */
+.CodeMirror-lines { padding: 4px 0; /* Vertical padding around content */ }
+
+.CodeMirror pre { padding: 0 4px; /* Horizontal padding of content */ }
+
+.CodeMirror-scrollbar-filler, .CodeMirror-gutter-filler { background-color: white; /* The little square between H and V scrollbars */ }
+
+/* GUTTER */
+.CodeMirror-gutters { border-right: 1px solid #ddd; background-color: #f7f7f7; white-space: nowrap; }
+
+.CodeMirror-linenumber { padding: 0 3px 0 5px; min-width: 20px; text-align: right; color: #999; }
+
+/* CURSOR */
+.CodeMirror div.CodeMirror-cursor { border-left: 1px solid black; z-index: 3; }
+
+/* Shown when moving in bi-directional text */
+.CodeMirror div.CodeMirror-secondarycursor { border-left: 1px solid silver; }
+
+.CodeMirror.cm-keymap-fat-cursor div.CodeMirror-cursor { width: auto; border: 0; background: #7e7; z-index: 1; }
+
+/* Can style cursor different in overwrite (non-insert) mode */
+.cm-tab { display: inline-block; }
+
+/* DEFAULT THEME */
+.cm-s-default .cm-keyword { color: #708; }
+
+.cm-s-default .cm-atom { color: #219; }
+
+.cm-s-default .cm-number { color: #164; }
+
+.cm-s-default .cm-def { color: #00f; }
+
+.cm-s-default .cm-variable { color: black; }
+
+.cm-s-default .cm-variable-2 { color: #05a; }
+
+.cm-s-default .cm-variable-3 { color: #085; }
+
+.cm-s-default .cm-property { color: black; }
+
+.cm-s-default .cm-operator { color: black; }
+
+.cm-s-default .cm-comment { color: #a50; }
+
+.cm-s-default .cm-string { color: #a11; }
+
+.cm-s-default .cm-string-2 { color: #f50; }
+
+.cm-s-default .cm-meta { color: #555; }
+
+.cm-s-default .cm-error { color: #f00; }
+
+.cm-s-default .cm-qualifier { color: #555; }
+
+.cm-s-default .cm-builtin { color: #30a; }
+
+.cm-s-default .cm-bracket { color: #997; }
+
+.cm-s-default .cm-tag { color: #170; }
+
+.cm-s-default .cm-attribute { color: #00c; }
+
+.cm-s-default .cm-header { color: blue; }
+
+.cm-s-default .cm-quote { color: #090; }
+
+.cm-s-default .cm-hr { color: #999; }
+
+.cm-s-default .cm-link { color: #00c; }
+
+.cm-negative { color: #d44; }
+
+.cm-positive { color: #292; }
+
+.cm-header, .cm-strong { font-weight: bold; }
+
+.cm-em { font-style: italic; }
+
+.cm-link { text-decoration: underline; }
+
+.cm-invalidchar { color: #f00; }
+
+div.CodeMirror span.CodeMirror-matchingbracket { color: #0f0; }
+
+div.CodeMirror span.CodeMirror-nonmatchingbracket { color: #f22; }
+
+.CodeMirror-activeline-background { background: #e8f2ff; }
+
+/* STOP */
+/* The rest of this file contains styles related to the mechanics of the editor. You probably shouldn't touch them. */
+.CodeMirror { line-height: 1; position: relative; overflow: hidden; background: white; color: black; }
+
+.CodeMirror-scroll { /* 30px is the magic margin used to hide the element's real scrollbars */ /* See overflow: hidden in .CodeMirror */ margin-bottom: -30px; margin-right: -30px; padding-bottom: 30px; padding-right: 30px; height: 100%; outline: none; /* Prevent dragging from highlighting the element */ position: relative; }
+
+.CodeMirror-sizer { position: relative; }
+
+/* The fake, visible scrollbars. Used to force redraw during scrolling before actuall scrolling happens, thus preventing shaking and flickering artifacts. */
+.CodeMirror-vscrollbar, .CodeMirror-hscrollbar, .CodeMirror-scrollbar-filler, .CodeMirror-gutter-filler { position: absolute; z-index: 6; display: none; }
+
+.CodeMirror-vscrollbar { right: 0; top: 0; overflow-x: hidden; overflow-y: scroll; }
+
+.CodeMirror-hscrollbar { bottom: 0; left: 0; overflow-y: hidden; overflow-x: scroll; }
+
+.CodeMirror-scrollbar-filler { right: 0; bottom: 0; }
+
+.CodeMirror-gutter-filler { left: 0; bottom: 0; }
+
+.CodeMirror-gutters { position: absolute; left: 0; top: 0; padding-bottom: 30px; z-index: 3; }
+
+.CodeMirror-gutter { white-space: normal; height: 100%; padding-bottom: 30px; margin-bottom: -32px; display: inline-block; /* Hack to make IE7 behave */ *zoom: 1; *display: inline; }
+
+.CodeMirror-gutter-elt { position: absolute; cursor: default; z-index: 4; }
+
+.CodeMirror-lines { cursor: text; }
+
+.CodeMirror pre { /* Reset some styles that the rest of the page might have set */ -moz-border-radius: 0; -webkit-border-radius: 0; border-radius: 0; border-width: 0; background: transparent; font-family: inherit; font-size: inherit; margin: 0; white-space: pre; word-wrap: normal; line-height: inherit; color: inherit; z-index: 2; position: relative; overflow: visible; }
+
+.CodeMirror-wrap pre { word-wrap: break-word; white-space: pre-wrap; word-break: normal; }
+
+.CodeMirror-code pre { border-right: 30px solid transparent; width: -webkit-fit-content; width: -moz-fit-content; width: fit-content; }
+
+.CodeMirror-wrap .CodeMirror-code pre { border-right: none; width: auto; }
+
+.CodeMirror-linebackground { position: absolute; left: 0; right: 0; top: 0; bottom: 0; z-index: 0; }
+
+.CodeMirror-linewidget { position: relative; z-index: 2; overflow: auto; }
+
+.CodeMirror-wrap .CodeMirror-scroll { overflow-x: hidden; }
+
+.CodeMirror-measure { position: absolute; width: 100%; height: 0px; overflow: hidden; visibility: hidden; }
+
+.CodeMirror-measure pre { position: static; }
+
+.CodeMirror div.CodeMirror-cursor { position: absolute; visibility: hidden; border-right: none; width: 0; }
+
+.CodeMirror-focused div.CodeMirror-cursor { visibility: visible; }
+
+.CodeMirror-selected { background: #d9d9d9; }
+
+.CodeMirror-focused .CodeMirror-selected { background: #d7d4f0; }
+
+.cm-searching { background: #ffa; background: rgba(255, 255, 0, 0.4); }
+
+/* IE7 hack to prevent it from returning funny offsetTops on the spans */
+.CodeMirror span { *vertical-align: text-bottom; }
+
+@media print { /* Hide the cursor when printing */
+  .CodeMirror div.CodeMirror-cursor { visibility: hidden; } }
+.introjs-overlay { position: absolute; z-index: 999999; background-color: #000; opacity: 0; background: -moz-radial-gradient(center, ellipse cover, rgba(0, 0, 0, 0.4) 0, rgba(0, 0, 0, 0.9) 100%); background: -webkit-gradient(radial, center center, 0px, center center, 100%, color-stop(0%, rgba(0, 0, 0, 0.4)), color-stop(100%, rgba(0, 0, 0, 0.9))); background: -webkit-radial-gradient(center, ellipse cover, rgba(0, 0, 0, 0.4) 0, rgba(0, 0, 0, 0.9) 100%); background: -o-radial-gradient(center, ellipse cover, rgba(0, 0, 0, 0.4) 0, rgba(0, 0, 0, 0.9) 100%); background: -ms-radial-gradient(center, ellipse cover, rgba(0, 0, 0, 0.4) 0, rgba(0, 0, 0, 0.9) 100%); background: radial-gradient(center, ellipse cover, rgba(0, 0, 0, 0.4) 0, rgba(0, 0, 0, 0.9) 100%); filter: progid:DXImageTransform.Microsoft.gradient(startColorstr='#66000000',endColorstr='#e6000000',GradientType=1); -ms-filter: "progid:DXImageTransform.Microsoft.Alpha(Opacity=50)"; filter: alpha(opacity=50); -webkit-transition: all 0.3s ease-out; -moz-transition: all 0.3s ease-out; -ms-transition: all 0.3s ease-out; -o-transition: all 0.3s ease-out; transition: all 0.3s ease-out; font-family: "Open Sans","Helvetica Neue",Helvetica; }
+
+.introjs-fixParent { z-index: auto !important; }
+
+.introjs-showElement { z-index: 9999999 !important; }
+
+.introjs-relativePosition { position: relative; }
+
+.introjs-helperLayer { position: absolute; z-index: 9999998; background-color: #FFF; background-color: rgba(255, 255, 255, 0.9); border: 1px solid #777; border: 1px solid rgba(0, 0, 0, 0.5); border-radius: 0px; box-shadow: 0 2px 5px rgba(0, 0, 0, 0.4); -webkit-transition: all 0.3s ease-out; -moz-transition: all 0.3s ease-out; -ms-transition: all 0.3s ease-out; -o-transition: all 0.3s ease-out; transition: all 0.3s ease-out; }
+
+.introjs-helperNumberLayer { position: absolute; top: -16px; left: -16px; z-index: 9999999999 !important; padding: 2px; font-family: Arial, verdana, tahoma; font-size: 13px; font-weight: bold; color: white; text-align: center; text-shadow: 1px 1px 1px rgba(0, 0, 0, 0.3); background: #ff3019; /* Old browsers */ background: -webkit-linear-gradient(top, #ff3019 0%, #cf0404 100%); /* Chrome10+,Safari5.1+ */ background: -webkit-gradient(linear, left top, left bottom, color-stop(0%, #ff3019), color-stop(100%, #cf0404)); /* Chrome,Safari4+ */ background: -moz-linear-gradient(top, #ff3019 0%, #cf0404 100%); /* FF3.6+ */ background: -ms-linear-gradient(top, #ff3019 0%, #cf0404 100%); /* IE10+ */ background: -o-linear-gradient(top, #ff3019 0%, #cf0404 100%); /* Opera 11.10+ */ background: linear-gradient(to bottom, #ff3019 0%, #cf0404 100%); /* W3C */ width: 20px; height: 20px; line-height: 20px; border: 3px solid white; border-radius: 50%; filter: progid:DXImageTransform.Microsoft.gradient(startColorstr='#ff3019', endColorstr='#cf0404', GradientType=0); /* IE6-9 */ filter: progid:DXImageTransform.Microsoft.Shadow(direction=135, strength=2, color=ff0000); /* IE10 text shadows */ box-shadow: 0 2px 5px rgba(0, 0, 0, 0.4); }
+
+.introjs-arrow { border: 5px solid white; content: ''; position: absolute; }
+
+.introjs-arrow.top { top: -10px; border-top-color: transparent; border-right-color: transparent; border-bottom-color: white; border-left-color: transparent; }
+
+.introjs-arrow.right { right: -10px; top: 10px; border-top-color: transparent; border-right-color: transparent; border-bottom-color: transparent; border-left-color: white; }
+
+.introjs-arrow.bottom { bottom: -10px; border-top-color: white; border-right-color: transparent; border-bottom-color: transparent; border-left-color: transparent; }
+
+.introjs-arrow.left { left: -10px; top: 10px; border-top-color: transparent; border-right-color: white; border-bottom-color: transparent; border-left-color: transparent; }
+
+.introjs-tooltip { font-family: "Open Sans","Helvetica Neue",Helvetica; position: absolute; padding: 10px; background-color: white; min-width: 200px; max-width: 300px; border-radius: 3px; box-shadow: 0 1px 10px rgba(0, 0, 0, 0.4); -webkit-transition: opacity 0.1s ease-out; -moz-transition: opacity 0.1s ease-out; -ms-transition: opacity 0.1s ease-out; -o-transition: opacity 0.1s ease-out; transition: opacity 0.1s ease-out; }
+
+.introjs-tooltipbuttons { text-align: right; }
+
+/*  Buttons style by http://nicolasgallagher.com/lab/css3-github-buttons/  Changed by Afshin Mehrabani
+*/
+.introjs-button { font-family: "Open Sans","Helvetica Neue",Helvetica; position: relative; overflow: visible; display: inline-block; padding: 0.3em 0.8em; border: 1px solid #d4d4d4; margin: 0; text-decoration: none; text-shadow: 1px 1px 0 #fff; font: 11px/normal sans-serif; color: #333; white-space: nowrap; cursor: pointer; outline: none; background-color: #ececec; background-image: -webkit-gradient(linear, 0 0, 0 100%, from(#f4f4f4), to(#ececec)); background-image: -moz-linear-gradient(#f4f4f4, #ececec); background-image: -o-linear-gradient(#f4f4f4, #ececec); background-image: linear-gradient(#f4f4f4, #ececec); -webkit-background-clip: padding; -moz-background-clip: padding; -o-background-clip: padding-box; /*background-clip: padding-box;*/ /* commented out due to Opera 11.10 bug */ -webkit-border-radius: 0.2em; -moz-border-radius: 0.2em; border-radius: 0.2em; /* IE hacks */ zoom: 1; *display: inline; margin-top: 10px; }
+
+.introjs-button:hover { border-color: #bcbcbc; text-decoration: none; box-shadow: 0px 1px 1px #e3e3e3; }
+
+.introjs-button:focus, .introjs-button:active { background-image: -webkit-gradient(linear, 0 0, 0 100%, from(#ececec), to(#f4f4f4)); background-image: -moz-linear-gradient(#ececec, #f4f4f4); background-image: -o-linear-gradient(#ececec, #f4f4f4); background-image: linear-gradient(#ececec, #f4f4f4); }
+
+/* overrides extra padding on button elements in Firefox */
+.introjs-button::-moz-focus-inner { padding: 0; border: 0; }
+
+.introjs-skipbutton { margin-right: 5px; color: #7a7a7a; }
+
+.introjs-prevbutton { -webkit-border-radius: 0.2em 0 0 0.2em; -moz-border-radius: 0.2em 0 0 0.2em; border-radius: 0.2em 0 0 0.2em; border-right: none; }
+
+.introjs-nextbutton { -webkit-border-radius: 0 0.2em 0.2em 0; -moz-border-radius: 0 0.2em 0.2em 0; border-radius: 0 0.2em 0.2em 0; }
+
+.introjs-disabled, .introjs-disabled:hover, .introjs-disabled:focus { color: #9a9a9a; border-color: #d4d4d4; box-shadow: none; cursor: default; background-color: #f4f4f4; background-image: none; text-decoration: none; }

@@ -1,0 +1,15 @@
+#logo { margin: 10px auto; display: block; }
+
+div.main-uc-area { background-color: #46759b; padding: 30px 0; font-family: "Open Sans", Helvetica,Arial; }
+
+div.main-uc-area h1.title { font-size: 32px; color: #555; margin: 0 0 15px 0; text-align: center; font-weight: 400; }
+
+div.uc-text { font-size: 13px; text-align: center; max-width: 60%; margin: 20px auto; color: #666; font-weight: 700; }
+
+div.easyPieChart { margin: 30px auto; position: relative; text-align: center; font-size: 48px; color: #222; font-weight: 100; }
+
+div.easyPieChart canvas { position: absolute; top: 0; left: 0; }
+
+div.uc-content-area { width: 700px; margin: 0 auto; background: rgba(255, 255, 255, 0.8); padding: 40px 0 30px 0; }
+
+#visualizer { display: none; }

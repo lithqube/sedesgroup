@@ -1,0 +1,20 @@
+<wpml-config>
+    <custom-types>
+        <custom-type translate="1">slider</custom-type>
+        <custom-type translate="1">testimonial</custom-type>
+        <custom-type translate="1">custompost</custom-type>
+    </custom-types>    
+    <custom-fields>
+ 			<custom-field action="ignore">rad_data</custom-field>
+ 			<custom-field action="ignore">ioa_options</custom-field>
+ 			<custom-field action="ignore">gallery_column</custom-field>
+ 			<custom-field action="ignore">gallery_items</custom-field>
+ 			<custom-field action="ignore">rad_revisions</custom-field>
+ 			<custom-field action="ignore">video_thumbnail</custom-field>
+ 			<custom-field action="ignore">video_type</custom-field>
+ 			
+	</custom-fields>
+
+</wpml-config>
+
+

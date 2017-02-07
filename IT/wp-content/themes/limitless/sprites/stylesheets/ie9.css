@@ -1,0 +1,20 @@
+@charset "utf-8";
+/* CSS Document */
+
+.sidebar .sidebar-wrap input[name=s] { padding:8px 5px; width:50% }
+
+/**
+ * Custom Classes for layered slider
+ */
+
+.top-layered-slider h3.intro-heading { font-size:40px; font-weight:400; color:#fff; background:#3d4347; padding: 29px 12px; letter-spacing:-1px; display: block; }
+.top-layered-slider h4.sub-intro-heading { font-size:22px; font-weight:400; color:#fff; background:#3d4347; padding: 26px 12px; letter-spacing:0px; display: block; }
+.top-layered-slider h6.intro-feature-list { font-size:15px; font-weight:400; color:#333; background:#fff; padding: 22px 12px; letter-spacing:0px; display: block; }
+.top-layered-slider h6.intro-feature-list1 { font-size:15px; font-weight:400; color:#fff; background:#617570; padding: 22px 12px; letter-spacing:0px; display: block; }
+.top-layered-slider a.layered-buy-now { font-size:15px; width:130px; text-align: center; text-decoration: none; font-weight:400; color:#fff!important; background:#dc0606; padding: 30px 22px; letter-spacing:0px; display:block; }
+.top-layered-slider a.layered-learn-more { font-size:15px; width:130px; text-align: center; text-decoration: none; font-weight:400; color:#fff!important; background:#06bbdc; padding: 30px 22px; letter-spacing:0px; display: block; }
+
+ div.progress-bar div.filler span i { bottom:-4px!important; }
+
+ div.ioa-menu >span { padding: 10px 0px 9px 0!important; }
+ div.related_posts-title-area  div.ioa-menu >span { padding: 10px 0px 10px 0!important; }

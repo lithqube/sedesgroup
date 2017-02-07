@@ -1,0 +1,33 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<rss version="2.0" xmlns:ror="http://rorweb.com/0.1/" >
+<channel>
+  <title>ROR Sitemap for http://sedesgroup.com/</title>
+  <link>http://sedesgroup.com/</link>
+
+<item>
+     <link>http://sedesgroup.com/</link>
+     <title>Sedes Group</title>
+     <description>Successfully producing heating elements since 1979. Going everyday the extra mile to give our customers, new products to serve their needs in the most creative and effective way</description>
+     <ror:updatePeriod>daily</ror:updatePeriod>
+     <ror:sortOrder>0</ror:sortOrder>
+     <ror:resourceOf>sitemap</ror:resourceOf>
+</item>
+<item>
+     <link>http://sedesgroup.com/it/index.html</link>
+     <title>Sedes Group</title>
+     <description>Producendo con successo elementi di riscaldamento dal 1979. Andando ogni giorno il massimo per dare ai nostri clienti, nuovi prodotti per rispondere alle loro esigenze in modo più creativo ed efficace</description>
+     <ror:updatePeriod>daily</ror:updatePeriod>
+     <ror:sortOrder>1</ror:sortOrder>
+     <ror:resourceOf>sitemap</ror:resourceOf>
+</item>
+<item>
+     <link>http://sedesgroup.com/br/index.html</link>
+     <title>Sedes Group</title>
+     <description>Produzindo com sucesso elementos de aquecimento desde 1979. Indo todos os dias a milha extra para dar aos nossos clientes, novos produtos para atender suas necessidades da maneira mais criativa e eficaz</description>
+     <ror:updatePeriod>daily</ror:updatePeriod>
+     <ror:sortOrder>1</ror:sortOrder>
+     <ror:resourceOf>sitemap</ror:resourceOf>
+</item>
+</channel>
+</rss>
+  

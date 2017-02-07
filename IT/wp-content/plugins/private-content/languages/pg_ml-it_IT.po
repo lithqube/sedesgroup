@@ -1,0 +1,492 @@
+msgid ""
+msgstr ""
+"Project-Id-Version: PrivateContent 4.0\n"
+"Report-Msgid-Bugs-To: \n"
+"POT-Creation-Date: 2014-11-08 12:08+0100\n"
+"PO-Revision-Date: 2014-11-08 12:34+0100\n"
+"Last-Translator: \n"
+"Language-Team: LCweb\n"
+"Language: it_IT\n"
+"MIME-Version: 1.0\n"
+"Content-Type: text/plain; charset=UTF-8\n"
+"Content-Transfer-Encoding: 8bit\n"
+"X-Poedit-KeywordsList: _;__;_e\n"
+"X-Poedit-Basepath: ../../\n"
+"X-Poedit-SourceCharset: UTF-8\n"
+"X-Generator: Poedit 1.6.10\n"
+"X-Poedit-SearchPath-0: private-content\n"
+"X-Poedit-SearchPath-1: private-content-user-data\n"
+"X-Poedit-SearchPath-2: private-content-mail-actions\n"
+
+#: private-content-mail-actions/front_ajax.php:14
+#: private-content-mail-actions/front_ajax.php:24
+msgid "Username not found or disabled"
+msgstr "Username non trovato o disabilitato"
+
+#: private-content-mail-actions/front_ajax.php:27
+msgid "Your account doesn't have an e-mail"
+msgstr "Il tuo account non ha una e-mail"
+
+#: private-content-mail-actions/front_ajax.php:49
+msgid "Error sending the e-mail"
+msgstr "Errore durante l'invio dell'e-mail"
+
+#: private-content-mail-actions/front_ajax.php:61
+msgid "The password has been sent to your e-mail"
+msgstr "La password ti è stata inviata via e-mail"
+
+#: private-content-mail-actions/integrations.php:127
+msgid "forgot password?"
+msgstr "Password dimenticata? "
+
+#: private-content-mail-actions/integrations.php:141
+#: private-content/functions.php:430 private-content/public_api.php:149
+#: private-content/user_registration.php:61
+#: private-content/user_registration.php:69
+msgid "Username"
+msgstr "Username"
+
+#: private-content-mail-actions/integrations.php:147
+msgid "Recover"
+msgstr "Recupera"
+
+#: private-content-mail-actions/integrations.php:148
+msgid "Back to login form"
+msgstr "Torna al login"
+
+#: private-content-mail-actions/integrations.php:183
+msgid "E-mail Verification"
+msgstr "Verifica via e-mail"
+
+#: private-content-mail-actions/integrations.php:189
+#: private-content-mail-actions/integrations.php:231
+msgid "Account succesfully verified via e-mail"
+msgstr "Account verificato via E-mail"
+
+#: private-content-mail-actions/integrations.php:189
+#: private-content-mail-actions/integrations.php:231
+msgid "cancel verification"
+msgstr "Cancella verifica"
+
+#: private-content-mail-actions/integrations.php:200
+msgid "Verification Impossible - User has no e-mail"
+msgstr "Impossibile verificare - l'utente non ha una e-mail"
+
+#: private-content-mail-actions/integrations.php:205
+#: private-content-mail-actions/integrations.php:252
+msgid "Account not verified yet"
+msgstr "Account non ancora verificato"
+
+#: private-content-mail-actions/integrations.php:274
+#: private-content-user-data/functions.php:28
+msgid "E-mail"
+msgstr "E-mail"
+
+#: private-content-mail-actions/integrations.php:274
+msgid "Another user has the same e-mail"
+msgstr "Un altro utente ha già usato questa e-mail"
+
+#: private-content-mail-actions/user_verification.php:54
+msgid "Sorry, your request is invalid or your account has been deleted"
+msgstr "La richiesta non è valida o il tuo account è stato cancellato"
+
+#: private-content-mail-actions/user_verification.php:60
+msgid "Your account has been already activated!"
+msgstr "Il tuo account è già stato attivato!"
+
+#: private-content-mail-actions/user_verification.php:66
+msgid "Your account has been activated succesfully!"
+msgstr "Il tuo account è stato attivato!"
+
+#: private-content-user-data/cust_form_handle.php:128
+msgid "Data saved succesfully"
+msgstr "Dati salvati correttamente"
+
+#: private-content-user-data/cust_form_handle.php:136
+msgid ""
+"Form submitted successfully. You are not logged as an user so nothing has "
+"been saved"
+msgstr ""
+"Form inviato con successo. Non sei loggato come utente quindi nessun dato è "
+"stato salvato "
+
+#: private-content-user-data/shortcodes.php:42
+#: private-content/public_api.php:292
+msgid "Submit"
+msgstr "Invia"
+
+#: private-content/classes/simple_form_validator.php:327
+msgid "minimum value is"
+msgstr "il valore minimo è"
+
+#: private-content/classes/simple_form_validator.php:340
+msgid "maximum value is"
+msgstr "il valore massimo è"
+
+#: private-content/classes/simple_form_validator.php:353
+msgid "must be at least of"
+msgstr "deve essere di almeno"
+
+#: private-content/classes/simple_form_validator.php:353
+#: private-content/classes/simple_form_validator.php:379
+msgid "characters"
+msgstr "caratteri"
+
+#: private-content/classes/simple_form_validator.php:366
+msgid "maximum"
+msgstr "massimo"
+
+#: private-content/classes/simple_form_validator.php:366
+msgid "characters allowed"
+msgstr "caratteri consentiti"
+
+#: private-content/classes/simple_form_validator.php:379
+msgid "must be long"
+msgstr "deve essere lungo"
+
+#: private-content/classes/simple_form_validator.php:423
+msgid "Select"
+msgstr "Seleziona"
+
+#: private-content/classes/simple_form_validator.php:423
+msgid "options"
+msgstr "opzioni"
+
+#: private-content/classes/simple_form_validator.php:435
+msgid "Maximum"
+msgstr "Massimo"
+
+#: private-content/classes/simple_form_validator.php:435
+msgid "options allowed"
+msgstr "opzioni consentite"
+
+#: private-content/classes/simple_form_validator.php:511
+msgid "are required"
+msgstr "sono richiesti"
+
+#: private-content/classes/simple_form_validator.php:511
+msgid "is required"
+msgstr "è richiesto"
+
+#: private-content/classes/simple_form_validator.php:515
+msgid "are not valid integers"
+msgstr "non sono numeri interi"
+
+#: private-content/classes/simple_form_validator.php:515
+msgid "is not a valid integer"
+msgstr "non è un numero intero"
+
+#: private-content/classes/simple_form_validator.php:519
+msgid "are not valid floating numbers"
+msgstr "non sono validi numeri a virgola mobile"
+
+#: private-content/classes/simple_form_validator.php:519
+msgid "is not a valid floating number"
+msgstr "non è un valido numero a virgola mobile"
+
+#: private-content/classes/simple_form_validator.php:523
+msgid "are not valid e-mail addresses"
+msgstr "non sono indirizzi e-mail validi"
+
+#: private-content/classes/simple_form_validator.php:523
+msgid "is not a valid e-mail address"
+msgstr "non è un indrizzo e-mail valido"
+
+#: private-content/classes/simple_form_validator.php:527
+msgid "are not valid dates"
+msgstr "non sono date valide"
+
+#: private-content/classes/simple_form_validator.php:527
+msgid "is not a valid date"
+msgstr "non è una data valida"
+
+#: private-content/classes/simple_form_validator.php:531
+msgid "are not valid times"
+msgstr "non sono orari validi"
+
+#: private-content/classes/simple_form_validator.php:531
+msgid "is not a valid time"
+msgstr "non è un orario valido"
+
+#: private-content/classes/simple_form_validator.php:535
+msgid "are not valid urls"
+msgstr "non sono url validi"
+
+#: private-content/classes/simple_form_validator.php:535
+msgid "is not a valid url"
+msgstr "non è un url valido"
+
+#: private-content/classes/simple_form_validator.php:539
+msgid "are not valid hexadecimal colors"
+msgstr "non sono colori esadecimali validi"
+
+#: private-content/classes/simple_form_validator.php:539
+msgid "is not a valid hexadecimal color"
+msgstr "non è un colore esadecimale valido"
+
+#: private-content/classes/simple_form_validator.php:543
+msgid "are not valid IP addresses"
+msgstr "non sono indirizzi IP validi"
+
+#: private-content/classes/simple_form_validator.php:543
+msgid "is not a valid IP address"
+msgstr "non è un indirizzo IP valido"
+
+#: private-content/classes/simple_form_validator.php:547
+msgid "are not valid ZIP codes"
+msgstr "are not valid ZIP codes"
+
+#: private-content/classes/simple_form_validator.php:547
+msgid "is not a valid ZIP code"
+msgstr "is not a valid ZIP code"
+
+#: private-content/classes/simple_form_validator.php:551
+msgid "are not valid telephone numbers"
+msgstr "non sono numeri di telefono validi"
+
+#: private-content/classes/simple_form_validator.php:551
+msgid "is not a valid telephone number"
+msgstr "non è un numero di telefono valido"
+
+#: private-content/classes/simple_form_validator.php:554
+msgid "invalid data inserted"
+msgstr "dati non validi inseriti"
+
+#: private-content/classes/simple_form_validator.php:558
+msgid "values are not between the allowed"
+msgstr "i valori non sono tra quelli consentiti"
+
+#: private-content/classes/simple_form_validator.php:558
+msgid "value is not between the allowed"
+msgstr "il valore non è tra quelli consentiti"
+
+#: private-content/classes/simple_form_validator.php:562
+msgid "values are between the forbidden"
+msgstr "i valori sono tra i non ammessi"
+
+#: private-content/classes/simple_form_validator.php:562
+msgid "values is between the forbidden"
+msgstr "il valore è tra i non ammessi"
+
+#: private-content/classes/simple_form_validator.php:565
+msgid "the value doesn't match"
+msgstr "il valore non corrisponde"
+
+#: private-content/classes/simple_form_validator.php:568
+msgid "file size is wrong"
+msgstr "la dimensione del file è errata"
+
+#: private-content/functions.php:414
+msgid "Name"
+msgstr "Nome"
+
+#: private-content/functions.php:422
+msgid "Surname"
+msgstr "Cognome"
+
+#: private-content/functions.php:439 private-content/functions.php:593
+#: private-content/public_api.php:154
+msgid "Password"
+msgstr "Password"
+
+#: private-content/functions.php:449
+msgid "Category"
+msgstr "Categoria"
+
+#: private-content/functions.php:454
+msgid "Categories"
+msgstr "Categorie"
+
+#: private-content/functions.php:457
+msgid "E-Mail"
+msgstr "E-Mail"
+
+#: private-content/functions.php:467
+msgid "Telephone"
+msgstr "Telefono"
+
+#: private-content/functions.php:559 private-content/functions.php:647
+msgid "Repeat"
+msgstr "Ripeti"
+
+#: private-content/functions.php:589
+msgid "must contain at least "
+msgstr "deve contenere almeno"
+
+#: private-content/login_widget.php:50
+msgid "Welcome"
+msgstr "Benvenuto"
+
+#: private-content/login_widget.php:53 private-content/public_api.php:202
+msgid "Logout"
+msgstr "Logout"
+
+#: private-content/public_api.php:111 private-content/shortcodes.php:72
+msgid "You must be logged in to view this content"
+msgstr "Devi essere loggato per visualizzare questo contenuto"
+
+#: private-content/public_api.php:127 private-content/shortcodes.php:79
+msgid "Sorry, you don't have the right permissions to view this content"
+msgstr "Non hai i permessi per visualizzare questo contenuto"
+
+#: private-content/public_api.php:167
+msgid "remember me"
+msgstr "ricordami"
+
+#: private-content/public_api.php:178
+msgid "Login"
+msgstr "Login"
+
+#: private-content/public_api.php:246
+msgid "You have to set the default category for registered users"
+msgstr "Devi impostare la categoria di default per gli utenti registrati"
+
+#: private-content/pvt_content_manage.php:34
+msgid "You don't have a reserved area"
+msgstr "Non disponi di area riservata"
+
+#: private-content/shortcodes.php:68
+msgid "login"
+msgstr "Login"
+
+#: private-content/user_auth.php:39
+msgid "Username or password incorrect"
+msgstr "Username o password errate"
+
+#: private-content/user_auth.php:58 private-content/wp_user_tricks.php:73
+msgid "Sorry, your account has not been activated yet"
+msgstr "Il tuo account non è ancora stato attivato"
+
+#: private-content/user_auth.php:89
+msgid "Logged succesfully, welcome!"
+msgstr "Login effettuato, benvenuto!"
+
+#: private-content/user_registration.php:48
+msgid "wasn't entered correctly"
+msgstr "non è stato inserito correttamente"
+
+#: private-content/user_registration.php:55
+msgid "Disclaimer"
+msgstr ""
+
+#: private-content/user_registration.php:55
+msgid "must be accepted to proceed with registration"
+msgstr "deve essere accettato per procedere con la registrazione"
+
+#: private-content/user_registration.php:61
+msgid "Another user already has this username"
+msgstr "Questo username è già utilizzato da un altro utente"
+
+#: private-content/user_registration.php:69
+msgid "Invalid Category"
+msgstr "Categoria non valida"
+
+#: private-content/user_registration.php:137
+msgid "Error during user registration, contact the website administrator"
+msgstr "Errore durante la registrazione, contattare l'amministratore del sito"
+
+#: private-content/user_registration.php:202
+msgid "Registration was succesful. Welcome!"
+msgstr "Registrazione effettuata. Benvenuto!"
+
+#: private-content/wp_user_tricks.php:78
+msgid "Sorry, your account has been disabled"
+msgstr "Il tuo account non è ancora stato attivato"
+
+#~ msgid "minimum"
+#~ msgstr "minimo"
+
+#, fuzzy
+#~ msgid "Form submitted successfully. In this demo no data could be saved"
+#~ msgstr ""
+#~ "Form inviato con successo. Non sei loggato come utente quindi nessun dato "
+#~ "è stato salvato"
+
+#~ msgid "%SITE-TITLE% - Welcome!"
+#~ msgstr "%SITE-TITLE% - Benvenuto!"
+
+#~ msgid ""
+#~ "Hello %USERNAME%,\n"
+#~ "thanks for registering on %SITE-TITLE%. \n"
+#~ "\n"
+#~ "To activate your account, click the following link:\n"
+#~ "%VER-URL%\n"
+#~ "\n"
+#~ "Best Regards,\n"
+#~ "%SITE-TITLE% Staff"
+#~ msgstr ""
+#~ "Ciao %USERNAME%,\n"
+#~ "grazie per esserti registrato su %SITE-TITLE%. \n"
+#~ "\n"
+#~ "Per attivare il tuo account, click sul link seguente:\n"
+#~ "%VER-URL%\n"
+#~ "\n"
+#~ "Cordiali Saluti,\n"
+#~ "%SITE-TITLE% Staff"
+
+#~ msgid "%SITE-TITLE% - New registered user"
+#~ msgstr "%SITE-TITLE% - Nuovo utente registrato"
+
+#~ msgid ""
+#~ "Hello,\n"
+#~ "A new user has registered.\n"
+#~ "\n"
+#~ "Fullname: %NAME% %SURNAME%\n"
+#~ "Username: %USERNAME%\n"
+#~ "E-mail: %MAIL%\n"
+#~ "Telephone: %TEL%"
+#~ msgstr ""
+#~ "Buongiorno,\n"
+#~ "Un nuovo utente si è registrato.\n"
+#~ "\n"
+#~ "Nome compleo: %NAME% %SURNAME%\n"
+#~ "Username: %USERNAME%\n"
+#~ "E-mail: %MAIL%\n"
+#~ "Telefono: %TEL%"
+
+#~ msgid "%SITE-TITLE% - Account activated!"
+#~ msgstr "%SITE-TITLE% - Account Attivato!"
+
+#~ msgid ""
+#~ "Hello %USERNAME%,\n"
+#~ "your account has been activated, now you can login into our website!\n"
+#~ "\n"
+#~ "Best Regards,\n"
+#~ "%SITE-TITLE% Staff"
+#~ msgstr ""
+#~ "Ciao %USERNAME%,\n"
+#~ "il tuo account è stato attivato, ora puoi effettuare il login!\n"
+#~ "\n"
+#~ "Cordiali Saluti,\n"
+#~ "%SITE-TITLE% Staff"
+
+#~ msgid "%SITE-TITLE% - Password recovery"
+#~ msgstr "%SITE-TITLE% - Recupero Password"
+
+#~ msgid ""
+#~ "Hello %USERNAME%,\n"
+#~ "a password recovery has been requested for your account.\n"
+#~ "\n"
+#~ "This is your password: %PSW%\n"
+#~ "\n"
+#~ "Best Regards,\n"
+#~ "%SITE-TITLE% Staff"
+#~ msgstr ""
+#~ "Ciao %USERNAME%,\n"
+#~ "una richiesta di recupero password è stata inviata per il tuo account.\n"
+#~ "\n"
+#~ "Questa è la tua password: %PSW%\n"
+#~ "\n"
+#~ "Cordiali Saluti,\n"
+#~ "%SITE-TITLE% Staff"
+
+#, fuzzy
+#~ msgid "Select a field"
+#~ msgstr "Seleziona"
+
+#, fuzzy
+#~ msgid "Field Required"
+#~ msgstr "è richiesto"
+
+#~ msgid "reCAPTCHA"
+#~ msgstr "reCAPTCHA"

@@ -1,0 +1,24 @@
+/*
+Theme Name: Limitless
+
+*/
+
+body { direction: rtl; text-align: right; }
+div.pagination-dropdown div.select-wrap i { left: 0; right:auto; }
+div.pagination-dropdown span { float: right; margin-left: 5px; }
+
+.has-sidebar div.two-column ul , .has-sidebar div.three-column ul , .has-sidebar div.four-column ul , .has-sidebar div.five-column ul , 
+div.two-column ul , div.three-column ul , div.four-column ul , div.five-column ul { width: auto; } 
+
+
+div.featured-column ul li.align-left div.inner-item-wrap div.desc { text-align: left; }
+
+div.portfolio-gallery div.gallery-desc , div.portfolio-full-screen div.gallery-desc { left:auto; right:30px; }
+div.portfolio-metro ul li div.inner-item-wrap div.image-wrap { float: right; }
+div.blog-format1-posts div.datearea {  left:auto; right:0; }
+div.blog-format1-posts span.line { left:auto; right:40px; }
+div.blog-format2-posts ul li div.image-wrap { margin-right: 0; margin-left: 30px; float: right; }
+
+div.blog-format6-posts ul li div.image-wrap, div.blog-format6-posts ul li div.video, div.blog-format6-posts ul li div.ioa-gallery, div.blog-format6-posts ul li .ioaslider { float: right; margin-right: 0; margin-left: 40px; }
+
+div.address-area { float: right; margin:20px 0px 10px 10px; }
